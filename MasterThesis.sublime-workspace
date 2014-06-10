@@ -1,0 +1,1160 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"random",
+				"randomize"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"Haus-Sieberer-",
+				"Haus-Sieberer-Appartement-2"
+			],
+			[
+				"butt",
+				"button-prev"
+			],
+			[
+				"button",
+				"button-next"
+			],
+			[
+				"eye",
+				"eyecatcher-border"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"remo",
+				"removeClass()"
+			],
+			[
+				"yanone",
+				"yanone-h2"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"footer",
+				"footer-blue-contact"
+			],
+			[
+				"repe",
+				"repeat-x"
+			],
+			[
+				"repa",
+				"repeat-x"
+			],
+			[
+				"backgrou",
+				"background-position"
+			],
+			[
+				"re",
+				"repeat-x"
+			],
+			[
+				"background",
+				"background-repeat"
+			],
+			[
+				"document",
+				"document_root"
+			],
+			[
+				"Yan",
+				"yanonekaffeesatz-regular-webfont"
+			],
+			[
+				"tanger",
+				"tangerinebold"
+			],
+			[
+				"ta",
+				"tangerineregular"
+			],
+			[
+				"static",
+				"static_image_fallback"
+			],
+			[
+				"meta_v",
+				"meta_value_image"
+			],
+			[
+				"first",
+				"first_time"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"dropdown",
+				"dropdown-menu"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"front-cont",
+				"front-content"
+			],
+			[
+				"front-content",
+				"front-content-404"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"border-bottom",
+				"border-bottom-color"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"cust",
+				"custom_value"
+			],
+			[
+				"session",
+				"session_destroy"
+			],
+			[
+				"fade",
+				"fadeToggle()"
+			],
+			[
+				"toggle",
+				"toggleClass()"
+			],
+			[
+				"toggl",
+				"toggleClass()"
+			],
+			[
+				"drop",
+				"dropdown-menu"
+			],
+			[
+				"su",
+				"supersized"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"tick",
+				"tickSubdivide"
+			],
+			[
+				"ticks",
+				"tickSize"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"key",
+				"key"
+			],
+			[
+				"click",
+				"click(handler)"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"a",
+				"a	Tag"
+			],
+			[
+				"hed",
+				"header	Tag"
+			],
+			[
+				"add",
+				"add()	callbacks"
+			],
+			[
+				"jQuery",
+				"jQuery.extend	jQuery.extend"
+			],
+			[
+				"im",
+				"imgWidth"
+			],
+			[
+				"lorem",
+				"lorem	lorem - Medium paragraph"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"magin",
+				"margin-right"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"header",
+				"header-border-top"
+			],
+			[
+				"ar",
+				"article	Tag"
+			],
+			[
+				"contact",
+				"contactForm"
+			],
+			[
+				"fo",
+				"form	Tag"
+			],
+			[
+				"head",
+				"header	Tag"
+			],
+			[
+				"sc",
+				"script	Tag"
+			],
+			[
+				"html",
+				"html	html"
+			],
+			[
+				"hea",
+				"head	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "bachelor.tex",
+			"settings":
+			{
+				"buffer_size": 57651,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bachelor.sublime-project",
+			"settings":
+			{
+				"buffer_size": 211,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bachelor.bib",
+			"settings":
+			{
+				"buffer_size": 3880,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
+	"command_palette":
+	{
+		"height": 93.0,
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Add Channel"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"linter",
+				"SublimeLinter: Disable Linting"
+			],
+			[
+				"Package",
+				"Package Control: Remove Package"
+			],
+			[
+				"lintin",
+				"SublimeLinter: Disable Linting"
+			],
+			[
+				"SublimeLinter: Disable Linting",
+				"SublimeLinter: Disable Linting"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"instll",
+				"Package Control: Install Package"
+			],
+			[
+				"insall",
+				"Package Control: Install Package"
+			],
+			[
+				"lorem",
+				"Snippet: lorem - Medium paragraph"
+			],
+			[
+				"stack",
+				"Stackoverflow: Search from Input"
+			],
+			[
+				"Snippet: animate",
+				"Snippet: animate"
+			],
+			[
+				"snippet: add",
+				"Snippet: addClass"
+			],
+			[
+				"snippe",
+				"Snippet: height"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"",
+				"HTML: Encode Special Characters"
+			]
+		],
+		"width": 462.0
+	},
+	"console":
+	{
+		"height": 366.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Tom/Edelweiss-IT/kein_htaccess_schutz.txt",
+		"/Users/Tom/Desktop/kein_htaccess_schutz.txt",
+		"/Volumes/WualaDrive/cha_os/Dokumente/index.html",
+		"/Volumes/WualaDrive/cha_os/Dokumente/folder.txt",
+		"/Users/Tom/Edelweiss-IT/Stadtinstallateur/Backup/FTP_05.06.2013/notice.txt",
+		"/Users/Tom/Edelweiss-IT/Haus Ruperti/Backup/db6a8c9b9f_05.06.2013.sql",
+		"/Users/Tom/Edelweiss-IT/Weinhandel-Viehhauser/backup/05.06.2013/DB_05.06.2013",
+		"/Users/Tom/Edelweiss-IT/Haus Ruperti/Backup/FTP_05.06.2013/configuration.php",
+		"/Users/Tom/Desktop/ferienhausEva.sql",
+		"/Users/Tom/Edelweiss-IT/Landhaus Aichhorn/_flash/TourWeaver_LandhausAichhorn.html",
+		"/Users/Tom/Edelweiss-IT/Ferienhaus-Eva/htaccess",
+		"/Users/Tom/Desktop/onlyPosts.sql",
+		"/Users/Tom/Desktop/sccra_data_posts_geloescht.sql",
+		"/Users/Tom/Desktop/sccra_data.sql",
+		"/Users/Tom/Edelweiss-IT/Ferienhaus-Eva/htaccess_deny.txt",
+		"/Volumes/MATLAB_801 R2013/serial/Readme.txt",
+		"/Volumes/MATLAB_801 R2013/install_ini_macos.txt",
+		"/Volumes/MATLAB_801 R2013/readme.txt",
+		"/Users/Tom/.bash_profile",
+		"/Users/Tom/Desktop/open_matlab.sh",
+		"/Users/Tom/.environment.plist",
+		"/Volumes/Secure/Synology.txt",
+		"/Volumes/TimeMachine/Thomass MacBook Pro.sparsebundle/com.apple.TimeMachine.MachineID.plist",
+		"/Applications/MATLAB_R2009a.app/toolbox/compiler/mcr/matlab/graphics/@graphics/@datacursor/default_getDatatipText.m",
+		"/Users/Tom/Documents/Uni/Diplomarbeit/20130528_RbSr_REMPI_TOF/TOF/20130528_14-04_plain.txt",
+		"/Users/Tom/Dropbox/WorkWork/2013_05_Mai/20130528_RbSr_REMPI_TOF/TOF/find_TOF_para.m",
+		"/Users/Tom/Dropbox/WorkWork/2013_05_Mai/20130528_RbSr_REMPI_TOF/TOF/Auswertung_massspec.m",
+		"/Users/Tom/Dropbox/WorkWork/2013_05_Mai/20130528_RbSr_REMPI_TOF/TOF/sub_wavemeterinterpol.m",
+		"/Users/Tom/Desktop/bibtexml.xsl",
+		"/Users/Tom/Edelweiss-IT/IEP-Research/bibtexml-stylesheet.xsl",
+		"/Users/Tom/Edelweiss-IT/IEP-Research/works-well.xsl",
+		"/Users/Tom/Edelweiss-IT/IEP-Research/fosp.xsl",
+		"/Users/Tom/Desktop/bibtex.xsl",
+		"/Users/Tom/Documents/Uni/10. Semester/Ex4/neu.tex",
+		"/Users/Tom/rails/next/app/views/users/show.html.erb",
+		"/Users/Tom/rails/next/app/controllers/users_controller.rb",
+		"/Users/Tom/rails/next/app/helpers/users_helper.rb",
+		"/Users/Tom/rails/next/config/routes.rb",
+		"/Users/Tom/rails/next/config/locales/en.yml",
+		"/Users/Tom/rails/next/app/views/layouts/_footer.html.erb",
+		"/Users/Tom/rails/next/config/environments/production.rb",
+		"/Users/Tom/rails/next/app/views/users/new.html.erb",
+		"/Users/Tom/rails/next/app/views/static_pages/about.html.erb",
+		"/Users/Tom/rails/next/app/views/static_pages/help.html.erb",
+		"/Users/Tom/rails/next/app/views/shared/_error_messages.html.erb",
+		"/Users/Tom/rails/next/app/views/static_pages/home.html.erb",
+		"/Users/Tom/rails/next/app/assets/stylesheets/custom.css.scss",
+		"/Users/Tom/rails/next/spec/requests/user_pages_spec.rb",
+		"/Users/Tom/rails/next/spec/factories.rb",
+		"/Users/Tom/rails/next/config/environments/test.rb",
+		"/Users/Tom/rails/next/app/assets/stylesheets/users.css.scss",
+		"/Users/Tom/rails/next/Gemfile",
+		"/Users/Tom/Edelweiss-IT/F10/bilder/Flipbook/index.html",
+		"/Users/Tom/.pgpass",
+		"/Users/Tom/rails/next/config/database.yml",
+		"/opt/local/var/macports/sources/rsync.macports.org/release/tarballs/ports/databases/postgresql92/files/pg_config.h.ed",
+		"/Volumes/TimeMachine-1/Thomass MacBook Pro.sparsebundle/com.apple.TimeMachine.MachineID.plist",
+		"/Users/Tom/rails/next/spec/support/utilities.rb",
+		"/Users/Tom/rails/next/app/views/static_pages/_footer.html.erb",
+		"/Users/Tom/rails/next/app/views/static_pages/_header.html.erb",
+		"/Users/Tom/rails/next/app/assets/stylesheets/static_pages.css.scss",
+		"/Users/Tom/rails/next/app/views/static_pages/_nav.html.erb",
+		"/Users/Tom/rails/next/m",
+		"/Users/Tom/Edelweiss-IT/Weinhandel-Viehhauser/Docs/Core-Hacks.txt",
+		"/Users/Tom/rails/next/app/assets/stylesheets/foundation_and_overrides.css.scss",
+		"/Users/Tom/.rvm/gems/ruby-1.9.3-p385/gems/zurb-foundation-4.0.9/scss/foundation/_foundation-global.scss",
+		"/Users/Tom/.rvm/gems/ruby-1.9.3-p385/gems/zurb-foundation-4.0.9/scss/foundation.scss",
+		"/Users/Tom/rails/next/app/assets/stylesheets/application.css.scss",
+		"/Users/Tom/rails/next/app/assets/javascripts/static_pages.js",
+		"/Users/Tom/rails/next/app/assets/stylesheets/static_pages.css",
+		"/Users/Tom/rails/next/app/assets/stylesheets/foundation_and_overrides.scss",
+		"/Users/Tom/rails/next/app/assets/stylesheets/application.scss",
+		"/Users/Tom/rails/next/app/helpers/application_helper.rb",
+		"/Users/Tom/rails/next/app/views/layouts/application.html.erb",
+		"/Users/Tom/rails/next/app/assets/stylesheets/static_pages.scss",
+		"/Users/Tom/rails/next/app/views/static_pages/_mail_entry.html.erb",
+		"/Users/Tom/rails/next/app/assets/javascripts/application.js",
+		"/Users/Tom/rails/next/vendor/assets/javascripts/jQuery-1.9.1.js",
+		"/Users/Tom/Edelweiss-IT/Weinhandel-Viehhauser/zeit-anmeldeformular.txt",
+		"/Users/Tom/Desktop/Mail Template/links zum thema.txt",
+		"/Users/Tom/rails/next/spec/spec_helper.rb",
+		"/Users/Tom/rails/next/.rspec",
+		"/Users/Tom/rails/trying_hard/config/database.yml",
+		"/Users/Tom/rails/trying_hard/config/environments/development.rb",
+		"/Users/Tom/rails/install.txt",
+		"/Users/Tom/rails/trying_hard/app/views/outbounds/write.html.erb",
+		"/Users/Tom/rails/trying_hard/app/controllers/outbounds_controller.rb",
+		"/Users/Tom/rails/trying_hard/app/views/mailgun/write.html.erb",
+		"/Users/Tom/rails/trying_hard/app/models/outbound.rb",
+		"/Users/Tom/rails/trying_hard/app/controllers/sent_controller.rb",
+		"/Users/Tom/rails/trying_hard/app/models/sent.rb",
+		"/Users/Tom/rails/trying_hard/app/views/mailgun/show.html.erb",
+		"/Users/Tom/rails/trying_hard/app/views/mailgun/index.html.erb",
+		"/Users/Tom/rails/trying_hard/config/routes.rb",
+		"/Users/Tom/rails/trying_hard/app/views/contact/new.html.erb",
+		"/Users/Tom/rails/trying_hard/app/views/contact/json_response.html.erb",
+		"/Users/Tom/rails/trying_hard/app/models/post.rb",
+		"/Users/Tom/Desktop/text.txt",
+		"/Users/Tom/rails/trying_hard/Gemfile",
+		"/Users/Tom/rails/trying_hard/app/controllers/contact_controller.rb",
+		"/Users/Tom/rails/trying_hard/db/schema.rb",
+		"/Users/Tom/rails/trying_hard/db/migrate/20130309183937_create_posts.rb",
+		"/Users/Tom/rails/trying_hard/db/migrate/20130318183023_add_body_html_to_posts.rb",
+		"/Users/Tom/rails/trying_hard/db/migrate/20130309144636_create_users.rb",
+		"/Users/Tom/rails/trying_hard/db/migrate/20130318115203_add_body_html_to_posts.rb",
+		"/Users/Tom/Desktop/curl-to-simulate-mail.txt",
+		"/Users/Tom/rails/trying_hard/db/migrate/20130318151052_change_html_body_format_in_posts.rb",
+		"/Users/Tom/rails/trying_hard/app/models/message.rb",
+		"/Users/Tom/rails/trying_hard/app/mailers/notifications_mailer.rb",
+		"/Users/Tom/rails/trying_hard/app/views/notifications_mailer/new_message.text.erb",
+		"/Users/Tom/Desktop/js.php",
+		"/Users/Tom/rails/trying_hard/app/views/contact/show.html.erb",
+		"/Users/Tom/rails/trying_hard/app/controllers/email_controller.rb",
+		"/Users/Tom/rails/trying_hard/log/development.log",
+		"/Users/Tom/rails/trying_hard/app/views/receiver/show.html.erb",
+		"/Users/Tom/rails/trying_hard/app/views/receiver/index.html.erb",
+		"/Users/Tom/rails/trying_hard/app/controllers/receiver_controller.rb",
+		"/Users/Tom/rails/trying_hard/app/views/receiver/new.html.erb",
+		"/Users/Tom/rails/trying_hard/db/migrate/20130310151021_create_emails.rb",
+		"/Users/Tom/Desktop/email.html",
+		"/Users/Tom/rails/trying_hard/config/application.rb",
+		"/Users/Tom/rails/trying_hard/app/views/users/index.html.erb",
+		"/Users/Tom/rails/trying_hard/app/controllers/users_controller.rb",
+		"/Users/Tom/rails/trying_hard/app/models/user.rb",
+		"/Users/Tom/rails/trying_hard/app/views/posts/index.html.erb",
+		"/Users/Tom/rails/trying_hard/app/controllers/posts_controller.rb",
+		"/Users/Tom/rails/trying_hard/app/controllers/emails_controller.rb",
+		"/Users/Tom/rails/trying_hard/app/views/emails/index.html.erb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"<open folder>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"wp/medien_ecke/",
+			"wp/medien_ecke",
+			"wp_posts",
+			"posts",
+			"/wp/",
+			"digits",
+			"landhaus",
+			"annemarie",
+			"eva",
+			"ferienhaus",
+			"bibtex:year",
+			"year",
+			"soccer",
+			"f10",
+			"socce",
+			"soccera",
+			"f10",
+			"th",
+			"viehhauser",
+			"berg",
+			"f10",
+			"viehhauser",
+			"button",
+			"button-size",
+			"button",
+			"title-",
+			"title-link",
+			"m1",
+			"https",
+			"viehhauser",
+			"divs",
+			"profile",
+			"micropos",
+			"PlayApp",
+			"playapp",
+			"%",
+			"cite",
+			"path",
+			"page.",
+			"should",
+			"'/static_pages/contact'",
+			"'/static_pages/about'",
+			"'/static_pages/help'",
+			"'/static_pages/home'",
+			"$",
+			"#999",
+			"d2c5a1",
+			"productPrice",
+			"-php",
+			"eyecatcher-",
+			"nav",
+			"bottom-shadow",
+			"shadow",
+			"wlan",
+			"ready",
+			"main",
+			"active",
+			"active-men",
+			"table-sma",
+			"winter",
+			"price",
+			"PHPSHOP_CHECKOUT_EMAIL_SHOPPER_HEADER51",
+			"clear",
+			"addclass",
+			"current-appartement",
+			".current-appartement",
+			"this",
+			"ajaxloader",
+			"ajaxload",
+			":hover",
+			"yanone-h2",
+			"choose-headin",
+			"footer-what",
+			"shadow",
+			"shaddow",
+			"h2",
+			"embed",
+			"yanone",
+			"img",
+			"image",
+			"stick",
+			"main-contai",
+			"header-cont",
+			"f1930e[\\S\\s]*?f1930e",
+			"a6f227[\\S\\s]*?a6f227",
+			"fff309[\\S\\s]*?fff309",
+			"sticky",
+			".sticky #main-nav {\n	position:fixed;\n	top:0;\n	left:0;\n	width:100%;\n}",
+			"what-else",
+			"8em",
+			"inline-ad",
+			"-blue",
+			"blue-",
+			"display: none",
+			"gallery",
+			"box-sha",
+			"title",
+			"a ",
+			"a",
+			"title",
+			"0",
+			"footer-container",
+			"img",
+			"heading",
+			"img",
+			"heading",
+			"#",
+			"kassa",
+			"gd",
+			"gdlib",
+			"gd lib",
+			"gd",
+			"err",
+			"display:",
+			"nav",
+			"header-cont",
+			"title",
+			"}\n",
+			"68%",
+			"58%",
+			"text-decorat",
+			"nav a",
+			"font",
+			"px",
+			"font",
+			"nav a",
+			"yanonekaffeesatz",
+			"tangerine_regular"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"B7A267",
+			"--",
+			"",
+			".contentbox",
+			"mainnav",
+			"#08c",
+			"10pt",
+			"http://gutenberger.edelweiss-it.com",
+			"http://gutenberger.edelweiss-it.com/",
+			"http://gutenberger.edelweiss-it.com",
+			"http://gutenberger.edelweiss-it.com/",
+			"../img/supersized/",
+			"http://localhost/",
+			"https://localhost/",
+			"http://localhost/",
+			"https://localhost/",
+			"https://lvps83-169-22-92.dedicated.hosteurope.de:8443/sitepreview/http/gutenberger.co.at/",
+			"./",
+			"https://localhost/",
+			"http://localhost/",
+			"https://lvps83-169-22-92.dedicated.hosteurope.de:8443/sitepreview/http/gutenberger.co.at/",
+			"https://edelweiss-it.de.vu",
+			"http://edelweiss-it.de.vu",
+			"wp_",
+			"kgutenberger_wp_",
+			"http://edelweiss-it.de.vu"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "bachelor.tex",
+					"settings":
+					{
+						"buffer_size": 57651,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								57605,
+								57605
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 17310.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "bachelor.sublime-project",
+					"settings":
+					{
+						"buffer_size": 211,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								196,
+								196
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "bachelor.bib",
+					"settings":
+					{
+						"buffer_size": 3880,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								312,
+								312
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/LaTeX/Bibtex.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 177.0
+	},
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/Tom/Library/Application Support/Sublime Text 2/Packages/User/hello"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 202.0,
+	"status_bar_visible": true
+}

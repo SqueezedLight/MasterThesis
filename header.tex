@@ -1,0 +1,75 @@
+%\documentclass[11pt,pdftex,a4paper,headsepline,bibtotoc]{scrbook}       
+\documentclass[11pt,pdftex,a4paper,headsepline]{scrbook}       
+% options plainpages=false??
+% draft.....zeigt Bilder nicht an
+ 
+\topmargin=-0.4in \evensidemargin=-12pt \oddsidemargin=12pt
+%\headheight 0.5cm 
+\setlength{\topskip}{0.4in}
+%\hoffset=-0,5cm \voffset=-0,5cm
+\textwidth = 16cm \textheight=23.5cm
+
+%\usepackage[ngerman]{babel}               % Neue deutsche Rechtschreibung    
+\usepackage[english,ngerman]{babel}
+\usepackage[latin1]{inputenc}      % inputenc: Umlaute
+\usepackage[T1]{fontenc}           % bessere Fontcodierung
+\usepackage{array}                %Um tabular Umgebung zu Nutzen
+%\usepackage{graphicx}             % Graphik Umgebung Einbinden
+\usepackage{pdfpages}  						%pdf pages einbinden
+\pdfminorversion=6								% allow pdf version 1.6files
+
+
+\usepackage{amsmath, amsthm, amssymb}       %Mathematik Umgebung
+\usepackage{mathtools}                      %auch Mathe
+
+\usepackage{bookmark}
+\usepackage{bibgerm}                % Um Bibliographie Styles verwenden zu können - n DA mit Latex - wrong language?!
+
+\usepackage{cite}
+\usepackage[babel,english=british]{csquotes}  % Einheitliche Anführungszeichen \enquote{} - see DA mit Latex
+
+\usepackage{subfigure}
+\usepackage{float}
+\usepackage{floatflt}   %Um figures vom Text um fließen zu lassen
+\usepackage{lscape}
+\usepackage{units}       % Um Einheiten zu setzen
+\usepackage{sidecap}     % Caption neben dem Bild mit SCfigure statt figure
+\usepackage{caption}		% linebreak in caption
+\captionsetup{font=footnotesize}
+\captionsetup{justification=justified}
+
+\usepackage{url}
+\usepackage{hyperref}   % Inhaltsverzeichnis verlinkt
+\usepackage{appendix}
+\usepackage{booktabs}
+\usepackage{titlesec}
+\usepackage{eurosym}
+\usepackage{tabularx}
+\parindent0cm								%Kein Einzug bei Absaetzen
+
+
+
+
+\graphicspath{{images/}} % where to find the graphics
+
+\newcommand{\changefont}[3]{\fontfamily{#1} \fontseries{#2} \fontshape{#3} \selectfont}
+
+%%\renewcommand{\thechapter}{\Roman{chapter}}
+\titleformat{\chapter}[display]
+{\bfseries\Large}
+{\filleft\MakeUppercase{\chaptertitlename} \Huge\thechapter}
+{4ex}
+{\titlerule
+\vspace{2ex}%
+\filright}
+[\vspace{2ex}%
+\titlerule]
+
+%\usepackage{multicol}
+%Notes
+%commands to remember
+%\begin{multicols}{2}
+%\end{multicols}
+%hspace und vspace 
+
+

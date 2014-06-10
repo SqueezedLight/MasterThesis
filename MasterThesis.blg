@@ -1,0 +1,76 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: MasterThesis.aux
+The style file: unsrtdin.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: MasterThesis.bib.bib
+Warning--empty author and editor in nist
+Warning--empty author and editor in nist
+Warning--empty year in nist
+Warning--empty author and editor in albasket
+Warning--empty author and editor in albasket
+Warning--empty year in albasket
+Warning--empty author and editor in ref-typec
+Warning--empty author and editor in ref-typec
+Warning--empty year in ref-typec
+Warning--empty author and editor in ref-datalogger
+Warning--empty author and editor in ref-datalogger
+Warning--empty year in ref-datalogger
+Warning--empty author and editor in ref-uta12
+Warning--empty author and editor in ref-uta12
+Warning--empty year in ref-uta12
+Warning--empty author and editor in ref-ps
+Warning--empty author and editor in ref-ps
+Warning--empty year in ref-ps
+Warning--empty author and editor in omega-polynomials
+Warning--empty author and editor in omega-polynomials
+Warning--empty year in omega-polynomials
+Warning--empty author and editor in ref-typek
+Warning--empty author and editor in ref-typek
+Warning--empty year in ref-typek
+You've used 51 entries,
+            4011 wiz_defined-function locations,
+            1068 strings with 12834 characters,
+and the built_in function-call counts, 22070 in all, are:
+= -- 2007
+> -- 346
+< -- 747
++ -- 769
+- -- 118
+* -- 1562
+:= -- 3161
+add.period$ -- 51
+call.type$ -- 51
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 75
+duplicate$ -- 681
+empty$ -- 2225
+format.name$ -- 273
+if$ -- 4706
+int.to.chr$ -- 0
+int.to.str$ -- 52
+missing$ -- 250
+newline$ -- 271
+num.names$ -- 43
+pop$ -- 300
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1151
+stack$ -- 0
+substring$ -- 2039
+swap$ -- 196
+text.length$ -- 120
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 24
+while$ -- 173
+width$ -- 53
+write$ -- 625
+(There were 24 warnings)

@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/Tom/Documents/Uni/Diplomarbeit/Latex",
+			"file_exclude_patterns": [
+				"*.aux",
+				".log",
+				"*.out",
+				"*.gz",
+				"*.zip",
+				"*.toc",
+				"*.pdf"
+			]
+		}
+	]
+}

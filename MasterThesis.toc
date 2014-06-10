@@ -1,0 +1,55 @@
+\select@language {english}
+\select@language {english}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Theoretical Background}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Helium}{3}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Zero point energy}{3}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Superfluidity}{4}{subsection.2.1.2}
+\contentsline {subsubsection}{The two-fluid model}{5}{subsection.2.1.2}
+\contentsline {subsubsection}{The quasi particle model}{6}{equation.2.1.2}
+\contentsline {section}{\numberline {2.2}Formation of helium droplets}{7}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}The supersonic gas expansion}{7}{subsection.2.2.1}
+\contentsline {subsubsection}{Droplet temperature and size distribution}{10}{equation.2.2.7}
+\contentsline {subsection}{\numberline {2.2.2}Doping helium clusters}{12}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Spectroscopy}{13}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Atoms}{13}{subsection.2.3.1}
+\contentsline {subsubsection}{Multiplicity and coupling schemes for atoms with one or more valence electrons}{14}{equation.2.3.11}
+\contentsline {subsubsection}{Spectroscopic denotation of energy states}{15}{equation.2.3.11}
+\contentsline {subsubsection}{Selection rules for electronic transitions}{16}{figure.2.9}
+\contentsline {subsection}{\numberline {2.3.2}Molecules}{16}{subsection.2.3.2}
+\contentsline {subsubsection}{The diatomic molecule}{17}{subsection.2.3.2}
+\contentsline {chapter}{\numberline {3}Experimental Setup}{21}{chapter.3}
+\contentsline {section}{\numberline {3.1}Source chamber}{22}{section.3.1}
+\contentsline {section}{\numberline {3.2}Pick up chamber}{22}{section.3.2}
+\contentsline {section}{\numberline {3.3}Detection chamber}{24}{section.3.3}
+\contentsline {section}{\numberline {3.4}Measuring methods}{24}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}REMPI-TOF spectroscopy}{25}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Laser induced florescence spectroscopy}{26}{subsection.3.4.2}
+\contentsline {chapter}{\numberline {4}Experimental Results}{29}{chapter.4}
+\contentsline {section}{\numberline {4.1}RbSr Experiments}{29}{section.4.1}
+\contentsline {section}{\numberline {4.2}Au experiments}{33}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}REMPI spectra}{35}{subsection.4.2.1}
+\contentsline {chapter}{\numberline {5}High temperature pick up source for gold}{41}{chapter.5}
+\contentsline {section}{\numberline {5.1}The oven setup}{41}{section.5.1}
+\contentsline {section}{\numberline {5.2}Temperature measurements}{43}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Mounting the thermocouple}{43}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Connecting the thermocouple with a Computer}{44}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Connecting the power supply}{45}{subsection.5.2.3}
+\contentsline {chapter}{\numberline {6}Programming a temperature controller in LabView}{47}{chapter.6}
+\contentsline {section}{\numberline {6.1}Requirements}{47}{section.6.1}
+\contentsline {section}{\numberline {6.2}Documentation of the LabView block diagram}{49}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Initialize control elements}{50}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Asynchronous reading from the Datalogger}{50}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Converting the thermal voltage}{50}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}PID temperature controlling}{52}{subsection.6.2.4}
+\contentsline {subsection}{\numberline {6.2.5}Warm up and conventional operation mode}{52}{subsection.6.2.5}
+\contentsline {subsection}{\numberline {6.2.6}Cool down}{53}{subsection.6.2.6}
+\contentsline {subsection}{\numberline {6.2.7}Frontpanel}{53}{subsection.6.2.7}
+\contentsline {subsection}{\numberline {6.2.8}Known issues}{54}{subsection.6.2.8}
+\contentsline {chapter}{\numberline {7}Summary and Conclusion}{57}{chapter.7}
+\contentsline {chapter}{\numberline {A}Technical Drawings}{59}{appendix.A}
+\contentsline {chapter}{\numberline {B}LabView Block Diagrams}{61}{appendix.B}
+\contentsline {chapter}{List of Figures}{62}{section*.2}
+\contentsline {chapter}{List of Tables}{66}{section*.4}
+\contentsline {chapter}{Bibliography}{68}{section*.6}
+\contentsline {chapter}{Acknowledgments}{74}{section*.8}

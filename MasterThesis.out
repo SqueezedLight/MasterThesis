@@ -1,0 +1,46 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Theoretical Background}{}% 2
+\BOOKMARK [1][-]{section.2.1}{Helium}{chapter.2}% 3
+\BOOKMARK [2][-]{subsection.2.1.1}{Zero point energy}{section.2.1}% 4
+\BOOKMARK [2][-]{subsection.2.1.2}{Superfluidity}{section.2.1}% 5
+\BOOKMARK [1][-]{section.2.2}{Formation of helium droplets}{chapter.2}% 6
+\BOOKMARK [2][-]{subsection.2.2.1}{The supersonic gas expansion}{section.2.2}% 7
+\BOOKMARK [2][-]{subsection.2.2.2}{Doping helium clusters}{section.2.2}% 8
+\BOOKMARK [1][-]{section.2.3}{Spectroscopy}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.3.1}{Atoms}{section.2.3}% 10
+\BOOKMARK [2][-]{subsection.2.3.2}{Molecules}{section.2.3}% 11
+\BOOKMARK [0][-]{chapter.3}{Experimental Setup}{}% 12
+\BOOKMARK [1][-]{section.3.1}{Source chamber}{chapter.3}% 13
+\BOOKMARK [1][-]{section.3.2}{Pick up chamber}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.3}{Detection chamber}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.4}{Measuring methods}{chapter.3}% 16
+\BOOKMARK [2][-]{subsection.3.4.1}{REMPI-TOF spectroscopy}{section.3.4}% 17
+\BOOKMARK [2][-]{subsection.3.4.2}{Laser induced florescence spectroscopy}{section.3.4}% 18
+\BOOKMARK [0][-]{chapter.4}{Experimental Results}{}% 19
+\BOOKMARK [1][-]{section.4.1}{RbSr Experiments}{chapter.4}% 20
+\BOOKMARK [1][-]{section.4.2}{Au experiments}{chapter.4}% 21
+\BOOKMARK [2][-]{subsection.4.2.1}{REMPI spectra}{section.4.2}% 22
+\BOOKMARK [0][-]{chapter.5}{High temperature pick up source for gold}{}% 23
+\BOOKMARK [1][-]{section.5.1}{The oven setup}{chapter.5}% 24
+\BOOKMARK [1][-]{section.5.2}{Temperature measurements}{chapter.5}% 25
+\BOOKMARK [2][-]{subsection.5.2.1}{Mounting the thermocouple}{section.5.2}% 26
+\BOOKMARK [2][-]{subsection.5.2.2}{Connecting the thermocouple with a Computer}{section.5.2}% 27
+\BOOKMARK [2][-]{subsection.5.2.3}{Connecting the power supply}{section.5.2}% 28
+\BOOKMARK [0][-]{chapter.6}{Programming a temperature controller in LabView}{}% 29
+\BOOKMARK [1][-]{section.6.1}{Requirements}{chapter.6}% 30
+\BOOKMARK [1][-]{section.6.2}{Documentation of the LabView block diagram}{chapter.6}% 31
+\BOOKMARK [2][-]{subsection.6.2.1}{Initialize control elements}{section.6.2}% 32
+\BOOKMARK [2][-]{subsection.6.2.2}{Asynchronous reading from the Datalogger}{section.6.2}% 33
+\BOOKMARK [2][-]{subsection.6.2.3}{Converting the thermal voltage}{section.6.2}% 34
+\BOOKMARK [2][-]{subsection.6.2.4}{PID temperature controlling}{section.6.2}% 35
+\BOOKMARK [2][-]{subsection.6.2.5}{Warm up and conventional operation mode}{section.6.2}% 36
+\BOOKMARK [2][-]{subsection.6.2.6}{Cool down}{section.6.2}% 37
+\BOOKMARK [2][-]{subsection.6.2.7}{Frontpanel}{section.6.2}% 38
+\BOOKMARK [2][-]{subsection.6.2.8}{Known issues}{section.6.2}% 39
+\BOOKMARK [0][-]{chapter.7}{Summary and Conclusion}{}% 40
+\BOOKMARK [0][-]{appendix.A}{Technical Drawings}{}% 41
+\BOOKMARK [0][-]{appendix.B}{LabView Block Diagrams}{}% 42
+\BOOKMARK [0][-]{section*.2}{List of Figures}{}% 43
+\BOOKMARK [0][-]{section*.4}{List of Tables}{}% 44
+\BOOKMARK [0][-]{section*.6}{Bibliography}{}% 45
+\BOOKMARK [0][-]{section*.8}{Acknowledgments}{}% 46
