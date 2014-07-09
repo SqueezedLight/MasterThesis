@@ -1,14 +1,12 @@
 \select@language {english}
-\select@language {english}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {\relax 2.1}{\ignorespaces \textsl {Typical values for the mean value and the half width of cluster size distributions at different temperatures. \cite {loga-distributions} }}}{11}{table.2.1}
+\contentsline {table}{\numberline {\relax 2.1}{\ignorespaces \textsl {Typical values for the mean value and the half width of cluster size distributions at different temperatures. \cite {loga-distributions} }}}{12}{table.2.1}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {\relax 4.1}{\ignorespaces \textsl {Possible transitions within the spectral range of the Indigo-S ($\unit [32000-40000]{cm^{-1}}$) for the free atom with respective wavenumbers. From the subtraction in the right column the energies of upper and lower state can be obtained \cite {nist}. }}}{38}{table.4.1}
+\contentsline {table}{\numberline {\relax 4.1}{\ignorespaces \textsl {Possible transitions within the spectral range of the Indigo-S laser ($\unit [37200-40000]{cm^{-1}}$) for the free Au atom with respective wavenumbers. The energies of upper and lower states can be obtained from the subtraction in the right column \cite {nist}. }}}{47}{table.4.1}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {\relax 5.1}{\ignorespaces \textsl {Adapter to connect the serial port from UTA12 with the parallel port of the power supply. ''P'' specifies the pin number of the parallel port, ''S'' the number on the serial port.}}}{45}{table.5.1}
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {\relax 5.1}{\ignorespaces \textsl {Adapter to connect the serial port from UTA12 with the parallel port of the power supply. ''P'' specifies the pin number of the parallel port, ''S'' the number on the serial port.}}}{56}{table.5.1}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
