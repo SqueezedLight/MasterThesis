@@ -1,7 +1,12 @@
 \begin{thebibliography}{10}
 
+\bibitem{krois-lica}
+G.~Krois, J.~V. Pototschnig, F.~Lackner, and W.~E. Ernst.
+\newblock {Spectroscopy of Cold LiCa Molecules Formed on Helium Nanodroplets}.
+\newblock {\em J Phys Chem A}, 117(50):13719--13731, 2013.
+
 \bibitem{krois-doc}
-G\"unter Krois.
+G.~Krois.
 \newblock Alkali-alkaline earth metal molecules on cold helium droplets.
 \newblock Doctoral thesis, Technische Universit\"at Graz, Institut f\"ur
   Experimentalphysik, 2014.
@@ -28,6 +33,13 @@ J.~P. Toennies and A.~F. Vilesov.
 \newblock Suprafluide heliumtr\"opfchen: au\ss{}ergew\"ohnlich kalte
   nanomatrices f\"ur molek\"ule und molekulare komplexe.
 \newblock {\em Angew Chem-Ger Edit}, 116(20):2674--2702, 2004.
+
+\bibitem{ernst2011}
+C.~Callegari and W.~E. Ernst.
+\newblock Helium droplets as nanocryostats for molecular spectroscopy - from
+  the vacuum ultraviolet to the microwave regime.
+\newblock In M.~Quack and Merkt F., editors, {\em Handbook of High-Resolution
+  Spectroscopy}. John Wiley \& Sons, 2011.
 
 \bibitem{only-superfluid}
 S.~Grebenev, J.~P. Toennies, and A.~F. Vilesov.
@@ -88,8 +100,8 @@ J.~P. Toennies, A.~F. Vilesov, and K.~B. Whaley.
 
 \bibitem{nagl}
 J.~Nagl.
-\newblock Aufbau und test einer duesenstrahlapparatur zur spektroskopie an
-  alkalimetall- dotierten edelgasclustern.
+\newblock {Aufbau und Test einer D\"usenstrahlapparatur zur Spektroskopie an
+  alkalimetall- dotierten Edelgasclustern.}
 \newblock Masterarbeit, Technische Universit\"at Graz, Institut f\"ur
   Experimentalphysik, 2004.
 
@@ -110,12 +122,11 @@ G.~D. Stein.
   theory.
 \newblock {\em Surf Sci}, 156:44--56, 1985.
 
-\bibitem{he-temp}
-S.~Goyal, D.~L. Schutt, and G.~Scoles.
-\newblock Infrared spectroscopy in highly quantum matrixes: vibrational
-  spectrum of sulfur hexafluoride (({SF6}) n= 1, 2) attached to helium
-  clusters.
-\newblock {\em J Phys Chem-US}, 97(10):2236--2245, 1993.
+\bibitem{he-tempNew}
+M.~Hartmann, R.~E. Miller, J.~P. Toennies, and A.~Vilesov.
+\newblock Rotationally resolved spectroscopy of sf6 in liquid-helium clusters -
+  a molecular probe of cluster temperature.
+\newblock {\em Phys Rev Lett}, 75(8):1566, 1995.
 
 \bibitem{laser-heating}
 A.~Lindinger, J.~P. Toennies, and A.~F. Vilesov.
@@ -126,12 +137,12 @@ A.~Lindinger, J.~P. Toennies, and A.~F. Vilesov.
 \bibitem{speed-distr}
 J.~Harms, J.~P. Toennies, and F.~Dalfovo.
 \newblock Density of superfluid helium droplets.
-\newblock {\em Phys Rev B}, 58:3341--3350, Aug 1998.
+\newblock {\em Phys Rev B}, 58:3341--3350, 1998.
 
 \bibitem{loga-distributions}
 M.~Lewerenz, B.~Schilling, and J.P. Toennies.
 \newblock A new scattering deflection method for determining and selecting the
-  sizes of large liquid clusters of {4He}.
+  sizes of large liquid clusters of {$^4He$}.
 \newblock {\em Chem Phys Lett}, 206:381 -- 387, 1993.
 
 \bibitem{vdl}
@@ -174,6 +185,11 @@ X.~F. Tong, C.~L. Yang, Y.~P. An, M.~S. Wang, X.~G. Ma, and D.~H. Wang.
   ({M= Cu, Ag, and Au, and X= He, Ne, and Ar}).
 \newblock {\em J Chem Phys}, 131(24):244304, 2009.
 
+\bibitem{demtr3}
+W.~Demtr{\"o}der.
+\newblock {\em Experimentalphysik 3: Atome, Molek\"ule und Festk\"orper}.
+\newblock 4. auflage edition, 2010.
+
 \bibitem{vdl-fqm}
 W.~von~der Linden.
 \newblock {\em Fortgeschrittene Quantenmechanik - Vorlesungsskript}.
@@ -181,7 +197,7 @@ W.~von~der Linden.
   2007.
 
 \bibitem{hertel2008}
-V.~Hertel, Ingolf and C.~Schulz.
+I.~V. Hertel and C.~Schulz.
 \newblock {\em Atome, Molek{\"u}le und optische Physik}.
 \newblock Springer, 2008.
 
@@ -227,7 +243,7 @@ G.~Krois, F.~Lackner, J.~V.~Pototschnig, T.~Buchsteiner, and W.~E.~Ernst.
 \newblock {\em Submitted Article}, 2014.
 
 \bibitem{johann-doc}
-Johann~V. Pototschnig.
+J.~V. Pototschnig.
 \newblock In preparation.
 \newblock Doctoral thesis, Technische Universit\"at Graz, Institut f\"ur
   Experimentalphysik, 2015.
@@ -279,7 +295,7 @@ Y.~Ralchenko, A.E. Kramida, J.~Reader, and NIST ASD~Team (2011).
   MD}, 2011.
 
 \bibitem{fivet}
-V.~Fivet, P.~Quinet, {\'E}~Bi{\'e}mont, and HL~Xu.
+V.~Fivet, P.~Quinet, {\'E.}~Bi{\'e}mont, and H.~L. Xu.
 \newblock Transition probabilities and lifetimes in gold ({Au I and Au II}).
 \newblock {\em J Phys B-At Mol Opt}, 39(17):3587, 2006.
 
@@ -295,6 +311,13 @@ J.~Higgins, C.~Callegari, J.~Reho, F.~Stienkemeier, W.~E. Ernst, M.~Gutowski,
 \newblock Helium cluster isolation spectroscopy of alkali dimers in the triplet
   manifold.
 \newblock {\em J Phys Chem A}, 102(26):4952--4965, 1998.
+
+\bibitem{mgn}
+A.~Przystawik, S.~G{\"o}de, T.~D{\"o}ppner, J.~Tiggesb{\"a}umker, and K.~H.
+  Meiwes-Broer.
+\newblock {Light-induced collapse of metastable magnesium complexes formed in
+  helium nanodroplets}.
+\newblock {\em Phys Rev A}, 78(2):021202, 2008.
 
 \bibitem{bunermann-doc}
 O.~B\"unermann.

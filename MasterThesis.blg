@@ -3,46 +3,47 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: MasterThesis.aux
 The style file: unsrt.bst
 Database file #1: MasterThesis.bib.bib
+Warning--empty publisher in demtr3
 Warning--empty journal in paperkautschkoch
-You've used 61 entries,
+You've used 65 entries,
             1791 wiz_defined-function locations,
-            761 strings with 11539 characters,
-and the built_in function-call counts, 11548 in all, are:
-= -- 1009
-> -- 481
+            783 strings with 12204 characters,
+and the built_in function-call counts, 12451 in all, are:
+= -- 1078
+> -- 535
 < -- 1
-+ -- 191
-- -- 130
-* -- 735
-:= -- 1867
-add.period$ -- 169
-call.type$ -- 61
-change.case$ -- 54
++ -- 210
+- -- 145
+* -- 800
+:= -- 2019
+add.period$ -- 182
+call.type$ -- 65
+change.case$ -- 58
 chr.to.int$ -- 0
-cite$ -- 62
-duplicate$ -- 502
-empty$ -- 1210
-format.name$ -- 130
-if$ -- 2546
+cite$ -- 67
+duplicate$ -- 543
+empty$ -- 1301
+format.name$ -- 145
+if$ -- 2745
 int.to.chr$ -- 0
-int.to.str$ -- 61
-missing$ -- 57
-newline$ -- 294
-num.names$ -- 54
-pop$ -- 188
+int.to.str$ -- 65
+missing$ -- 62
+newline$ -- 314
+num.names$ -- 60
+pop$ -- 204
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 197
+skip$ -- 208
 stack$ -- 0
-substring$ -- 713
-swap$ -- 53
+substring$ -- 749
+swap$ -- 57
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 100
-width$ -- 63
-write$ -- 617
-(There was 1 warning)
+warning$ -- 2
+while$ -- 107
+width$ -- 67
+write$ -- 660
+(There were 2 warnings)

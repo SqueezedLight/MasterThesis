@@ -4,26 +4,26 @@
 \contentsline {section}{\numberline {2.1}Helium}{3}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Zero point energy}{4}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Superfluidity}{5}{subsection.2.1.2}
-\contentsline {subsubsection}{The two-fluid model}{6}{subsection.2.1.2}
-\contentsline {subsubsection}{The quasi particle model}{6}{equation.2.1.2}
+\contentsline {subsubsection}{The two-fluid model}{6}{subsubsection*.2}
+\contentsline {subsubsection}{The quasi particle model}{6}{subsubsection*.3}
 \contentsline {section}{\numberline {2.2}Formation of helium droplets}{7}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}The supersonic gas expansion}{7}{subsection.2.2.1}
-\contentsline {subsubsection}{Droplet temperature and size distribution}{10}{equation.2.2.7}
+\contentsline {subsubsection}{Droplet temperature and size distribution}{10}{subsubsection*.4}
 \contentsline {subsection}{\numberline {2.2.2}Doping helium clusters}{12}{subsection.2.2.2}
 \contentsline {section}{\numberline {2.3}Spectroscopy}{14}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Atoms}{14}{subsection.2.3.1}
-\contentsline {subsubsection}{Multiplicity and coupling schemes for atoms with one or more valence electrons}{15}{equation.2.3.11}
-\contentsline {subsubsection}{Spectroscopic denotation of energy states}{16}{equation.2.3.11}
-\contentsline {subsubsection}{Selection rules for electronic transitions}{17}{figure.2.9}
+\contentsline {subsubsection}{Multiplicity and coupling schemes for atoms with one or more valence electrons}{15}{subsubsection*.5}
+\contentsline {subsubsection}{Spectroscopic denotation of energy states}{16}{subsubsection*.6}
+\contentsline {subsubsection}{Selection rules for electronic transitions}{17}{subsubsection*.7}
 \contentsline {subsection}{\numberline {2.3.2}Molecules}{18}{subsection.2.3.2}
-\contentsline {subsubsection}{The diatomic molecule}{18}{subsection.2.3.2}
+\contentsline {subsubsection}{The diatomic molecule}{18}{subsubsection*.8}
 \contentsline {chapter}{\numberline {3}Experimental Setup}{23}{chapter.3}
 \contentsline {section}{\numberline {3.1}Source chamber}{24}{section.3.1}
 \contentsline {section}{\numberline {3.2}Pick up chamber}{24}{section.3.2}
 \contentsline {section}{\numberline {3.3}Detection chamber}{26}{section.3.3}
-\contentsline {section}{\numberline {3.4}Measuring methods}{27}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}REMPI-TOF spectroscopy}{27}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Laser induced florescence spectroscopy}{28}{subsection.3.4.2}
+\contentsline {section}{\numberline {3.4}Measuring methods}{28}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}REMPI-TOF spectroscopy}{28}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Laser induced florescence spectroscopy}{29}{subsection.3.4.2}
 \contentsline {chapter}{\numberline {4}Experimental Results}{33}{chapter.4}
 \contentsline {section}{\numberline {4.1}RbSr Experiments}{33}{section.4.1}
 \contentsline {section}{\numberline {4.2}Au experiments}{39}{section.4.2}
@@ -47,7 +47,7 @@
 \contentsline {subsection}{\numberline {6.2.8}Known issues}{65}{subsection.6.2.8}
 \contentsline {chapter}{\numberline {7}Summary and Conclusion}{67}{chapter.7}
 \contentsline {chapter}{\numberline {A}Technical Drawings}{69}{appendix.A}
-\contentsline {chapter}{List of Figures}{84}{section*.2}
-\contentsline {chapter}{List of Tables}{89}{section*.4}
-\contentsline {chapter}{Bibliography}{90}{section*.6}
-\contentsline {chapter}{Acknowledgments}{97}{section*.8}
+\contentsline {chapter}{List of Figures}{86}{section*.9}
+\contentsline {chapter}{List of Tables}{91}{section*.11}
+\contentsline {chapter}{Bibliography}{92}{section*.13}
+\contentsline {chapter}{Acknowledgments}{99}{section*.15}

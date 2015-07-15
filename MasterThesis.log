@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.5)  8 JUL 2014 15:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.5)  9 NOV 2014 22:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -210,6 +210,18 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 )
+(/usr/local/texlive/2013/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
+\ttl@box=\box27
+\beforetitleunit=\skip47
+\aftertitleunit=\skip48
+\ttl@plus=\dimen104
+\ttl@minus=\dimen105
+\ttl@toksa=\toks17
+\titlewidth=\dimen106
+\titlewidthlast=\dimen107
+\titlewidthfirst=\dimen108
+)
 (/usr/local/texlive/2013/texmf-dist/tex/latex/braket/braket.sty)
 (/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
@@ -236,8 +248,8 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count90
 ))
-\Gin@req@height=\dimen104
-\Gin@req@width=\dimen105
+\Gin@req@height=\dimen109
+\Gin@req@width=\dimen110
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
@@ -296,7 +308,7 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 (/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen106
+\@linkdim=\dimen111
 \Hy@linkcounter=\count91
 \Hy@pagecounter=\count92
 
@@ -322,10 +334,10 @@ Package hyperref Info: Bookmarks ON on input line 4688.
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen107
+\XeTeXLinkMargin=\dimen112
 \Fld@menulength=\count95
-\Field@Width=\dimen108
-\Fld@charsize=\dimen109
+\Field@Width=\dimen113
+\Fld@charsize=\dimen114
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -352,7 +364,7 @@ Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip47
+\Hy@SectionHShift=\skip49
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
@@ -365,21 +377,21 @@ Package: dcolumn 2001/05/28 v1.06 decimal alignment package (DPC)
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/tools/array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen110
-\extrarowheight=\dimen111
-\NC@list=\toks17
-\extratabsurround=\skip48
-\backup@length=\skip49
+\col@sep=\dimen115
+\extrarowheight=\dimen116
+\NC@list=\toks18
+\extratabsurround=\skip50
+\backup@length=\skip51
 ))
 (/usr/local/texlive/2013/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count101
-\float@exts=\toks18
-\float@box=\box27
-\@float@everytoks=\toks19
-\@floatcapt=\box28
+\float@exts=\toks19
+\float@box=\box28
+\@float@everytoks=\toks20
+\@floatcapt=\box29
 )
-\@float@every@figure=\toks20
+\@float@every@figure=\toks21
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
@@ -391,8 +403,8 @@ Package xcolor Info: Driver file: pdftex.def on input line 225.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
-\everycr=\toks21
-\minrowclearance=\skip50
+\everycr=\toks22
+\minrowclearance=\skip52
 )
 \rownum=\count102
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
@@ -414,7 +426,7 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks22
+\@emptytoks=\toks23
 \symAMSa=\mathgroup6
 \symAMSb=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
@@ -425,17 +437,17 @@ Package: amstext 2000/06/29 v2.01
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks23
-\ex@=\dimen112
+\@emptytoks=\toks24
+\ex@=\dimen117
 ))
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip51
+\@mathmargin=\skip53
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen113
+\pmbraise@=\dimen118
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
@@ -450,9 +462,9 @@ LaTeX Info: Redefining \overline on input line 306.
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box29
-\strutbox@=\box30
-\big@size=\dimen114
+\Mathstrutbox@=\box30
+\strutbox@=\box31
+\big@size=\dimen119
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \macc@depth=\count108
@@ -460,21 +472,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \dotsspace@=\muskip11
 \c@parentequation=\count110
 \dspbrk@lvl=\count111
-\tag@help=\toks24
+\tag@help=\toks25
 \row@=\count112
 \column@=\count113
 \maxfields@=\count114
-\andhelp@=\toks25
-\eqnshift@=\dimen115
-\alignsep@=\dimen116
-\tagshift@=\dimen117
-\tagwidth@=\dimen118
-\totwidth@=\dimen119
-\lineht@=\dimen120
-\@envbody=\toks26
-\multlinegap=\skip52
-\multlinetaggap=\skip53
-\mathdisplay@stack=\toks27
+\andhelp@=\toks26
+\eqnshift@=\dimen120
+\alignsep@=\dimen121
+\tagshift@=\dimen122
+\tagwidth@=\dimen123
+\totwidth@=\dimen124
+\lineht@=\dimen125
+\@envbody=\toks27
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks28
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
@@ -486,9 +498,9 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/units/nicefrac.sty
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
-\L@UnitsRaiseDisplaystyle=\skip54
-\L@UnitsRaiseTextstyle=\skip55
-\L@UnitsRaiseScriptstyle=\skip56
+\L@UnitsRaiseDisplaystyle=\skip56
+\L@UnitsRaiseTextstyle=\skip57
+\L@UnitsRaiseScriptstyle=\skip58
 ))
 (/usr/local/texlive/2013/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2012/08/31 v0.4t Insert pages of external PDF documents (AM)
@@ -497,14 +509,14 @@ Package: pdfpages 2012/08/31 v0.4t Insert pages of external PDF documents (AM)
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count115
 \calc@Bcount=\count116
-\calc@Adimen=\dimen121
-\calc@Bdimen=\dimen122
-\calc@Askip=\skip57
-\calc@Bskip=\skip58
+\calc@Adimen=\dimen126
+\calc@Bdimen=\dimen127
+\calc@Askip=\skip59
+\calc@Bskip=\skip60
 LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count117
-\calc@Cskip=\skip59
+\calc@Cskip=\skip61
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
@@ -512,30 +524,30 @@ Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
 (/usr/local/texlive/2013/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2012/08/31 v0.4t Pdfpages driver for pdfTeX (AM)
 )
-\AM@pagebox=\box31
-\AM@toc@title=\toks28
+\AM@pagebox=\box32
+\AM@toc@title=\toks29
 \c@AM@survey=\count118
-\AM@templatesizebox=\box32
+\AM@templatesizebox=\box33
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count119
-\lst@gtempboxa=\box33
-\lst@token=\toks29
+\lst@gtempboxa=\box34
+\lst@token=\toks30
 \lst@length=\count120
-\lst@currlwidth=\dimen123
+\lst@currlwidth=\dimen128
 \lst@column=\count121
 \lst@pos=\count122
-\lst@lostspace=\dimen124
-\lst@width=\dimen125
+\lst@lostspace=\dimen129
+\lst@width=\dimen130
 \lst@newlines=\count123
 \lst@lineno=\count124
-\lst@maxwidth=\dimen126
+\lst@maxwidth=\dimen131
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 \c@lstnumber=\count125
 \lst@skipnumbers=\count126
-\lst@framebox=\box34
+\lst@framebox=\box35
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2007/02/22 1.4 listings configuration
@@ -565,18 +577,6 @@ Package scrhack Info: redefining \lstlistoflistings on input line 136.
 ))
 (/usr/local/texlive/2013/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
-)
-(/usr/local/texlive/2013/texmf-dist/tex/latex/titlesec/titlesec.sty
-Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
-\ttl@box=\box35
-\beforetitleunit=\skip60
-\aftertitleunit=\skip61
-\ttl@plus=\dimen127
-\ttl@minus=\dimen128
-\ttl@toksa=\toks30
-\titlewidth=\dimen129
-\titlewidthlast=\dimen130
-\titlewidthfirst=\dimen131
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/local/texlive/2013/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
@@ -836,28 +836,28 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
 ))) (./MasterThesis.aux)
 \openout1 = `MasterThesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 115.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 115.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 116.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 116.
 
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
 
 (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -888,7 +888,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box46
-Package hyperref Info: Link coloring OFF on input line 115.
+Package hyperref Info: Link coloring OFF on input line 116.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -898,53 +898,52 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count152
 )
-LaTeX Info: Redefining \ref on input line 115.
-LaTeX Info: Redefining \pageref on input line 115.
-LaTeX Info: Redefining \nameref on input line 115.
+LaTeX Info: Redefining \ref on input line 116.
+LaTeX Info: Redefining \pageref on input line 116.
+LaTeX Info: Redefining \nameref on input line 116.
 
 (./MasterThesis.out) (./MasterThesis.out)
 \@outlinefile=\write4
 \openout4 = `MasterThesis.out'.
 
 \c@lstlisting=\count153
-Package scrhack Info: undefining \float@addtolists on input line 115.
+Package scrhack Info: undefining \float@addtolists on input line 116.
 
 ABD: EveryShipout initializing macros
-<logo-tu.png, id=187, 151.56625pt x 55.20625pt>
-File: logo-tu.png Graphic file (type png)
- <use logo-tu.png>
-Package pdftex.def Info: logo-tu.png used on input line 143.
-(pdftex.def)             Requested size: 151.56587pt x 55.2061pt.
- [1
+<logo_tugraz.jpg, id=187, 471.7625pt x 173.64874pt>
+File: logo_tugraz.jpg Graphic file (type jpg)
+ <use logo_tugraz.jpg>
+Package pdftex.def Info: logo_tugraz.jpg used on input line 144.
+(pdftex.def)             Requested size: 170.71652pt x 62.8394pt.
+
+[1
 
 
 
-{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./logo-
-tu.png>]
-[2
+{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./logo_
+tugraz.jpg>] [2
 
 
 ]
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 161.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 162.
 
  (/usr/local/texlive/2013/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 168.
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ulasy.fd
+LaTeX Font Info:    Try loading font information for U+lasy on input line 164.
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+bbold on input line 168.
+LaTeX Font Info:    Try loading font information for U+bbold on input line 164.
 
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/bbold/Ubbold.fd)
-LaTeX Font Info:    Try loading font information for U+msa on input line 168.
+LaTeX Font Info:    Try loading font information for U+msa on input line 164.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 168.
+LaTeX Font Info:    Try loading font information for U+msb on input line 164.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -952,29 +951,29 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
-[1] <Eidesstattliche.pdf, id=213, page=1, 597.432pt x 844.5954pt>
+[1] <Eidesstattliche.pdf, id=211, page=1, 597.432pt x 844.5954pt>
 File: Eidesstattliche.pdf Graphic file (type pdf)
 
 <use Eidesstattliche.pdf, page 1>
-Package pdftex.def Info: Eidesstattliche.pdf, page1 used on input line 172.
+Package pdftex.def Info: Eidesstattliche.pdf, page1 used on input line 173.
 (pdftex.def)             Requested size: 597.43054pt x 844.59334pt.
 File: Eidesstattliche.pdf Graphic file (type pdf)
  <use Eidesstattliche.pdf, page 1>
-Package pdftex.def Info: Eidesstattliche.pdf, page1 used on input line 172.
+Package pdftex.def Info: Eidesstattliche.pdf, page1 used on input line 173.
 (pdftex.def)             Requested size: 597.93192pt x 845.30214pt.
 File: Eidesstattliche.pdf Graphic file (type pdf)
 
 <use Eidesstattliche.pdf, page 1>
-Package pdftex.def Info: Eidesstattliche.pdf, page1 used on input line 172.
+Package pdftex.def Info: Eidesstattliche.pdf, page1 used on input line 173.
 (pdftex.def)             Requested size: 597.93192pt x 845.30214pt.
 File: Eidesstattliche.pdf Graphic file (type pdf)
  <use Eidesstattliche.pdf, page 1>
-Package pdftex.def Info: Eidesstattliche.pdf, page1 used on input line 172.
+Package pdftex.def Info: Eidesstattliche.pdf, page1 used on input line 173.
 (pdftex.def)             Requested size: 597.93192pt x 845.30214pt.
 File: Eidesstattliche.pdf Graphic file (type pdf)
 
 <use Eidesstattliche.pdf, page 1>
-Package pdftex.def Info: Eidesstattliche.pdf, page1 used on input line 172.
+Package pdftex.def Info: Eidesstattliche.pdf, page1 used on input line 173.
 (pdftex.def)             Requested size: 597.93192pt x 845.30214pt.
  [2 <./Eidesstattliche.pdf>]
 (./MasterThesis.toc [3
@@ -994,7 +993,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.186 \chapter
+l.187 \chapter
               {Theoretical Background} [1
 
 
@@ -1004,7 +1003,7 @@ l.186 \chapter
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.186 \chapter
+l.187 \chapter
               {Theoretical Background} [2
 
 
@@ -1014,11 +1013,11 @@ Chapter 2.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-<img/./helium/phasediagram.jpg, id=307, 835.12pt x 604.2575pt>
+<img/./helium/phasediagram.jpg, id=308, 835.12pt x 604.2575pt>
 File: img/./helium/phasediagram.jpg Graphic file (type jpg)
 
 <use img/./helium/phasediagram.jpg>
-Package pdftex.def Info: img/./helium/phasediagram.jpg used on input line 208.
+Package pdftex.def Info: img/./helium/phasediagram.jpg used on input line 209.
 (pdftex.def)             Requested size: 312.9803pt x 226.4577pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1032,11 +1031,11 @@ Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
 [5 <./img/./helium/phasediagram.jpg>]
-<img/./helium/DispRel.jpg, id=345, 1000.73875pt x 642.4pt>
+<img/./helium/DispRel.jpg, id=349, 1000.73875pt x 642.4pt>
 File: img/./helium/DispRel.jpg Graphic file (type jpg)
 
 <use img/./helium/DispRel.jpg>
-Package pdftex.def Info: img/./helium/DispRel.jpg used on input line 237.
+Package pdftex.def Info: img/./helium/DispRel.jpg used on input line 238.
 (pdftex.def)             Requested size: 284.52756pt x 182.6448pt.
 
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
@@ -1047,42 +1046,36 @@ Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
 [7 <./img/./helium/DispRel.jpg>]
-<img/./expansion/supersonic-expansion.jpg, id=379, 480.79625pt x 273.02pt>
-File: img/./expansion/supersonic-expansion.jpg Graphic file (type jpg)
-
-<use img/./expansion/supersonic-expansion.jpg>
-Package pdftex.def Info: img/./expansion/supersonic-expansion.jpg used on input
- line 278.
+<img/./expansion/supersonic-expansion_sharp.jpg, id=384, 480.79625pt x 273.02pt
+>
+File: img/./expansion/supersonic-expansion_sharp.jpg Graphic file (type jpg)
+ <use img/./expansion/supersonic-expansion_sharp.jpg>
+Package pdftex.def Info: img/./expansion/supersonic-expansion_sharp.jpg used on
+ input line 279.
 (pdftex.def)             Requested size: 369.88582pt x 210.04274pt.
 
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
-[8] <img/./expansion/with-skimmer.jpg, id=401, 518.93875pt x 225.84375pt>
+[8] <img/./expansion/with-skimmer.jpg, id=406, 518.93875pt x 225.84375pt>
 File: img/./expansion/with-skimmer.jpg Graphic file (type jpg)
 
 <use img/./expansion/with-skimmer.jpg>
 Package pdftex.def Info: img/./expansion/with-skimmer.jpg used on input line 29
-8.
+9.
 (pdftex.def)             Requested size: 369.88582pt x 160.98425pt.
 
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
-[9 <./img/./expansion/supersonic-expansion.jpg>]
-<img/./expansion/cluster-formation.jpg, id=417, 851.18pt x 548.0475pt>
-File: img/./expansion/cluster-formation.jpg Graphic file (type jpg)
+[9 <./img/./expansion/supersonic-expansion_sharp.jpg>]
+<img/./expansion/cluster-formation_sharp.jpg, id=422, 851.18pt x 548.0475pt>
+File: img/./expansion/cluster-formation_sharp.jpg Graphic file (type jpg)
 
-<use img/./expansion/cluster-formation.jpg>
-Package pdftex.def Info: img/./expansion/cluster-formation.jpg used on input li
-ne 318.
+<use img/./expansion/cluster-formation_sharp.jpg>
+Package pdftex.def Info: img/./expansion/cluster-formation_sharp.jpg used on in
+put line 319.
 (pdftex.def)             Requested size: 341.43306pt x 219.8423pt.
-
-Overfull \hbox (1.70422pt too wide) in paragraph at lines 315--322
-\T1/cmr/m/n/12 They cal-cu-lated the tem-per-a-ture from the ro-ta-tional in-fr
-ared spec-trum of the $\OML/cmm/m/it/12 SF[]$ \T1/cmr/m/n/12 molecule
- []
-
 
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
@@ -1091,13 +1084,13 @@ Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
-[11 <./img/./expansion/cluster-formation.jpg>]
-<img/./expansion/log-normal-distribution.jpg, id=447, 669.50125pt x 545.03625pt
+[11 <./img/./expansion/cluster-formation_sharp.jpg>]
+<img/./expansion/log-normal-distribution.jpg, id=453, 669.50125pt x 545.03625pt
 >
 File: img/./expansion/log-normal-distribution.jpg Graphic file (type jpg)
  <use img/./expansion/log-normal-distribution.jpg>
 Package pdftex.def Info: img/./expansion/log-normal-distribution.jpg used on in
-put line 331.
+put line 332.
 (pdftex.def)             Requested size: 312.9803pt x 254.80316pt.
 
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
@@ -1108,13 +1101,13 @@ Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.361 
+l.362 
        <./img/./expansion/log-normal-distribution.jpg>]
-<img/./doping/doping-helium.jpg, id=461, 1003.75pt x 193.72375pt>
+<img/./doping/doping-helium.jpg, id=468, 1003.75pt x 193.72375pt>
 File: img/./doping/doping-helium.jpg Graphic file (type jpg)
 
 <use img/./doping/doping-helium.jpg>
-Package pdftex.def Info: img/./doping/doping-helium.jpg used on input line 374.
+Package pdftex.def Info: img/./doping/doping-helium.jpg used on input line 375.
 
 (pdftex.def)             Requested size: 369.88582pt x 71.38992pt.
 
@@ -1130,86 +1123,86 @@ Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
 [15]
-<img/./spectroscopy/simple-triplet.jpg, id=501, 133.49875pt x 259.97125pt>
-File: img/./spectroscopy/simple-triplet.jpg Graphic file (type jpg)
-
-<use img/./spectroscopy/simple-triplet.jpg>
-Package pdftex.def Info: img/./spectroscopy/simple-triplet.jpg used on input li
-ne 435.
+<img/./spectroscopy/simple-triplet_sharp.jpg, id=511, 133.49875pt x 259.97125pt
+>
+File: img/./spectroscopy/simple-triplet_sharp.jpg Graphic file (type jpg)
+ <use img/./spectroscopy/simple-triplet_sharp.jpg>
+Package pdftex.def Info: img/./spectroscopy/simple-triplet_sharp.jpg used on in
+put line 436.
 (pdftex.def)             Requested size: 71.13188pt x 138.5259pt.
 
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
-[16] <img/./spectroscopy/helium-terms.jpg, id=513, 686.565pt x 353.32pt>
+[16] <img/./spectroscopy/helium-terms.jpg, id=524, 686.565pt x 353.32pt>
 File: img/./spectroscopy/helium-terms.jpg Graphic file (type jpg)
 
 <use img/./spectroscopy/helium-terms.jpg>
 Package pdftex.def Info: img/./spectroscopy/helium-terms.jpg used on input line
- 444.
+ 445.
 (pdftex.def)             Requested size: 341.43306pt x 175.70532pt.
 
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
-[17 <./img/./spectroscopy/simple-triplet.jpg> <./img/./spectroscopy/helium-term
-s.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 461--462
+[17 <./img/./spectroscopy/simple-triplet_sharp.jpg> <./img/./spectroscopy/heliu
+m-terms.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 462--463
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 468--469
+Underfull \hbox (badness 10000) in paragraph at lines 469--470
 
  []
 
-<img/./spectroscopy/molecular-potential.jpg, id=526, 454.69875pt x 449.68pt>
+<img/./spectroscopy/molecular-potential.jpg, id=538, 454.69875pt x 449.68pt>
 File: img/./spectroscopy/molecular-potential.jpg Graphic file (type jpg)
 
 <use img/./spectroscopy/molecular-potential.jpg>
 Package pdftex.def Info: img/./spectroscopy/molecular-potential.jpg used on inp
-ut line 477.
+ut line 478.
 (pdftex.def)             Requested size: 256.0748pt x 253.25314pt.
 
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
-[18] <img/./spectroscopy/vib-rot-pot.jpg, id=538, 607.26875pt x 560.0925pt>
+[18] <img/./spectroscopy/vib-rot-pot.jpg, id=551, 607.26875pt x 560.0925pt>
 File: img/./spectroscopy/vib-rot-pot.jpg Graphic file (type jpg)
 
 <use img/./spectroscopy/vib-rot-pot.jpg>
 Package pdftex.def Info: img/./spectroscopy/vib-rot-pot.jpg used on input line 
-485.
+486.
 (pdftex.def)             Requested size: 256.0748pt x 236.18588pt.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 494.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 495.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 494.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 495.
 
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
 [19 <./img/./spectroscopy/molecular-potential.jpg>]
-<img/./spectroscopy/ls-mol.jpg, id=550, 1049.9225pt x 793.96625pt>
+<img/./spectroscopy/ls-mol.jpg, id=563, 1049.9225pt x 793.96625pt>
 File: img/./spectroscopy/ls-mol.jpg Graphic file (type jpg)
 
 <use img/./spectroscopy/ls-mol.jpg>
-Package pdftex.def Info: img/./spectroscopy/ls-mol.jpg used on input line 505.
+Package pdftex.def Info: img/./spectroscopy/ls-mol.jpg used on input line 506.
 (pdftex.def)             Requested size: 227.62204pt x 172.12897pt.
 
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
 [20 <./img/./spectroscopy/vib-rot-pot.jpg> <./img/./spectroscopy/ls-mol.jpg>]
-<img/./spectroscopy/omega-molecule.jpg, id=559, 960.58875pt x 331.2375pt>
+<img/./spectroscopy/omega-molecule.jpg, id=572, 960.58875pt x 331.2375pt>
 File: img/./spectroscopy/omega-molecule.jpg Graphic file (type jpg)
 
 <use img/./spectroscopy/omega-molecule.jpg>
 Package pdftex.def Info: img/./spectroscopy/omega-molecule.jpg used on input li
-ne 515.
+ne 516.
 (pdftex.def)             Requested size: 398.33858pt x 137.35991pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 533--534
+Underfull \hbox (badness 10000) in paragraph at lines 534--535
 
  []
 
@@ -1223,46 +1216,46 @@ Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 [22]
 Chapter 3.
-<img/./experimental_setup/scheme.jpg, id=583, 1024.82875pt x 540.0175pt>
+<img/./experimental_setup/scheme.jpg, id=596, 1024.82875pt x 540.0175pt>
 File: img/./experimental_setup/scheme.jpg Graphic file (type jpg)
 
 <use img/./experimental_setup/scheme.jpg>
 Package pdftex.def Info: img/./experimental_setup/scheme.jpg used on input line
- 574.
+ 575.
 (pdftex.def)             Requested size: 369.88582pt x 194.90054pt.
  [23
 
 
  <./img/./experimental_setup/scheme.jpg>]
-<img/./experimental_setup/pre_cooling.jpg, id=596, 837.1275pt x 627.34375pt>
+<img/./experimental_setup/pre_cooling.jpg, id=609, 837.1275pt x 627.34375pt>
 File: img/./experimental_setup/pre_cooling.jpg Graphic file (type jpg)
 
 <use img/./experimental_setup/pre_cooling.jpg>
 Package pdftex.def Info: img/./experimental_setup/pre_cooling.jpg used on input
- line 597.
+ line 598.
 (pdftex.def)             Requested size: 341.43306pt x 255.86287pt.
 
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
-[24] <img/./experimental_setup/pickup-chamber.jpg, id=607, 803.0pt x 481.8pt>
+[24] <img/./experimental_setup/pickup-chamber.jpg, id=620, 803.0pt x 481.8pt>
 File: img/./experimental_setup/pickup-chamber.jpg Graphic file (type jpg)
 
 <use img/./experimental_setup/pickup-chamber.jpg>
 Package pdftex.def Info: img/./experimental_setup/pickup-chamber.jpg used on in
-put line 611.
+put line 612.
 (pdftex.def)             Requested size: 369.88582pt x 221.93945pt.
 
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
 [25 <./img/./experimental_setup/pre_cooling.jpg>]
-<img/./experimental_setup/detection-chamber.jpg, id=619, 728.7225pt x 537.00626
+<img/./experimental_setup/detection-chamber.jpg, id=633, 728.7225pt x 537.00626
 pt>
 File: img/./experimental_setup/detection-chamber.jpg Graphic file (type jpg)
  <use img/./experimental_setup/detection-chamber.jpg>
 Package pdftex.def Info: img/./experimental_setup/detection-chamber.jpg used on
- input line 630.
+ input line 631.
 (pdftex.def)             Requested size: 426.79134pt x 314.50383pt.
 
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
@@ -1273,38 +1266,40 @@ Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
 [27 <./img/./experimental_setup/detection-chamber.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 656--658
+Underfull \hbox (badness 10000) in paragraph at lines 657--659
 
  []
 
-<img/./measuring_methods/tof-lin-ref.jpg, id=637, 570.13pt x 662.475pt>
+<img/./measuring_methods/tof-lin-ref.jpg, id=649, 570.13pt x 662.475pt>
 File: img/./measuring_methods/tof-lin-ref.jpg Graphic file (type jpg)
 
 <use img/./measuring_methods/tof-lin-ref.jpg>
 Package pdftex.def Info: img/./measuring_methods/tof-lin-ref.jpg used on input 
-line 661.
-(pdftex.def)             Requested size: 227.62204pt x 264.48999pt.
+line 662.
+(pdftex.def)             Requested size: 199.16928pt x 231.42494pt.
 
-<img/./measuring_methods/lif-vib.jpg, id=641, 289.08pt x 578.16pt>
-File: img/./measuring_methods/lif-vib.jpg Graphic file (type jpg)
+Underfull \vbox (badness 7064) has occurred while \output is active []
 
-<use img/./measuring_methods/lif-vib.jpg>
-Package pdftex.def Info: img/./measuring_methods/lif-vib.jpg used on input line
- 673.
-(pdftex.def)             Requested size: 170.71652pt x 341.42903pt.
-
-<img/./measuring_methods/lif-setup.jpg, id=644, 538.01pt x 670.505pt>
-File: img/./measuring_methods/lif-setup.jpg Graphic file (type jpg)
-
-<use img/./measuring_methods/lif-setup.jpg>
-Package pdftex.def Info: img/./measuring_methods/lif-setup.jpg used on input li
-ne 680.
-(pdftex.def)             Requested size: 256.0748pt x 319.13774pt.
 
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
-[28]
+[28] <img/./measuring_methods/lif-vib.jpg, id=659, 289.08pt x 578.16pt>
+File: img/./measuring_methods/lif-vib.jpg Graphic file (type jpg)
+
+<use img/./measuring_methods/lif-vib.jpg>
+Package pdftex.def Info: img/./measuring_methods/lif-vib.jpg used on input line
+ 674.
+(pdftex.def)             Requested size: 142.26378pt x 284.52713pt.
+
+<img/./measuring_methods/lif-setup.jpg, id=662, 538.01pt x 670.505pt>
+File: img/./measuring_methods/lif-setup.jpg Graphic file (type jpg)
+
+<use img/./measuring_methods/lif-setup.jpg>
+Package pdftex.def Info: img/./measuring_methods/lif-setup.jpg used on input li
+ne 681.
+(pdftex.def)             Requested size: 256.0748pt x 319.13774pt.
+
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
@@ -1321,23 +1316,23 @@ Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 ]
 Chapter 4.
-<img/./resultsRbSr/rbsr_masses.jpg, id=684, 1852.9225pt x 1270.7475pt>
-File: img/./resultsRbSr/rbsr_masses.jpg Graphic file (type jpg)
+<img/./resultsRbSr/rbsr_masses.pdf, id=697, 462.53102pt x 188.55646pt>
+File: img/./resultsRbSr/rbsr_masses.pdf Graphic file (type pdf)
 
-<use img/./resultsRbSr/rbsr_masses.jpg>
-Package pdftex.def Info: img/./resultsRbSr/rbsr_masses.jpg used on input line 7
-02.
-(pdftex.def)             Requested size: 341.43306pt x 234.15388pt.
+<use img/./resultsRbSr/rbsr_masses.pdf>
+Package pdftex.def Info: img/./resultsRbSr/rbsr_masses.pdf used on input line 7
+03.
+(pdftex.def)             Requested size: 455.24408pt x 185.5954pt.
  [33]
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
-[34 <./img/./resultsRbSr/rbsr_masses.jpg>]
-<img/./resultsRbSr/overview.jpg, id=701, 2107.875pt x 828.09375pt>
+[34 <./img/./resultsRbSr/rbsr_masses.pdf>]
+<img/./resultsRbSr/overview.jpg, id=731, 2107.875pt x 828.09375pt>
 File: img/./resultsRbSr/overview.jpg Graphic file (type jpg)
 
 <use img/./resultsRbSr/overview.jpg>
-Package pdftex.def Info: img/./resultsRbSr/overview.jpg used on input line 710.
+Package pdftex.def Info: img/./resultsRbSr/overview.jpg used on input line 711.
 
 (pdftex.def)             Requested size: 512.1496pt x 201.19788pt.
 
@@ -1345,23 +1340,23 @@ Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
 [35 <./img/./resultsRbSr/overview.jpg>]
-<img/./resultsRbSr/MolSpec_PECs.pdf, id=716, 369.93607pt x 278.47339pt>
+<img/./resultsRbSr/MolSpec_PECs.pdf, id=745, 369.93607pt x 278.47339pt>
 File: img/./resultsRbSr/MolSpec_PECs.pdf Graphic file (type pdf)
 
 <use img/./resultsRbSr/MolSpec_PECs.pdf>
 Package pdftex.def Info: img/./resultsRbSr/MolSpec_PECs.pdf used on input line 
-723.
+724.
 (pdftex.def)             Requested size: 455.24408pt x 342.71568pt.
 
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
 [36 <./img/./resultsRbSr/MolSpec_PECs.pdf>]
-<img/./resultsRbSr/liftof.jpg, id=755, 765.86125pt x 769.87625pt>
+<img/./resultsRbSr/liftof.jpg, id=779, 765.86125pt x 769.87625pt>
 File: img/./resultsRbSr/liftof.jpg Graphic file (type jpg)
 
 <use img/./resultsRbSr/liftof.jpg>
-Package pdftex.def Info: img/./resultsRbSr/liftof.jpg used on input line 735.
+Package pdftex.def Info: img/./resultsRbSr/liftof.jpg used on input line 736.
 (pdftex.def)             Requested size: 369.88582pt x 371.82713pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1374,18 +1369,18 @@ Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
-[38] <img/./results/mass_egun_laser.jpg, id=777, 2007.5pt x 1655.18375pt>
+[38]
+Overfull \vbox (1.17493pt too high) has occurred while \output is active []
+
+
+[39] <img/./results/mass_egun_laser.jpg, id=811, 1898.09125pt x 1832.8475pt>
 File: img/./results/mass_egun_laser.jpg Graphic file (type jpg)
 
 <use img/./results/mass_egun_laser.jpg>
 Package pdftex.def Info: img/./results/mass_egun_laser.jpg used on input line 7
-62.
-(pdftex.def)             Requested size: 483.69684pt x 398.79283pt.
+64.
+(pdftex.def)             Requested size: 455.24408pt x 439.58476pt.
 
-Overfull \vbox (1.17493pt too high) has occurred while \output is active []
-
-
-[39]
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
@@ -1393,7 +1388,7 @@ Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
-[41] <img/./results/au_trans_simple.jpg, id=804, 1204.5pt x 1204.5pt>
+[41] <img/./results/au_trans_simple.jpg, id=827, 1204.5pt x 1204.5pt>
 File: img/./results/au_trans_simple.jpg Graphic file (type jpg)
 
 <use img/./results/au_trans_simple.jpg>
@@ -1401,11 +1396,11 @@ Package pdftex.def Info: img/./results/au_trans_simple.jpg used on input line 7
 85.
 (pdftex.def)             Requested size: 227.62204pt x 227.60759pt.
 
-<img/./results/au_spec_new.jpg, id=806, 4015.0pt x 2302.6025pt>
+<img/./results/au_spec_new.jpg, id=829, 4015.0pt x 2302.6025pt>
 File: img/./results/au_spec_new.jpg Graphic file (type jpg)
 
 <use img/./results/au_spec_new.jpg>
-Package pdftex.def Info: img/./results/au_spec_new.jpg used on input line 795.
+Package pdftex.def Info: img/./results/au_spec_new.jpg used on input line 796.
 (pdftex.def)             Requested size: 497.92322pt x 285.54085pt.
 
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
@@ -1416,32 +1411,25 @@ Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
 [43 <./img/./results/au_spec_new.jpg>]
-<img/./results/au_specFine_new.jpg, id=820, 4015.0pt x 2302.6025pt>
+<img/./results/au_specFine_new.jpg, id=843, 4015.0pt x 2302.6025pt>
 File: img/./results/au_specFine_new.jpg Graphic file (type jpg)
 
 <use img/./results/au_specFine_new.jpg>
 Package pdftex.def Info: img/./results/au_specFine_new.jpg used on input line 8
-04.
+05.
 (pdftex.def)             Requested size: 483.69684pt x 277.38956pt.
 
-<img/./results/au_trans.jpg, id=822, 1304.875pt x 1342.01375pt>
+<img/./results/au_trans.jpg, id=845, 1304.875pt x 1342.01375pt>
 File: img/./results/au_trans.jpg Graphic file (type jpg)
 
 <use img/./results/au_trans.jpg>
-Package pdftex.def Info: img/./results/au_trans.jpg used on input line 810.
+Package pdftex.def Info: img/./results/au_trans.jpg used on input line 811.
 (pdftex.def)             Requested size: 256.0748pt x 263.36053pt.
 
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
 [44 <./img/./results/au_specFine_new.jpg>]
-<img/./results/Au_states.jpg, id=834, 1714.405pt x 1138.2525pt>
-File: img/./results/Au_states.jpg Graphic file (type jpg)
-
-<use img/./results/Au_states.jpg>
-Package pdftex.def Info: img/./results/Au_states.jpg used on input line 821.
-(pdftex.def)             Requested size: 256.0748pt x 170.0184pt.
-
 Underfull \vbox (badness 3323) has occurred while \output is active []
 
 
@@ -1449,51 +1437,54 @@ Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
 [45 <./img/./results/au_trans.jpg>]
-Overfull \vbox (1.17493pt too high) has occurred while \output is active []
+<img/./results/Au_states.jpg, id=863, 1714.405pt x 1138.2525pt>
+File: img/./results/Au_states.jpg Graphic file (type jpg)
 
+<use img/./results/Au_states.jpg>
+Package pdftex.def Info: img/./results/Au_states.jpg used on input line 822.
+(pdftex.def)             Requested size: 256.0748pt x 170.0184pt.
 
-[46 <./img/./results/Au_states.jpg>]
-<img/./results/au_spec_dimer.jpg, id=858, 2267.47125pt x 1250.6725pt>
+<img/./results/au_spec_dimer.jpg, id=870, 2267.47125pt x 1250.6725pt>
 File: img/./results/au_spec_dimer.jpg Graphic file (type jpg)
 
 <use img/./results/au_spec_dimer.jpg>
-Package pdftex.def Info: img/./results/au_spec_dimer.jpg used on input line 832
+Package pdftex.def Info: img/./results/au_spec_dimer.jpg used on input line 860
 .
 (pdftex.def)             Requested size: 455.24408pt x 251.08426pt.
 
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
-[47pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}
+[46pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.866 \newpage
-               <./img/./results/au_spec_dimer.jpg>]
-<img/./results/Cu_Ag_Au.jpg, id=872, 811.03pt x 1020.81375pt>
-File: img/./results/Cu_Ag_Au.jpg Graphic file (type jpg)
-
-<use img/./results/Cu_Ag_Au.jpg>
-Package pdftex.def Info: img/./results/Cu_Ag_Au.jpg used on input line 873.
-(pdftex.def)             Requested size: 341.43306pt x 429.75131pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+l.869 
+       <./img/./results/Au_states.jpg>]
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
-[48]
+[47 <./img/./results/au_spec_dimer.jpg>]
+Overfull \vbox (1.17493pt too high) has occurred while \output is active []
+
+
+[48] <img/./results/Cu_Ag_Au.jpg, id=903, 811.03pt x 1020.81375pt>
+File: img/./results/Cu_Ag_Au.jpg Graphic file (type jpg)
+
+<use img/./results/Cu_Ag_Au.jpg>
+Package pdftex.def Info: img/./results/Cu_Ag_Au.jpg used on input line 878.
+(pdftex.def)             Requested size: 341.43306pt x 429.75131pt.
+
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
 [49 <./img/./results/Cu_Ag_Au.jpg>]
-<img/./results/au_ag_spec.jpg, id=888, 2678.005pt x 1465.475pt>
+<img/./results/au_ag_spec.jpg, id=914, 2678.005pt x 1465.475pt>
 File: img/./results/au_ag_spec.jpg Graphic file (type jpg)
 
 <use img/./results/au_ag_spec.jpg>
-Package pdftex.def Info: img/./results/au_ag_spec.jpg used on input line 884.
+Package pdftex.def Info: img/./results/au_ag_spec.jpg used on input line 889.
 (pdftex.def)             Requested size: 540.60236pt x 295.81789pt.
 
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
@@ -1502,7 +1493,7 @@ Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 [50 <./img/./results/au_ag_spec.jpg>]
 Chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 893--894
+Underfull \hbox (badness 10000) in paragraph at lines 898--899
 
  []
 
@@ -1513,33 +1504,33 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-<img/./oven/OneBasket_NoCoolingShield.jpg, id=904, 1204.5pt x 899.36pt>
+<img/./oven/OneBasket_NoCoolingShield.jpg, id=930, 1204.5pt x 899.36pt>
 File: img/./oven/OneBasket_NoCoolingShield.jpg Graphic file (type jpg)
 
 <use img/./oven/OneBasket_NoCoolingShield.jpg>
 Package pdftex.def Info: img/./oven/OneBasket_NoCoolingShield.jpg used on input
- line 910.
+ line 915.
 (pdftex.def)             Requested size: 284.52756pt x 212.44748pt.
 
-<img/./oven/twobasket.jpg, id=905, 453.695pt x 608.2725pt>
+<img/./oven/twobasket.jpg, id=931, 453.695pt x 608.2725pt>
 File: img/./oven/twobasket.jpg Graphic file (type jpg)
 
 <use img/./oven/twobasket.jpg>
-Package pdftex.def Info: img/./oven/twobasket.jpg used on input line 916.
+Package pdftex.def Info: img/./oven/twobasket.jpg used on input line 921.
 (pdftex.def)             Requested size: 227.62204pt x 305.17503pt.
 
-<img/./oven/FullyAssembled.jpg, id=907, 1204.5pt x 953.5625pt>
+<img/./oven/FullyAssembled.jpg, id=933, 1204.5pt x 953.5625pt>
 File: img/./oven/FullyAssembled.jpg Graphic file (type jpg)
 
 <use img/./oven/FullyAssembled.jpg>
-Package pdftex.def Info: img/./oven/FullyAssembled.jpg used on input line 924.
+Package pdftex.def Info: img/./oven/FullyAssembled.jpg used on input line 929.
 (pdftex.def)             Requested size: 284.52756pt x 225.25124pt.
 
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
 [52 <./img/./oven/OneBasket_NoCoolingShield.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 933--934
+Underfull \hbox (badness 10000) in paragraph at lines 938--939
 
  []
 
@@ -1548,7 +1539,7 @@ Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
 [53 <./img/./oven/twobasket.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 941--942
+Underfull \hbox (badness 10000) in paragraph at lines 946--947
 
  []
 
@@ -1557,11 +1548,11 @@ Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
 [54 <./img/./oven/FullyAssembled.jpg>]
-<img/./oven/DSub.jpg, id=932, 788.9475pt x 90.3375pt>
+<img/./oven/DSub.jpg, id=957, 788.9475pt x 90.3375pt>
 File: img/./oven/DSub.jpg Graphic file (type jpg)
 
 <use img/./oven/DSub.jpg>
-Package pdftex.def Info: img/./oven/DSub.jpg used on input line 959.
+Package pdftex.def Info: img/./oven/DSub.jpg used on input line 964.
 (pdftex.def)             Requested size: 369.88582pt x 42.35248pt.
 
 
@@ -1580,30 +1571,30 @@ Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.994 \chapter
+l.999 \chapter
               {Programming a temperature controller in LabView}]
 Chapter 6.
 [57
 
 
 ]
-<img/./temperature/01072013_HeatUpDown.jpg, id=953, 3007.235pt x 1580.90625pt>
+<img/./temperature/01072013_HeatUpDown.jpg, id=978, 3007.235pt x 1580.90625pt>
 File: img/./temperature/01072013_HeatUpDown.jpg Graphic file (type jpg)
 
 <use img/./temperature/01072013_HeatUpDown.jpg>
 Package pdftex.def Info: img/./temperature/01072013_HeatUpDown.jpg used on inpu
-t line 1010.
+t line 1015.
 (pdftex.def)             Requested size: 512.1496pt x 269.23296pt.
 
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
 [58 <./img/./temperature/01072013_HeatUpDown.jpg>]
-<img/./labview/overview.jpg, id=960, 2918.905pt x 1166.3575pt>
+<img/./labview/overview.jpg, id=985, 2918.905pt x 1166.3575pt>
 File: img/./labview/overview.jpg Graphic file (type jpg)
 
 <use img/./labview/overview.jpg>
-Package pdftex.def Info: img/./labview/overview.jpg used on input line 1033.
+Package pdftex.def Info: img/./labview/overview.jpg used on input line 1038.
 (pdftex.def)             Requested size: 455.24408pt x 181.90475pt.
 
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
@@ -1632,11 +1623,11 @@ Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
-[64] <img/./labview/frontpanel.jpg, id=1006, 612.2875pt x 833.1125pt>
+[64] <img/./labview/frontpanel.jpg, id=1032, 612.2875pt x 833.1125pt>
 File: img/./labview/frontpanel.jpg Graphic file (type jpg)
 
 <use img/./labview/frontpanel.jpg>
-Package pdftex.def Info: img/./labview/frontpanel.jpg used on input line 1126.
+Package pdftex.def Info: img/./labview/frontpanel.jpg used on input line 1131.
 (pdftex.def)             Requested size: 284.52756pt x 387.13907pt.
 
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
@@ -1661,471 +1652,547 @@ Appendix A.
 
 
 ]
-<img/technical-drawings/blank.pdf, id=1031, page=1, 597.51233pt x 845.0471pt>
+<img/technical-drawings/blank.pdf, id=1056, page=1, 597.51233pt x 845.0471pt>
 File: img/technical-drawings/blank.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/blank.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
-line 1158.
+line 1164.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 File: img/technical-drawings/blank.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/blank.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
-line 1158.
+line 1164.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: img/technical-drawings/blank.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/blank.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
-line 1158.
+line 1164.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: img/technical-drawings/blank.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/blank.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
-line 1158.
+line 1164.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: img/technical-drawings/blank.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/blank.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
-line 1158.
+line 1164.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
  [70 <./img/technical-drawings/blank.pdf>]
-<img/technical-drawings/Aluminum_frame_oven_3D.pdf, id=1046, page=1, 597.50786p
+<img/technical-drawings/Aluminum_frame_oveninchamber_3D.pdf, id=1071, page=1, 5
+97.50786pt x 845.04686pt>
+File: img/technical-drawings/Aluminum_frame_oveninchamber_3D.pdf Graphic file (
+type pdf)
+
+<use img/technical-drawings/Aluminum_frame_oveninchamber_3D.pdf, page 1>
+Package pdftex.def Info: img/technical-drawings/Aluminum_frame_oveninchamber_3D
+.pdf, page1 used on input line 1165.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+File: img/technical-drawings/Aluminum_frame_oveninchamber_3D.pdf Graphic file (
+type pdf)
+
+<use img/technical-drawings/Aluminum_frame_oveninchamber_3D.pdf, page 1>
+Package pdftex.def Info: img/technical-drawings/Aluminum_frame_oveninchamber_3D
+.pdf, page1 used on input line 1165.
+(pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
+File: img/technical-drawings/Aluminum_frame_oveninchamber_3D.pdf Graphic file (
+type pdf)
+
+<use img/technical-drawings/Aluminum_frame_oveninchamber_3D.pdf, page 1>
+Package pdftex.def Info: img/technical-drawings/Aluminum_frame_oveninchamber_3D
+.pdf, page1 used on input line 1165.
+(pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
+File: img/technical-drawings/Aluminum_frame_oveninchamber_3D.pdf Graphic file (
+type pdf)
+
+<use img/technical-drawings/Aluminum_frame_oveninchamber_3D.pdf, page 1>
+Package pdftex.def Info: img/technical-drawings/Aluminum_frame_oveninchamber_3D
+.pdf, page1 used on input line 1165.
+(pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
+File: img/technical-drawings/Aluminum_frame_oveninchamber_3D.pdf Graphic file (
+type pdf)
+
+<use img/technical-drawings/Aluminum_frame_oveninchamber_3D.pdf, page 1>
+Package pdftex.def Info: img/technical-drawings/Aluminum_frame_oveninchamber_3D
+.pdf, page1 used on input line 1165.
+(pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
+
+[71 <./img/technical-drawings/Aluminum_frame_oveninchamber_3D.pdf>]
+File: img/technical-drawings/blank.pdf Graphic file (type pdf)
+
+<use img/technical-drawings/blank.pdf, page 1>
+Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
+line 1166.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+File: img/technical-drawings/blank.pdf Graphic file (type pdf)
+
+<use img/technical-drawings/blank.pdf, page 1>
+Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
+line 1166.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: img/technical-drawings/blank.pdf Graphic file (type pdf)
+
+<use img/technical-drawings/blank.pdf, page 1>
+Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
+line 1166.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: img/technical-drawings/blank.pdf Graphic file (type pdf)
+
+<use img/technical-drawings/blank.pdf, page 1>
+Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
+line 1166.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: img/technical-drawings/blank.pdf Graphic file (type pdf)
+
+<use img/technical-drawings/blank.pdf, page 1>
+Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
+line 1166.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+ [72]
+<img/technical-drawings/Aluminum_frame_oven_3D.pdf, id=1102, page=1, 597.50786p
 t x 845.04686pt>
 File: img/technical-drawings/Aluminum_frame_oven_3D.pdf Graphic file (type pdf)
 
 
 <use img/technical-drawings/Aluminum_frame_oven_3D.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/Aluminum_frame_oven_3D.pdf, pag
-e1 used on input line 1159.
+e1 used on input line 1167.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: img/technical-drawings/Aluminum_frame_oven_3D.pdf Graphic file (type pdf)
 
 
 <use img/technical-drawings/Aluminum_frame_oven_3D.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/Aluminum_frame_oven_3D.pdf, pag
-e1 used on input line 1159.
+e1 used on input line 1167.
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
 File: img/technical-drawings/Aluminum_frame_oven_3D.pdf Graphic file (type pdf)
 
 
 <use img/technical-drawings/Aluminum_frame_oven_3D.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/Aluminum_frame_oven_3D.pdf, pag
-e1 used on input line 1159.
+e1 used on input line 1167.
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
 File: img/technical-drawings/Aluminum_frame_oven_3D.pdf Graphic file (type pdf)
 
 
 <use img/technical-drawings/Aluminum_frame_oven_3D.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/Aluminum_frame_oven_3D.pdf, pag
-e1 used on input line 1159.
+e1 used on input line 1167.
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
 File: img/technical-drawings/Aluminum_frame_oven_3D.pdf Graphic file (type pdf)
 
 
 <use img/technical-drawings/Aluminum_frame_oven_3D.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/Aluminum_frame_oven_3D.pdf, pag
-e1 used on input line 1159.
+e1 used on input line 1167.
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
- [71 <./img/technical-drawings/Aluminum_frame_oven_3D.pdf>]
+ [73 <./img/technical-drawings/Aluminum_frame_oven_3D.pdf>]
 File: img/technical-drawings/blank.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/blank.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
-line 1160.
+line 1168.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 File: img/technical-drawings/blank.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/blank.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
-line 1160.
+line 1168.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: img/technical-drawings/blank.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/blank.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
-line 1160.
+line 1168.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: img/technical-drawings/blank.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/blank.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
-line 1160.
+line 1168.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: img/technical-drawings/blank.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/blank.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
-line 1160.
+line 1168.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
- [72]
-<img/technical-drawings/Aluminum_frame_3D.pdf, id=1077, page=1, 597.50786pt x 8
-45.04686pt>
+ [74]
+<img/technical-drawings/Aluminum_frame_3D.pdf, id=1134, page=1, 597.432pt x 845
+.07718pt>
 File: img/technical-drawings/Aluminum_frame_3D.pdf Graphic file (type pdf)
  <use img/technical-drawings/Aluminum_frame_3D.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/Aluminum_frame_3D.pdf, page1 us
-ed on input line 1161.
-(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+ed on input line 1169.
+(pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
 File: img/technical-drawings/Aluminum_frame_3D.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/Aluminum_frame_3D.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/Aluminum_frame_3D.pdf, page1 us
-ed on input line 1161.
-(pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
+ed on input line 1169.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: img/technical-drawings/Aluminum_frame_3D.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/Aluminum_frame_3D.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/Aluminum_frame_3D.pdf, page1 us
-ed on input line 1161.
-(pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
+ed on input line 1169.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: img/technical-drawings/Aluminum_frame_3D.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/Aluminum_frame_3D.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/Aluminum_frame_3D.pdf, page1 us
-ed on input line 1161.
-(pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
+ed on input line 1169.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: img/technical-drawings/Aluminum_frame_3D.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/Aluminum_frame_3D.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/Aluminum_frame_3D.pdf, page1 us
-ed on input line 1161.
-(pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
- [73 <./img/technical-drawings/Aluminum_frame_3D.pdf>]
+ed on input line 1169.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+ [75 <./img/technical-drawings/Aluminum_frame_3D.pdf>]
 File: img/technical-drawings/blank.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/blank.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
-line 1162.
+line 1170.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 File: img/technical-drawings/blank.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/blank.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
-line 1162.
+line 1170.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: img/technical-drawings/blank.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/blank.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
-line 1162.
+line 1170.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: img/technical-drawings/blank.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/blank.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
-line 1162.
+line 1170.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: img/technical-drawings/blank.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/blank.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
-line 1162.
-(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
- [74]
-<img/technical-drawings/Aluminum_frame_front.pdf, id=1108, page=1, 597.50786pt 
-x 845.04686pt>
-File: img/technical-drawings/Aluminum_frame_front.pdf Graphic file (type pdf)
- <use img/technical-drawings/Aluminum_frame_front.pdf, page 1>
-Package pdftex.def Info: img/technical-drawings/Aluminum_frame_front.pdf, page1
- used on input line 1163.
-(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
-File: img/technical-drawings/Aluminum_frame_front.pdf Graphic file (type pdf)
-
-<use img/technical-drawings/Aluminum_frame_front.pdf, page 1>
-Package pdftex.def Info: img/technical-drawings/Aluminum_frame_front.pdf, page1
- used on input line 1163.
-(pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
-File: img/technical-drawings/Aluminum_frame_front.pdf Graphic file (type pdf)
-
-<use img/technical-drawings/Aluminum_frame_front.pdf, page 1>
-Package pdftex.def Info: img/technical-drawings/Aluminum_frame_front.pdf, page1
- used on input line 1163.
-(pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
-File: img/technical-drawings/Aluminum_frame_front.pdf Graphic file (type pdf)
-
-<use img/technical-drawings/Aluminum_frame_front.pdf, page 1>
-Package pdftex.def Info: img/technical-drawings/Aluminum_frame_front.pdf, page1
- used on input line 1163.
-(pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
-File: img/technical-drawings/Aluminum_frame_front.pdf Graphic file (type pdf)
-
-<use img/technical-drawings/Aluminum_frame_front.pdf, page 1>
-Package pdftex.def Info: img/technical-drawings/Aluminum_frame_front.pdf, page1
- used on input line 1163.
-(pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
- [75 <./img/technical-drawings/Aluminum_frame_front.pdf>]
-File: img/technical-drawings/blank.pdf Graphic file (type pdf)
-
-<use img/technical-drawings/blank.pdf, page 1>
-Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
-line 1164.
-(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-File: img/technical-drawings/blank.pdf Graphic file (type pdf)
-
-<use img/technical-drawings/blank.pdf, page 1>
-Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
-line 1164.
-(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
-File: img/technical-drawings/blank.pdf Graphic file (type pdf)
-
-<use img/technical-drawings/blank.pdf, page 1>
-Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
-line 1164.
-(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
-File: img/technical-drawings/blank.pdf Graphic file (type pdf)
-
-<use img/technical-drawings/blank.pdf, page 1>
-Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
-line 1164.
-(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
-File: img/technical-drawings/blank.pdf Graphic file (type pdf)
-
-<use img/technical-drawings/blank.pdf, page 1>
-Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
-line 1164.
+line 1170.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
  [76]
-<img/technical-drawings/Aluminum_frame_side.pdf, id=1131, page=1, 597.50786pt x
- 845.04686pt>
+<img/technical-drawings/Aluminum_frame_front_ps.pdf, id=1151, page=1, 597.432pt
+ x 845.07718pt>
+File: img/technical-drawings/Aluminum_frame_front_ps.pdf Graphic file (type pdf
+)
+
+<use img/technical-drawings/Aluminum_frame_front_ps.pdf, page 1>
+Package pdftex.def Info: img/technical-drawings/Aluminum_frame_front_ps.pdf, pa
+ge1 used on input line 1171.
+(pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
+File: img/technical-drawings/Aluminum_frame_front_ps.pdf Graphic file (type pdf
+)
+
+<use img/technical-drawings/Aluminum_frame_front_ps.pdf, page 1>
+Package pdftex.def Info: img/technical-drawings/Aluminum_frame_front_ps.pdf, pa
+ge1 used on input line 1171.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: img/technical-drawings/Aluminum_frame_front_ps.pdf Graphic file (type pdf
+)
+
+<use img/technical-drawings/Aluminum_frame_front_ps.pdf, page 1>
+Package pdftex.def Info: img/technical-drawings/Aluminum_frame_front_ps.pdf, pa
+ge1 used on input line 1171.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: img/technical-drawings/Aluminum_frame_front_ps.pdf Graphic file (type pdf
+)
+
+<use img/technical-drawings/Aluminum_frame_front_ps.pdf, page 1>
+Package pdftex.def Info: img/technical-drawings/Aluminum_frame_front_ps.pdf, pa
+ge1 used on input line 1171.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: img/technical-drawings/Aluminum_frame_front_ps.pdf Graphic file (type pdf
+)
+
+<use img/technical-drawings/Aluminum_frame_front_ps.pdf, page 1>
+Package pdftex.def Info: img/technical-drawings/Aluminum_frame_front_ps.pdf, pa
+ge1 used on input line 1171.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+ [77 <./img/technical-drawings/Aluminum_frame_front_ps.pdf>]
+File: img/technical-drawings/blank.pdf Graphic file (type pdf)
+
+<use img/technical-drawings/blank.pdf, page 1>
+Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
+line 1172.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+File: img/technical-drawings/blank.pdf Graphic file (type pdf)
+
+<use img/technical-drawings/blank.pdf, page 1>
+Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
+line 1172.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: img/technical-drawings/blank.pdf Graphic file (type pdf)
+
+<use img/technical-drawings/blank.pdf, page 1>
+Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
+line 1172.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: img/technical-drawings/blank.pdf Graphic file (type pdf)
+
+<use img/technical-drawings/blank.pdf, page 1>
+Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
+line 1172.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: img/technical-drawings/blank.pdf Graphic file (type pdf)
+
+<use img/technical-drawings/blank.pdf, page 1>
+Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
+line 1172.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+ [78]
+<img/technical-drawings/Aluminum_frame_side.pdf, id=1168, page=1, 597.432pt x 8
+45.07718pt>
 File: img/technical-drawings/Aluminum_frame_side.pdf Graphic file (type pdf)
  <use img/technical-drawings/Aluminum_frame_side.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/Aluminum_frame_side.pdf, page1 
-used on input line 1165.
-(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+used on input line 1173.
+(pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
 File: img/technical-drawings/Aluminum_frame_side.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/Aluminum_frame_side.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/Aluminum_frame_side.pdf, page1 
-used on input line 1165.
-(pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
+used on input line 1173.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: img/technical-drawings/Aluminum_frame_side.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/Aluminum_frame_side.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/Aluminum_frame_side.pdf, page1 
-used on input line 1165.
-(pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
+used on input line 1173.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: img/technical-drawings/Aluminum_frame_side.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/Aluminum_frame_side.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/Aluminum_frame_side.pdf, page1 
-used on input line 1165.
-(pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
+used on input line 1173.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: img/technical-drawings/Aluminum_frame_side.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/Aluminum_frame_side.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/Aluminum_frame_side.pdf, page1 
-used on input line 1165.
-(pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
- [77 <./img/technical-drawings/Aluminum_frame_side.pdf>]
+used on input line 1173.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+ [79 <./img/technical-drawings/Aluminum_frame_side.pdf>]
 File: img/technical-drawings/blank.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/blank.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
-line 1166.
+line 1174.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 File: img/technical-drawings/blank.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/blank.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
-line 1166.
+line 1174.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: img/technical-drawings/blank.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/blank.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
-line 1166.
+line 1174.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: img/technical-drawings/blank.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/blank.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
-line 1166.
+line 1174.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: img/technical-drawings/blank.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/blank.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
-line 1166.
+line 1174.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
- [78]
-<img/technical-drawings/Werkstatt_Aluprofile.pdf, id=1154, page=1, 597.50786pt 
-x 845.04686pt>
+ [80]
+<img/technical-drawings/Werkstatt_Aluprofile.pdf, id=1186, page=1, 597.432pt x 
+845.07718pt>
 File: img/technical-drawings/Werkstatt_Aluprofile.pdf Graphic file (type pdf)
  <use img/technical-drawings/Werkstatt_Aluprofile.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/Werkstatt_Aluprofile.pdf, page1
- used on input line 1167.
-(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+ used on input line 1175.
+(pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
 File: img/technical-drawings/Werkstatt_Aluprofile.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/Werkstatt_Aluprofile.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/Werkstatt_Aluprofile.pdf, page1
- used on input line 1167.
-(pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
+ used on input line 1175.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: img/technical-drawings/Werkstatt_Aluprofile.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/Werkstatt_Aluprofile.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/Werkstatt_Aluprofile.pdf, page1
- used on input line 1167.
-(pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
+ used on input line 1175.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: img/technical-drawings/Werkstatt_Aluprofile.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/Werkstatt_Aluprofile.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/Werkstatt_Aluprofile.pdf, page1
- used on input line 1167.
-(pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
+ used on input line 1175.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: img/technical-drawings/Werkstatt_Aluprofile.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/Werkstatt_Aluprofile.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/Werkstatt_Aluprofile.pdf, page1
- used on input line 1167.
-(pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
- [79 <./img/technical-drawings/Werkstatt_Aluprofile.pdf>]
+ used on input line 1175.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+ [81 <./img/technical-drawings/Werkstatt_Aluprofile.pdf>]
 File: img/technical-drawings/blank.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/blank.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
-line 1168.
+line 1176.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 File: img/technical-drawings/blank.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/blank.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
-line 1168.
+line 1176.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: img/technical-drawings/blank.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/blank.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
-line 1168.
+line 1176.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: img/technical-drawings/blank.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/blank.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
-line 1168.
+line 1176.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 File: img/technical-drawings/blank.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/blank.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
-line 1168.
-(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
- [80]
-<img/technical-drawings/Werkstatt_Aluprofil_Einschnitt.pdf, id=1178, page=1, 59
-7.50786pt x 845.04686pt>
-File: img/technical-drawings/Werkstatt_Aluprofil_Einschnitt.pdf Graphic file (t
-ype pdf)
-
-<use img/technical-drawings/Werkstatt_Aluprofil_Einschnitt.pdf, page 1>
-Package pdftex.def Info: img/technical-drawings/Werkstatt_Aluprofil_Einschnitt.
-pdf, page1 used on input line 1169.
-(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
-File: img/technical-drawings/Werkstatt_Aluprofil_Einschnitt.pdf Graphic file (t
-ype pdf)
-
-<use img/technical-drawings/Werkstatt_Aluprofil_Einschnitt.pdf, page 1>
-Package pdftex.def Info: img/technical-drawings/Werkstatt_Aluprofil_Einschnitt.
-pdf, page1 used on input line 1169.
-(pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
-File: img/technical-drawings/Werkstatt_Aluprofil_Einschnitt.pdf Graphic file (t
-ype pdf)
-
-<use img/technical-drawings/Werkstatt_Aluprofil_Einschnitt.pdf, page 1>
-Package pdftex.def Info: img/technical-drawings/Werkstatt_Aluprofil_Einschnitt.
-pdf, page1 used on input line 1169.
-(pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
-File: img/technical-drawings/Werkstatt_Aluprofil_Einschnitt.pdf Graphic file (t
-ype pdf)
-
-<use img/technical-drawings/Werkstatt_Aluprofil_Einschnitt.pdf, page 1>
-Package pdftex.def Info: img/technical-drawings/Werkstatt_Aluprofil_Einschnitt.
-pdf, page1 used on input line 1169.
-(pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
-File: img/technical-drawings/Werkstatt_Aluprofil_Einschnitt.pdf Graphic file (t
-ype pdf)
-
-<use img/technical-drawings/Werkstatt_Aluprofil_Einschnitt.pdf, page 1>
-Package pdftex.def Info: img/technical-drawings/Werkstatt_Aluprofil_Einschnitt.
-pdf, page1 used on input line 1169.
-(pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
-
-[81 <./img/technical-drawings/Werkstatt_Aluprofil_Einschnitt.pdf>]
-File: img/technical-drawings/blank.pdf Graphic file (type pdf)
-
-<use img/technical-drawings/blank.pdf, page 1>
-Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
-line 1170.
-(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-File: img/technical-drawings/blank.pdf Graphic file (type pdf)
-
-<use img/technical-drawings/blank.pdf, page 1>
-Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
-line 1170.
-(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
-File: img/technical-drawings/blank.pdf Graphic file (type pdf)
-
-<use img/technical-drawings/blank.pdf, page 1>
-Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
-line 1170.
-(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
-File: img/technical-drawings/blank.pdf Graphic file (type pdf)
-
-<use img/technical-drawings/blank.pdf, page 1>
-Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
-line 1170.
-(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
-File: img/technical-drawings/blank.pdf Graphic file (type pdf)
-
-<use img/technical-drawings/blank.pdf, page 1>
-Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
-line 1170.
+line 1176.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
  [82]
-<img/technical-drawings/Werkstatt_Winkel.pdf, id=1215, page=1, 597.50786pt x 84
-5.04686pt>
+<img/technical-drawings/Werkstatt_Aluprofil_Einschnitt_ps.pdf, id=1204, page=1,
+ 597.432pt x 845.07718pt>
+File: img/technical-drawings/Werkstatt_Aluprofil_Einschnitt_ps.pdf Graphic file
+ (type pdf)
+
+<use img/technical-drawings/Werkstatt_Aluprofil_Einschnitt_ps.pdf, page 1>
+Package pdftex.def Info: img/technical-drawings/Werkstatt_Aluprofil_Einschnitt_
+ps.pdf, page1 used on input line 1177.
+(pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
+File: img/technical-drawings/Werkstatt_Aluprofil_Einschnitt_ps.pdf Graphic file
+ (type pdf)
+
+<use img/technical-drawings/Werkstatt_Aluprofil_Einschnitt_ps.pdf, page 1>
+Package pdftex.def Info: img/technical-drawings/Werkstatt_Aluprofil_Einschnitt_
+ps.pdf, page1 used on input line 1177.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: img/technical-drawings/Werkstatt_Aluprofil_Einschnitt_ps.pdf Graphic file
+ (type pdf)
+
+<use img/technical-drawings/Werkstatt_Aluprofil_Einschnitt_ps.pdf, page 1>
+Package pdftex.def Info: img/technical-drawings/Werkstatt_Aluprofil_Einschnitt_
+ps.pdf, page1 used on input line 1177.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: img/technical-drawings/Werkstatt_Aluprofil_Einschnitt_ps.pdf Graphic file
+ (type pdf)
+
+<use img/technical-drawings/Werkstatt_Aluprofil_Einschnitt_ps.pdf, page 1>
+Package pdftex.def Info: img/technical-drawings/Werkstatt_Aluprofil_Einschnitt_
+ps.pdf, page1 used on input line 1177.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: img/technical-drawings/Werkstatt_Aluprofil_Einschnitt_ps.pdf Graphic file
+ (type pdf)
+
+<use img/technical-drawings/Werkstatt_Aluprofil_Einschnitt_ps.pdf, page 1>
+Package pdftex.def Info: img/technical-drawings/Werkstatt_Aluprofil_Einschnitt_
+ps.pdf, page1 used on input line 1177.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+
+[83 <./img/technical-drawings/Werkstatt_Aluprofil_Einschnitt_ps.pdf>]
+File: img/technical-drawings/blank.pdf Graphic file (type pdf)
+
+<use img/technical-drawings/blank.pdf, page 1>
+Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
+line 1178.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+File: img/technical-drawings/blank.pdf Graphic file (type pdf)
+
+<use img/technical-drawings/blank.pdf, page 1>
+Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
+line 1178.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: img/technical-drawings/blank.pdf Graphic file (type pdf)
+
+<use img/technical-drawings/blank.pdf, page 1>
+Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
+line 1178.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: img/technical-drawings/blank.pdf Graphic file (type pdf)
+
+<use img/technical-drawings/blank.pdf, page 1>
+Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
+line 1178.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: img/technical-drawings/blank.pdf Graphic file (type pdf)
+
+<use img/technical-drawings/blank.pdf, page 1>
+Package pdftex.def Info: img/technical-drawings/blank.pdf, page1 used on input 
+line 1178.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+ [84]
+<img/technical-drawings/Werkstatt_Winkel.pdf, id=1221, page=1, 597.432pt x 845.
+07718pt>
 File: img/technical-drawings/Werkstatt_Winkel.pdf Graphic file (type pdf)
  <use img/technical-drawings/Werkstatt_Winkel.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/Werkstatt_Winkel.pdf, page1 use
-d on input line 1171.
-(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+d on input line 1179.
+(pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
 File: img/technical-drawings/Werkstatt_Winkel.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/Werkstatt_Winkel.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/Werkstatt_Winkel.pdf, page1 use
-d on input line 1171.
-(pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
+d on input line 1179.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: img/technical-drawings/Werkstatt_Winkel.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/Werkstatt_Winkel.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/Werkstatt_Winkel.pdf, page1 use
-d on input line 1171.
-(pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
+d on input line 1179.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: img/technical-drawings/Werkstatt_Winkel.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/Werkstatt_Winkel.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/Werkstatt_Winkel.pdf, page1 use
-d on input line 1171.
-(pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
+d on input line 1179.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: img/technical-drawings/Werkstatt_Winkel.pdf Graphic file (type pdf)
 
 <use img/technical-drawings/Werkstatt_Winkel.pdf, page 1>
 Package pdftex.def Info: img/technical-drawings/Werkstatt_Winkel.pdf, page1 use
-d on input line 1171.
-(pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
- [83 <./img/technical-drawings/Werkstatt_Winkel.pdf>] [84
+d on input line 1179.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+ [85 <./img/technical-drawings/Werkstatt_Winkel.pdf>] [86
 
 
-] (./MasterThesis.lof [85]
+] (./MasterThesis.lof [87]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
-[86]
+[88]
 Overfull \hbox (10.26187pt too wide) in paragraph at lines 31--31
  [][] [][]\T1/cmr/m/sl/12 Gotrian di-a-gram show-ing the Au ground state (5d$[]
 $6s $[]$S$[]$) and the strongest 
@@ -2138,7 +2205,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
-[87])
+[89])
 \tf@lof=\write6
 \openout6 = `MasterThesis.lof'.
 
@@ -2146,88 +2213,85 @@ Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
-[88] (./MasterThesis.lot)
+[90] (./MasterThesis.lot)
 \tf@lot=\write7
 \openout7 = `MasterThesis.lot'.
 
- [89
+ [91
 
 
-] (./MasterThesis.bbl [90
+] (./MasterThesis.bbl [92
 
 
-] [91]
-Overfull \vbox (1.17493pt too high) has occurred while \output is active []
-
-
-[92]
-Overfull \vbox (1.17493pt too high) has occurred while \output is active []
-
-
-[93]
-Underfull \vbox (badness 2277) has occurred while \output is active []
-
-
+] [93]
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
 [94]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 312.
+Underfull \vbox (badness 2486) has occurred while \output is active []
+
+
+Overfull \vbox (1.17493pt too high) has occurred while \output is active []
+
+
+[95]
+Overfull \vbox (1.17493pt too high) has occurred while \output is active []
+
+
+[96]
+Overfull \vbox (1.17493pt too high) has occurred while \output is active []
+
+
+[97]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 335.
 
  (/usr/local/texlive/2013/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 318--319
+Underfull \hbox (badness 10000) in paragraph at lines 341--342
 [][]$\T1/cmtt/m/n/12 http : / / www . produktinfo . conrad . com / datenblaette
 r / 100000-[]124999 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--322
+Underfull \hbox (badness 10000) in paragraph at lines 344--345
 [][]$\T1/cmtt/m/n/12 http : / / www . elektroautomatik . de / fileadmin / pdf /
  datasheets / datasheet _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--325
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
 [][]$\T1/cmtt/m/n/12 http : / / www . elektroautomatik . de / fileadmin / pdf /
  datasheets / datasheet _
  []
 
-
-Underfull \vbox (badness 2277) has occurred while \output is active []
-
-
+)
 Overfull \vbox (1.17493pt too high) has occurred while \output is active []
 
 
-[95])
-Overfull \vbox (1.17493pt too high) has occurred while \output is active []
-
-
-[96]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1202.
- [97
+[98]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1224.
+ [99
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1202.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1224.
  (./MasterThesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1202.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1202.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1224.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1224.
 
 Package rerunfilecheck Info: File `MasterThesis.out' has not changed.
-(rerunfilecheck)             Checksum: CA43C43443112A21428CCF6CC6D0A6EF;3060.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1202.
+(rerunfilecheck)             Checksum: 108AD60B21304658CB7C3D8BA9268994;3063.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1224.
  ) 
 Here is how much of TeX's memory you used:
- 20106 strings out of 493315
- 347338 string characters out of 6137905
- 439360 words of memory out of 5000000
- 22767 multiletter control sequences out of 15000+600000
+ 20128 strings out of 493315
+ 348036 string characters out of 6137905
+ 439571 words of memory out of 5000000
+ 22775 multiletter control sequences out of 15000+600000
  25582 words of font info for 73 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 65i,18n,71p,1452b,509s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,18n,71p,1479b,509s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
 /usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
@@ -2260,10 +2324,10 @@ onts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2013/texmf-dist/fon
 ts/type1/public/cm-super/sfsx1728.pfb></usr/local/texlive/2013/texmf-dist/fonts
 /type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2013/texmf-dist/fonts/t
 ype1/public/cm-super/sftt1200.pfb>
-Output written on MasterThesis.pdf (103 pages, 10548696 bytes).
+Output written on MasterThesis.pdf (105 pages, 17711175 bytes).
 PDF statistics:
- 1614 PDF objects out of 1728 (max. 8388607)
- 1335 compressed objects within 14 object streams
- 281 named destinations out of 1000 (max. 500000)
- 773 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1616 PDF objects out of 1728 (max. 8388607)
+ 1329 compressed objects within 14 object streams
+ 294 named destinations out of 1000 (max. 500000)
+ 798 words of extra memory for PDF output out of 10000 (max. 10000000)
 

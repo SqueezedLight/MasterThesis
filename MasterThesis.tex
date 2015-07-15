@@ -5,6 +5,7 @@
 	\usepackage[T1]{fontenc} % bessere Fontcodierung
 	\usepackage[english]{babel} %English language
 	\usepackage{textcomp} % Anfuehrungszeichen
+	\usepackage{titlesec}
 
 	\parindent0cm	%Kein Einzug bei Absaetzen
 	%%%%%% END Text related %%%%%%
@@ -121,7 +122,7 @@
 \vspace{1.5cm}
 
 \begin{Large}
-\textbf{Spectroscopy of cold atoms and molecules prepared with helium nanodroplets.}
+\textbf{Spectroscopy of cold atoms and molecules prepared with helium nanodroplets}
 \end{Large}
 
 \vspace{1cm}
@@ -140,7 +141,7 @@ Technical Physics
 
 \vspace{2cm}
 
-\includegraphics{logo-tu.png}
+\includegraphics[width=6cm]{logo_tugraz.jpg}
 
 \textbf{Graz University of Technology}
 
@@ -160,12 +161,12 @@ Graz, July 2014
 
 \section*{Zusammenfassung}
 \vspace{-0.5\baselineskip}
-Die vorliegende Arbeit besch\"aftigt sich mit der Spektroskopie des RbSr Molek\"uls und des Gold Atoms auf bzw. in Helium-Nanotr\"opfchen. Heliumtr\"opchen stellen eine nahezu ideale Umgebung f\"ur spektroskopische Untersuchungen dar. Dar\"uber hinaus erm\"oglicht diese Methode die Bildung des RbSr Molek\"uls auf einfache Art und Weise. Die vorgestellten RbSr Spektren wurden mit Resonance Enhanced Multi Photon Ionization Time-of-Flight- (REMPI-TOF) und Laser Induced Fluorescence (LIF)- Spektroskopie aufgenommen. Weiters konnte im Rahmen dieser Arbeit erstmals Gold im Heliumtropfen untersucht werden. Um die Gold-Experimente durchzuf\"uhren, wurde eine Hochtemperatur-Pickup-Quelle eingebaut und ein LabView PID- Temperaturregler programmiert.
+Die vorliegende Arbeit besch\"aftigt sich mit der Spektroskopie des RbSr Molek\"uls und des Gold Atoms auf bzw. in Helium-Nanotr\"opfchen. Heliumtr\"opchen stellen eine nahezu ideale Umgebung f\"ur spektroskopische Untersuchungen dar. Dar\"uber hinaus erm\"oglicht diese Methode die Bildung des RbSr Molek\"uls auf einfache Art und Weise. Die vorgestellten RbSr Spektren wurden mit resonanzverst\"arkter Mehrphotonenionisations Flugzeitspektroskopie und Laserinduzierter Fluoreszenzspektroskopie untersucht. Weiters konnte im Rahmen dieser Arbeit erstmals Gold im Heliumtropfen spektroskopisch untersucht werden. Um die Gold-Experimente durchzuf\"uhren wurde eine Hochtemperatur-Pickup-Quelle, f\"ur Temperaturen von bis zu $\unit[1700]{^\circ C}$, eingebaut und ein LabView PID- Temperaturregler programmiert.
 
 
 \section*{Abstract}
 \vspace{-0.5\baselineskip}
-This thesis encompasses the spectroscopy of RbSr molecules and gold atoms prepared with helium nanodroplets. Helium nanodroplets provide an almost ideal environment for spectroscopic investigations. This technique also enables the formation of the RbSr molecule on the droplet. The RbSr spectra were obtained with Resonance Enhanced Multi Photon Ionization Time-of-Flight- (REMPI-TOF) and Laser Induced Fluorescence- (LIF) spectroscopy. Furthermore, Au was investigated in helium nanodroplets for the first time. In order to dope Au atoms to He$_N$ clusters, it was necessary to implement a high-temperature pick up source, which is able to reach temperatures above $\unit[1000]{\circ C}$, as well as to program a LabView PID temperature controller.
+This thesis encompasses the spectroscopy of RbSr molecules and gold atoms prepared with helium nanodroplets. Helium nanodroplets provide an almost ideal environment for spectroscopic investigations. This technique also enables the formation of the RbSr molecule on the droplet. The RbSr spectra were obtained with Resonance Enhanced Multi-Photon Ionization Time-Of-Flight- (REMPI-TOF) and Laser Induced Fluorescence- (LIF) spectroscopy. Furthermore, Au was investigated spectroscopically in helium nanodroplets for the first time. In order to perform the gold experiments, it was necessary to implement a high-temperature pick up source which is able to reach temperatures of up to $\unit[1700]{^\circ C}$ as well as to program a LabView PID temperature controller.
 
 \newpage
 
@@ -177,11 +178,11 @@ This thesis encompasses the spectroscopy of RbSr molecules and gold atoms prepar
 \chapter{Introduction}
 %\pagenumbering{arabic}
 \setcounter{page}{1}
-In the course of this thesis two different dopants were investigated spectroscopically on and in helium nanodroplets. The helium nanodroplet method is a well established technique to isolate dopants and cool them to temperatures of about $\unit[0.37]{K}$. Helium has several properties that make the element unique for spectroscopic investigations: It is transparent from the ultra violet up to the infrared spectral range, it is superfluid below $\unit[2.18]{K}$ (at normal pressure) and interactions between helium and the investigated species are weak. \\
+In the course of this thesis two different dopants were investigated spectroscopically on and in helium nanodroplets. The helium nanodroplet method is a well established technique to isolate dopants and cool them to temperatures of about $\unit[0.37]{K}$. Helium has several properties that make the element unique for spectroscopic investigations: It is transparent from the ultra-violet up to the infrared spectral range, it is superfluid below $\unit[2.18]{K}$ (at normal pressure) and interactions between helium and dopants are weak. \\
 Spectroscopy with the helium nanodroplet technique has been used at our institute for several years and has lead to new and interesting insights into different species. %The first experiments were done with alkali atoms such as Rb, because of their simple electronic configurations (only one valence electron). The next step was the investigation of alkaline earth metals, like Ca and Sr, with two valence electrons.
-Recently our group started to investigate alkali-alkaline earth molecules such as LiCa. At the beginning of this thesis ongoing research was dedicated to the investigation of the RbSr molecule. The results, obtained with REMPI-TOF and LIF spectroscopy, are summarized in chapter \ref{chap:rbsrresults} and described in more detail in the PhD thesis of G\"unter Krois \cite{krois-doc}.
+Recently our group started to investigate alkali-alkaline earth molecules such as LiCa \cite{krois-lica}. At the beginning of this thesis ongoing research was dedicated to the investigation of the RbSr molecule. The results, obtained with REMPI-TOF and LIF spectroscopy, are summarized in chapter \ref{chap:rbsrresults} and described in more detail in the PhD thesis of G\"unter Krois \cite{krois-doc}. The theoretical calculations for the RbSr molecule were done by Johann Pototschnig.
 
-In addition, spectra for gold in helium nanodroplets were obtained with REMPI-TOF. The gold spectra were recorded in a different laboratory with a different laser system than the RbSr experiments. The differences and similarities between the two experiments are described in chapter \ref{chap:auex}. To reach high enough vapor pressures of gold, a high temperature pick up source was installed. Furthermore, a LabView PID temperature controller was programmed. The pick up source and the LabView program are described in chapters \ref{chap:goldoven} and \ref{chap:tempprogram}, respectively. The obtained gold spectra are discussed in chapter \ref{chap:aurempi}.
+In addition, spectra for gold in helium nanodroplets were obtained with REMPI-TOF spectroscopy. The gold spectra were recorded in a different laboratory and with a different laser system than the RbSr experiments. The differences and similarities between the two experiments are described in chapter \ref{chap:auex}. To reach sufficiently high vapor pressures for gold, a high temperature pick up source was installed. Furthermore, a LabView PID temperature controller was programmed. The pick up source and the LabView program are described in chapters \ref{chap:goldoven} and \ref{chap:tempprogram}, respectively. The obtained gold spectra are discussed in chapter \ref{chap:aurempi}.
 
 \chapter{Theoretical Background}
 This chapter covers the theoretical background needed to understand the experimental results given in chapter \ref{chap:results}. In the following the properties of helium, the supersonic gas expansion, cluster formation and the fundamentals of the pick up process are explained in detail. At the end of this chapter the basics of atomic and molecular denotations are briefly summed up.
@@ -202,7 +203,7 @@ It is not possible to solidify helium at normal pressure. It stays liquid starti
 
 The uncertainty principle states, that two not commuting observables cannot be measured simultaneously with arbitrary accuracy. To fulfill equation \ref{uncertainty-principle} the uncertainties of the position $\Delta x$ and momentum $\Delta p$ of the atoms within the liquid phase have to be nonzero. This also results in potential ($E_{pot} \propto x^2$) and kinetic ($E_{kin} \propto p^2$) energies greater than zero. Therefore the ground state energy, defined as $E_{pot} + E_{kin}$, has to be positive and nonzero as well. \\
 It is possible to explain why helium stays liquid under normal pressure via comparing the zero point energies of the liquid and the solid phase. For the solid phase the zero point energy is as high as $\unit[7]{meV}$ which is equivalent to a temperature of $\unit[70]{K}$ \cite{lackner}. The zero point energy of the liquid helium is below this value. Therefore the liquid phase of helium is favored. Because the zero point energy is a quantum effect, liquid helium is also called a quantum liquid. \\
-The aggregate state of helium at certain conditions (pressure, temperature) can be determined from the p-T phase diagram shown in figure \ref{he-phase-diagram} \cite{fliessbach}. The diagram shows the ambient pressure in bar over the temperature in Kelvin. Note that the phase diagram shows a fourth (superfluid) state in addition to the three expected aggregate states. At normal pressure superfluidity occurs below a transition temperature of about $T_\lambda = \unit[2.18]{K}$ \cite{toennis}.
+The aggregate state of helium at certain conditions (pressure, temperature) can be determined from the p-T phase diagram shown in figure \ref{he-phase-diagram} \cite{fliessbach}. The diagram shows the ambient pressure in bar over the temperature in Kelvin. Note that the phase diagram shows a fourth (superfluid) state in addition to the three expected aggregate states. At normal pressure superfluidity occurs below a transition temperature of about $T_\lambda = \unit[2.18]{K}$ \cite{toennis} and \cite{ernst2011}.
 \begin{figure}[ht]
 \centerline{
 \includegraphics[width=11cm]{./helium/phasediagram.jpg}}
@@ -253,8 +254,8 @@ The helium droplets are build with a method called ''supersonic gas expansion'' 
 
 \subsection{The supersonic gas expansion}
 \vspace{-1\baselineskip}
-The phase diagram in figure \ref{he-phase-diagram} shows that very low temperatures are necessary to condensate helium and form droplets. Condensation sets in when the cooling path crosses the vapor pressure curve. This is called sub critical expansion. The supersonic gas expansion is an adiabatic expansion through a nozzle with high cooling rates and particle velocities higher than the local velocity of sound (figure \ref{supersonic}). The size of the droplets follow a logarithmic normal distribution and their velocities lie within a very narrow distribution ($\frac{\Delta v}{v} \approx 0.01-0.03$, with the FWHM as $\Delta v$) \cite{scoles} \cite{scoles2}. The beam velocity depends on the stagnation conditions and lies between $200$ and $\unit[400]{m/s}$ \cite{toennis}.\\
-To reach the sub critical regime in the phase diagram, the nozzle and the gas are cooled. For gas pressures of about $\unit[60]{bar}$ the temperature has to be lower than $\unit[25]{K}$ in order to form droplets \cite{nanolab}. Temperatures of $\unit[10-16]{K}$ are common in our spectroscopic experiments. Pressure and temperature which characterize the expansion are refered to as ''stagnation conditions''. \\
+The phase diagram in figure \ref{he-phase-diagram} shows that very low temperatures are necessary to condensate helium and form droplets. Condensation sets in when the cooling path crosses the vapor pressure curve. This is called sub critical expansion. The supersonic gas expansion is an adiabatic expansion through a nozzle with high cooling rates and particle velocities higher than the local velocity of sound (figure \ref{supersonic}). The sizes of the droplets follow a logarithmic normal distribution and their velocities lie within a very narrow distribution ($\frac{\Delta v}{v} \approx 0.01-0.03$, with the FWHM as $\Delta v$) \cite{scoles} \cite{scoles2}. The beam velocity depends on the stagnation conditions and lies between $200$ and $\unit[400]{m/s}$ \cite{toennis}.\\
+To reach the sub critical regime in the phase diagram, the nozzle and the gas are cooled. For gas pressures of about $\unit[60]{bar}$ the temperature has to be lower than $\unit[25]{K}$ in order to form droplets \cite{nanolab}. Temperatures of $\unit[10-16]{K}$ are common in our spectroscopic experiments. Pressure and temperature which characterize the expansion are referred to as ''stagnation conditions''. \\
 %The supersonic gas expansion is an adiabatic process described by \ref{isentropic}, a product of temperature and volume \cite{demtr1}. $\gamma$ in the exponent of V is the adiabatic index defined in \ref{}.
 % \begin{align}  \label{isentropic}
 % T \cdot V^{\gamma -1} = const
@@ -265,7 +266,7 @@ The nozzle typically has a diameter of about $\unit[5]{\mu m}$. Gaseous and very
 \frac{p_0}{p_a} \geq \left(\frac{\gamma + 1}{2}\right)^{\frac{\gamma}{\gamma - 1}}.
 \end{align}
 
-The ratio between $p_0$ and $p_a$ is typically in the order of $10^8$. $\gamma$ is the adiabatic exponent of the gas. It is defined as the quotient of specific heat capacity at constant pressure $c_p$ and the specific heat capacity at constant volume $c_V$. This can also be expressed through the degrees of freedom $f$ of gas particles. For helium, equation \ref{adiabatic-exponent} gives $\gamma = 5/3$.
+The ratio between $p_0$ and $p_a$ is typically in the order of $10^8$. $\gamma$ is the adiabatic exponent of the gas. It is defined as the ratio of specific heat capacity at constant pressure $c_p$ and the specific heat capacity at constant volume $c_V$. This can also be expressed through the degrees of freedom $f$ of gas particles. For helium, equation \ref{adiabatic-exponent} gives $\gamma = 5/3$.
 
 \begin{align}  \label{adiabatic-exponent}
 \gamma = \frac{c_p}{c_V} = \frac{f+2}{f}
@@ -275,7 +276,7 @@ The zone between nozzle and mach disk is called zone of silence. The zone marks 
 
 \begin{figure}[ht]
 \centerline{
-\includegraphics[width=13cm]{./expansion/supersonic-expansion.jpg}}
+\includegraphics[width=13cm]{./expansion/supersonic-expansion_sharp.jpg}}
 \captionabove{\label{supersonic} \textsl{Supersonic gas expansion with different velocity regimes expressed in units of M, the Mach number \cite{nagl}. The zone of silence marks the regime from the nozzle to the Mach disk.}}
 \end{figure}
 
@@ -305,7 +306,7 @@ During the expansion the gas cools down with very high cooling rates of about $\
 z_S = 0.125d\left(\frac{d}{\lambda_0}\frac{p_0}{p_a}\right)^{1/3}.
 \end{align}
 
-$z_S$ is the position of the skimmer and lies within the zone of silence. $\lambda_0$ is the mean free path of the particles. An qualitative illustration of the skimmer position is given in figure \ref{exp-with-skimmer} from \cite{skimmer-pos}. Note that the dashed line marks the zone of silence.
+$z_S$ is the position of the skimmer and lies within the zone of silence. $\lambda_0$ is the mean free path of the particles. A qualitative illustration of the skimmer position is given in figure \ref{exp-with-skimmer} from \cite{skimmer-pos}. Note that the dashed line marks the zone of silence.
 
 After dealing with droplet formation and extraction the following section will provide details about the size distribution of helium droplets.
 
@@ -315,10 +316,10 @@ After dealing with droplet formation and extraction the following section will p
 During a supersonic gas expansion cooling is caused by particle collisions. After about $1000$ nozzle diameters ($\unit[5]{mm}$ for a $\unit[5]{\mu m}$ orifice) collisions between helium atoms get very rare and the beam consists of helium droplets and single atoms. The droplets within the beam do not grow anymore through condensation, but cooling still takes place due to evaporation of helium atoms. This process cools the droplet to a very stable final temperature of $\unit[0.37]{K}$ (figure \ref{cluster-formation}).
 \begin{figure}[ht]
 \centerline{
-\includegraphics[width=12cm]{./expansion/cluster-formation.jpg}}
+\includegraphics[width=12cm]{./expansion/cluster-formation_sharp.jpg}}
 \captionabove{\label{cluster-formation} \textsl{a) Cluster formation within a distance of about $1000$ nozzle diameters ($\unit[5]{mm}$). b) Clusters are cooled further through evaporation of helium atoms. The exponential decay of the temperature over time is shown in the diagram. Note that the final temperatures for $^3He$ and $^4He$ are different. \cite{toennis} }}
 \end{figure}\\
-The droplet temperature was first determined by Goyal, Schutt and Scoles in 1993 \cite{he-temp}. They calculated the temperature from the rotational infrared spectrum of the $SF_6$ molecule inside a helium droplet. Because the occupation of rotational levels follows a Boltzmann distribution, which is temperature dependent, they were able to determine the temperature from this spectrum. The calculations gave a droplet temperature of $\unit[0.37]{K}$, definitely in the superfluid regime of the p-T phase diagram shown in figure \ref{he-phase-diagram}. The high specific heat, which comes with superfluidity, and evaporation cooling are the reasons why this temperature is so stable during experiments. Because the helium droplets are transparent for infrared and ultraviolet light it is not possible to heat them noteworthy with lasers used in our experiments \cite{laser-heating}.
+The droplet temperature was first determined by Hartmann, Miller, Toennis and Vilesov \cite{he-tempNew}. They calculated the temperature from the rotational infrared spectrum of the $SF_6$ molecule inside a helium droplet. Because the occupation of rotational levels follows a Boltzmann distribution, which is temperature dependent, they were able to determine the temperature from this spectrum. The calculations gave a droplet temperature of $\unit[0.37]{K}$, definitely in the superfluid regime of the p-T phase diagram shown in figure \ref{he-phase-diagram}. The high specific heat, which comes with superfluidity, and evaporation cooling are the reasons why this temperature is so stable during experiments. Because the helium droplets are transparent for infrared and ultraviolet light it is not possible to heat them noteworthy with lasers used in our experiments \cite{laser-heating}.
 
 The cluster size distribution is a logarithmic normal distribution and can be calculated with formula \ref{lognormalformula} taken from \cite{speed-distr}. With typical stagnation conditions ($p_0 = \unit[60]{bar}$, $T_{nozzle} = \unit[15]{K}$) the distribution has its maximum at about $10^4$ atoms per cluster. In the formula the average cluster size $\bar{N}$ can be used for the mean value $\mu$ and the standard deviation $\sigma$ can be calculated from the half width $\Delta N_{1/2}$ (see \cite{speed-distr}). Note that $\bar{N}$ and $\Delta N_{1/2}$ are comparable in value as table \ref{cluster-values} shows.
 \begin{align}  \label{lognormalformula}
@@ -367,7 +368,7 @@ P(n|\lambda) = \exp(-\lambda) \frac{\lambda^n}{n!}.
 
 Formula \ref{poisson} gives the probability to pick up n atoms. $\lambda$ is the expectation value of pick up processes ( ref. \cite{vdl}) which is correlated to the droplet size (geometrical cross section), the length of the pick up cell and the vapor pressure of the dopant.
 
-Once an atom is picked up it is located within the helium cluster or on its surface \cite{pickup-desc}. If a second atom is picked up, their long reach van der Waals forces cause attraction between them and dimerization follows. This process is repeated for every subsequently added atom which leads to the formation of clusters of the species. This process takes place in very short time scales of $\unit[10^{-8} - 10^{-10}]{s}$ \cite{toennis}. During the formation, binding energy is set free and causes evaporation of helium atoms. After the molecule is formed and stabilized, helium evaporation cools the system to $\unit[0.37]{K}$. In this way the helium droplet works as a personal nanosized cryostat for foreign atoms or molecules. \cite{evap-cryo}
+Once an atom is picked up it is located within the helium cluster or on its surface \cite{pickup-desc}. If a second atom is picked up, their long reaching van der Waals forces cause attraction between them and dimerization follows. This process is repeated for every subsequently added atom which leads to the formation of clusters of the species. This process takes place in very short time scales of $\unit[10^{-8} - 10^{-10}]{s}$ \cite{toennis}. During the formation, binding energy is set free and causes evaporation of helium atoms. After the molecule is formed and stabilized, helium evaporation cools the system to $\unit[0.37]{K}$. In this way the helium droplet works as a personal nanosized cryostat for foreign atoms or molecules. \cite{evap-cryo} and \cite{ernst2011}
 
 \begin{figure}[ht]
 \centerline{
@@ -392,7 +393,7 @@ This section covers the theoretical background for our spectroscopic investigati
 
 \subsection{Atoms}
 \vspace{-1\baselineskip}
-In case of atoms every state can be characterized with four quantum numbers n, l, s and j. This is only true if no electric or magnetic fields are applied. For all further considerations external fields are neglected. \\
+In case of atoms every state can be characterized with four quantum numbers n, l, s and j. This is only true if no electric or magnetic fields are applied. For all further considerations external fields are neglected \cite{demtr3}. \\
 If quantum numbers are written in lower case letters they describe the state of a single electron whereas quantum numbers in capital letters (L, S, J) describe atomic states.
 From all atoms the hydrogen atom is the most simple to describe. It has only one valence electron and can be described without electron-electron interactions within a model where energy levels only depend on the principal quantum number n. The different energies are then calculated via formula \ref{en}. This is equivalent to the Bohr atomic model \cite{vdl-fqm}.
 
@@ -432,7 +433,7 @@ The excited electron has the principal quantum number $n = 2$. The elevated 3 me
 
 \begin{figure}[ht]
 \centerline{
-\includegraphics[width=2.5cm]{./spectroscopy/simple-triplet.jpg}}
+\includegraphics[width=2.5cm]{./spectroscopy/simple-triplet_sharp.jpg}}
 \captionabove{\label{simple-triplet} \textsl{The three possibilities to reach $S = 1$ with two electrons. The resulting spin vectors are different in direction but have the same value. Modified from \cite{hertel2008}.  }}
 \end{figure}
 
@@ -469,7 +470,7 @@ Spectral lines of free atoms are the result of electronic transitions within the
 
 \subsubsection{The diatomic molecule}
 \vspace{-1\baselineskip}
-Molecules with two atoms are known as ''diatomic molecules''. The axis leading directly from one nuclei to the other is called the internuclear axis and is defined as the z-axis. Every electronic state in a diatomic molecule is represented by a potential energy curve. Common energy potentials are the Lennard-Jones or the Morse potential. Figure \ref{molpot} shows the Morse potential (morse) in comparison with the most simplified model, the harmonic oscillator (parabel). The third energy potential (real) in figure \ref{molpot} is the actual potential for Na$_2$.
+Molecules with two atoms are known as ''diatomic molecules''. The axis leading directly from one nucleus to the other is called the internuclear axis and is defined as the z-axis. Every electronic state in a diatomic molecule is represented by a potential energy curve. Common energy potentials are the Lennard-Jones or the Morse potential. Figure \ref{molpot} shows the Morse potential (Morse) in comparison with the most simplified model, the harmonic oscillator (Parabel). The third energy potential (real) in figure \ref{molpot} is the actual potential for Na$_2$.
 The Lennard-Jones and the Morse potential are different mathematical approximations. Especially the Morse potential is often used for modeling diatomic molecules. The harmonic oscillator, as the most simple approach, omits unbound states (it is a parabola with infinite height) and the anharmonic shape of real energy potentials. However it can serve as an approximation for low vibrational states.
 
 \begin{figure}[ht]
@@ -478,7 +479,7 @@ The Lennard-Jones and the Morse potential are different mathematical approximati
 \captionabove{\label{molpot} \textsl{Comparison of harmonic, Morse and a real energy potential (Na$_2$). Modified from \cite{demtrodermol} }}
 \end{figure}
 
-Various vibrational and rotational states lie within each potential energy curve. Vibrational states are usually denoted with $\nu$, the vibrational quantum number. The energy difference between neighboring vibrational levels decreases with energy. To every vibrational level belong several rotational levels. Figure \ref{vibrotpot} illustrates two different electronic states with vibrational and rotational levels (in the gray rectangles).
+Various vibrational and rotational states lie within each potential energy curve. Vibrational states are usually denoted with $\nu$, the vibrational quantum number. The energy difference between neighboring vibrational levels decreases with energy. To every vibrational level several rotational levels belong. Figure \ref{vibrotpot} illustrates two different electronic states with vibrational and rotational levels (in the gray rectangles).
 
 \begin{figure}[ht]
 \centerline{
@@ -496,7 +497,7 @@ In this section the characteristic quantum numbers for molecules are first intro
 
 
 \underline{One electron systems} \\
-In the previous section about atoms we differentiated between two coupling schemes (LS- and jj-coupling). For molecules five coupling schemes, called Hund's case (a)-(e), exist. Which Hund's case the molecule describes best, depends on the dominant interaction. Three interactions have to be taken into account: electrostatic, spin-orbit and rotational interactions.
+In the previous section about atoms we differentiated between two coupling schemes (LS- and jj-coupling). For molecules five coupling schemes, called Hund's case (a)-(e), exist. Which Hund's case  describes the molecule best, depends on the dominant interaction. Three interactions have to be taken into account: electrostatic, spin-orbit and rotational interactions.
 %In diatomic molecules with only one valence electron the precessing $\boldsymbol{\ell}$ causes a cylindrical magnetic field in z direction in which the spin of the electron aligns (figure \ref{molden}).
 For nuclei with low atomic numbers the interactions between $\boldsymbol{\ell}$ and $\mathbf{s}$ are weak. This is described by Hund's case (a). In this case both vectors precess independently around the z-axis. As conserved quantities the two quantum numbers $\lambda$ and $\sigma$ are introduced as projections of $\boldsymbol{\ell}$ and $\mathbf{s}$ onto the z-axis. Their values are $\lambda \hbar$ and $\sigma \hbar$. Figure \ref{molden} illustrates Hund's case (a) for a molecule with one valence electron.
 
@@ -542,9 +543,9 @@ The notation of an electronic state of a diatomic molecule is written with the t
 X^{2S+1}\Lambda_{\Omega}
 \end{align}
 
-Note that the capital letter (X) replaced the principal quantum number n known from the atom section. The molecular denotation uses capital letters (A,B,C,...) to notate states reachable from the ground state. States not reachable are denoted with lower case letters (a,b,c,...). The ground state is denoted with X.
+Note that the capital letter (X) replaced the principal quantum number n known from the atom section. The molecular denotation uses capital letters (A,B,C,...) to notate states reachable from the ground state by electric dipole transitions. States not reachable are denoted with lower case letters (a,b,c,...). The ground state is denoted with X.
 
-The selection rules for transitions in molecules are:
+The selection rules for electric dipole transitions in molecules are:
 
 \begin{enumerate}
 \item $\Delta \Lambda = 0, \pm 1$
@@ -556,7 +557,7 @@ The selection rules for transitions in molecules are:
 
 \chapter{Experimental Setup}
 \label{chap:expsetup}
-This chapter describes the experimental setup of the apparatus in Cluster Lab I, used for the RbSr experiments. A throughout discussion of this setup is given in ref. \cite{nagl}. The setup of the apparatus in Cluster Lab III, used for the gold experiments, is described in chapters \ref{chap:results} and \ref{chap:goldoven}.
+This chapter describes the experimental setup of the apparatus in Cluster Lab I, used for the RbSr experiments. A thorough discussion of this setup is given in ref. \cite{nagl}. The setup of the apparatus in Cluster Lab III, used for the gold experiments, is described in chapters \ref{chap:results} and \ref{chap:goldoven}.
 
 The apparatus consists of three chambers which are shown in figure \ref{apparatus-scheme}.
 
@@ -613,17 +614,17 @@ Figure \ref{pickup-chamber} shows the arrangement within the chamber with choppe
 \end{figure}
 
 The first cell is used for doping with gaseous dopants. It is designed as a steel cylinder with an external gas inlet. Because the dopants are already gaseous no heating is required in this case.
-In contrast to this cell type the other two pick up cells in figure \ref{pickup-chamber} are able to evaporate solid species. The alkalie metal oven is a steel cylinder with a reservoir for solid species. The cell is connected to an external power supply, controlled by an Eurotherm temperature controller. \\
+In contrast to this cell type the other two pick up cells in figure \ref{pickup-chamber} are able to evaporate solid species. The alkali metal oven is a steel cylinder with a reservoir for solid species. The cell is connected to an external power supply, controlled by an Eurotherm temperature controller. \\
 The alkaline earth metal oven, designed by G\"unter Krois, provides several improvements of the steel cylinder type, discussed in detail in \cite{krois}. It is made out of copper to react faster to changes of the heating current and to be more efficient. The cell has a temperature shield, which is connected to a thick copper wire transporting heat outside of the apparatus. The shield minimizes the influence on cells nearby which is important because the available room in the pick up chamber is very limited.
 
-A turbo molecular pump holds the vacuum pressure in the chamber at $\unit[10^{-7}]{mbar}$. Vapor pressures in the pick up cells of about $\unit[10^{-3}-10^{-4}]{mbar}$ are sufficient for the pick up process. In the case of Rubidium and Strontium, cell temperatures of $\unit[\approx 80]{^\circ C}$ and $\unit[\approx 420]{^\circ C}$ are needed to reach those pressures.
+A turbo molecular pump holds the vacuum pressure in the chamber at $\unit[10^{-7}]{mbar}$. Vapor pressures in the pick up cells of about $\unit[10^{-3}-10^{-4}]{mbar}$ are sufficient for the pick up process. In the case of rubidium and strontium, cell temperatures of $\unit[\approx 80]{^\circ C}$ and $\unit[\approx 420]{^\circ C}$ are needed to reach those pressures.
 
 After the doping process, the droplets enter the detection chamber where the experiments are performed.
 
 
 \section{Detection chamber}
 \vspace{-1\baselineskip}
-The detection chamber is equipped with the measuring devices and is the last of the three subsequent chambers. A set of pumps hold the vacuum pressure of the chamber in the low range of $\unit[10^{-7}]{mbar}$. Figure \ref{detection-chamber} shows the arrangement of the LIF spectrometer and the TOF and QMS mass spectrometer.
+The detection chamber is equipped with the measuring devices and is the last of the three subsequent chambers. A set of pumps holds the vacuum pressure of the chamber in the low range of $\unit[10^{-7}]{mbar}$. Figure \ref{detection-chamber} shows the arrangement of the LIF spectrometer and the TOF and QMS mass spectrometers.
 
 \begin{figure}[ht]
 \centerline{
@@ -640,7 +641,7 @@ The QMS is located at the end of the apparatus and was mainly used to align the 
 %The quadrupole mass spectrometer (QMS) is at the end of the apparatus (in beam direction) and is mainly used to align the helium droplet beam. A QMS uses an inhomogeneous electrical field, established by four parallel plates, which selects ions according to their m/q ratio.
 
 The measuring methods, relevant for this work, are explained in the following.
-
+\newpage
 \section{Measuring methods}
 \label{chap:methods}
 \vspace{-1\baselineskip}
@@ -650,15 +651,15 @@ In this section an overview of LIF spectroscopy and REMPI-TOF mass spectroscopy 
 \subsection{REMPI-TOF spectroscopy}
 \vspace{-1\baselineskip}
 %\underline{REMPI-TOF} \\
-REMPI-TOF spectroscopy (Resonance Enhanced Multi Photon Ionization) was used in order to record excitation spectra in the RbSr and Au experiments. Neutral dopants on the helium droplet are ionized by incident laser photons. Ionization is either possible via an one-, two- or multi photon processes. In a one photon process, a single photon ionizes an atom or molecule directly from the ground state. In a two photon process the first photon excites into a virtual or resonant intermediate state while the second photon ionizes. If the excited intermediate state is a real atomic or molecular state the process is called resonant (resonant two photon ionization - R2PI). The ionization probability is much higher via resonant states with high life-times. Ideally the life-time is higher than the pulse duration of the laser. %The transition rate for multi photon processes can be increased with higher laser powers. While the transition rate for one photon processes is linear to the laser power it is quadratic for two photon processes: $P \propto I^2$.
+REMPI-TOF spectroscopy (Resonance Enhanced Multi Photon Ionization) was used in order to record excitation spectra in the RbSr and Au experiments. Neutral dopants on the helium droplet are ionized by incident laser photons. Ionization is either possible via one-, two- or multi photon processes. In a one photon process, a single photon ionizes an atom or molecule directly from the ground state. In a two photon process the first photon excites into a virtual or resonant intermediate state while the second photon ionizes. If the excited intermediate state is a real atomic or molecular state the process is called resonant (resonant two photon ionization - R2PI). The ionization probability is much higher via resonant states with long life-times. Ideally the life-time is longer than the pulse duration of the laser. %The transition rate for multi photon processes can be increased with higher laser powers. While the transition rate for one photon processes is linear to the laser power it is quadratic for two photon processes: $P \propto I^2$.
 
 %\underline{REMPI-TOF} \\
-For the experiments presented in this thesis, the two photon process via resonant energy levels is the most relevant one. In this case the wavelength of a tunable laser (Lambda Physik FL 3002 or Coherent Indigo-S) is tuned across resonant energy states. A second laser photon ionizes the atom from the resonant state. Ionization is done either with a fraction of the intensity of the pump laser (Radiant Dyes RD-EXC 200 XeCl laser, $\unit[308]{nm}$) or with a second photon of the dye laser. During the ionization process, the dopants desorb from the droplets and are subsequently extracted by the electric field of the TOF. The TOF accelerates the ions towards a detector where they arrive at different time intervals. Ions per time-intervall are counted. The time of flight is measured from the beginning of each laser pulse. Typically the laser is operated with a frequency of $\unit[100]{Hz}$ ($\unit[5]{kHz}$ in case of the Indigo-S) and triggers the counter of the TOF. In case the dye laser excites into a resonant state the ion yield increases, resulting in an excitation spectrum of the dopant in a specific spectral range. \\
+For the experiments presented in this thesis, the two photon process via resonant energy levels is the most relevant one. In this case the wavelength of a tunable laser (Lambda Physik FL 3002 or Coherent Indigo-S) is tuned across resonant energy states. A second laser photon ionizes the atom from the resonant state. Ionization is done either with a fraction of the intensity of the pump laser (Radiant Dyes RD-EXC 200 XeCl laser, $\unit[308]{nm}$) or with a second photon of the dye laser. During the ionization process, the dopants desorb from the droplets and are subsequently extracted by the electric field of the TOF. The TOF accelerates the ions towards a detector where they arrive at different time intervals. Ions per time-intervall are counted. The time of flight is measured from the beginning of each laser pulse. Typically the laser is operated with a repetition frequency of $\unit[100]{Hz}$ ($\unit[5]{kHz}$ in case of the Indigo-S) and triggers the counter of the TOF. In case the dye laser excites into a resonant state the ion yield increases, resulting in an excitation spectrum of the dopant in a specific spectral range. \\
 Note that for better resolutions the TOF is operated in reflectron mode. Figure \ref{tof-ref} shows the TOF set up in reflectron and linear mode. \\
 
 \begin{figure}[ht]
 \centerline{
-\includegraphics[width=8cm]{./measuring_methods/tof-lin-ref.jpg}}
+\includegraphics[width=7cm]{./measuring_methods/tof-lin-ref.jpg}}
 \captionabove{\label{tof-ref} \textsl{a) TOF in linear mode and b) in reflectron mode. Taken from \cite{krois}. }}
 \end{figure}
 %In our experiments the dye laser is not set to a fixed wavelength. Instead the laser is scanned over a certain wavelength range where transitions are assumed. The transition rate and therefore the ionization rate is much higher for wavelengths meeting the energy difference of real states. This increase in the ion yield is detected with the TOF spectrometer. In that way the REMPI-TOF method let us find new transitions and gives us a good starting point for further investigations via LIF spectroscopy.
@@ -670,11 +671,11 @@ When recording excitation spectra a laser is scanned over resonant states. Figur
 
 \begin{figure}[ht]
 \centerline{
-\includegraphics[width=6cm]{./measuring_methods/lif-vib.jpg}}
-\captionabove{\label{lif-vib} \textsl{Relaxation from an excited state into the vibrational ground state. Taken from \cite{demtr-laser}. }}
+\includegraphics[width=5cm]{./measuring_methods/lif-vib.jpg}}
+\captionabove{\label{lif-vib} \textsl{Relaxation from an excited state into vibrational levels of the ground state. Taken from \cite{demtr-laser}. }}
 \end{figure}
 
-To investigate the relaxation process in more detail, dispersed fluorescence spectroscopy is used. For this experiments the PMT is exchanged by a grating spectrograph. A cw dye laser is used for high intensities at a specific wavelength. The cw laser excites exclusively into resonant states.
+To investigate the relaxation process in more detail, dispersed fluorescence spectroscopy is used. For this experiment, the PMT is exchanged by a grating spectrograph. A cw dye laser is used for high intensities at a specific wavelength. The cw laser excites exclusively into resonant states.
 \begin{figure}[ht]
 \centerline{
 \includegraphics[width=9cm]{./measuring_methods/lif-setup.jpg}}
@@ -688,7 +689,7 @@ Note that a reflector underneath the interaction zone increases the number of ph
 \chapter{Experimental Results}
 \label{chap:results}
 \vspace{-1\baselineskip}
-This chapter informs about the results of our experiments, carried out in the course of this thesis. The first part of the chapter is dedicated to the RbSr experiments in Cluster Lab I. The second part reports on the results of the gold experiments done in Cluster Lab III. Although different experimental setups were used in the laboratories, this chapter presents REMPI-TOF spectra for RbSr as well as for Gold on and in He$_N$. Differences in the experimental setup are described in section \ref{chap:auex} and chapter \ref{chap:goldoven}.
+This chapter informs about the results of our experiments, carried out in the course of this thesis. The first part of the chapter is dedicated to the RbSr experiments in Cluster Lab I. The second part reports on the results of the gold experiments done in Cluster Lab III. While different experimental setups were used in the laboratories, this chapter presents REMPI-TOF spectra for RbSr as well as for Gold on and in He$_N$. Differences in the experimental setup are described in section \ref{chap:auex} and chapter \ref{chap:goldoven}.
 
 \section{RbSr Experiments}
 \label{chap:rbsrresults}
@@ -699,7 +700,7 @@ All experiments regarding the RbSr molecule were performed in Cluster Lab I at t
 RbSr is an alkali-alkaline earth molecule which is hard to form and to investigate. The helium nanodroplet method enables the formation of the molecule on the surface of the cluster. The two atoms are picked up sequentially by the droplet and their long-reaching van der Waals forces lead to attraction, followed by formation of the molecule. The binding energy freed by this process ($\approx \unit[1000]{cm^{-1}}$, ref. \cite{zuchowski}) causes evaporation of about 200 helium atoms - assuming $\unit[5]{cm^{-1}}$ binding energy between a helium atom and the droplet (ref. \cite{toennis}). Both atoms have several isotopes which makes the mass spectra more complex. The natural isotope distribution of Rb is $72.18\%$-$^{85}$Rb and $27.82\%$-$^{87}$Rb. Sr has three isotopes with an isotopic abundance of $9.86\%$-$^{86}$Sr, $7.0\%$-$^{87}$Sr and $82.58\%$-$^{88}$Sr, see ref \cite{crc}. Therefore mass peaks for dimers and diatomic molecules in the REMPI spectrum can contain contributions from more than only two specific isotopes. This is shown in figure \ref{rbsrmasses}. The green bars illustrate the percentage of Rb atoms whereas the magenta ones show the contribution of Sr atoms. The blue bars in the right diagram represent the RbSr molecule. The mass spectrum shown in figure \ref{rbsrmasses} was taken during the REMPI-TOF recording of the $4 ^2\Sigma^+ \leftarrow X ^2\Sigma^+$ transition.
 \begin{figure}[ht]
 \centerline{
-\includegraphics[width=12cm]{./resultsRbSr/rbsr_masses.jpg}}
+\includegraphics[width=16cm]{./resultsRbSr/rbsr_masses.pdf}}
 \captionabove{\label{rbsrmasses} \textsl{Example of a REMPI-TOF mass spectrum showing Rb and Sr monomers on the left and dimers and the RbSr molecule on the right. The black graph is the ion yield recorded with the TOF-spectrometer. The green and magenta bars show the contribution of the atoms Rb and Sr respectively, whereas the blue bars represent the RbSr molecule. Taken from ref. \cite{paperkrois} }}
 \end{figure}
 
@@ -714,14 +715,14 @@ During the experiments we found an optimum pickup temperature of about $\unit[80
 The overview in figure \ref{rbsroverview} shows several transitions within the available spectral range. The gray graph represents the data points whereas the black line corresponds to the smoothed data. Red and blue are the products of the Franck-Condon factors (FCF) times the squared transition dipole moment (TDM) for the $\Sigma$ and $\Pi$ states. In the following this product is referred to as ''transition probability''. The calculated transition probabilities make it possible to assign peaks to transitions. \\
 The $4 ^2\Sigma^+ \leftarrow X ^2\Sigma^+$ transition is the only vibrationally resolved one and is described in more detail in the end of this section. The other transitions, denoted in figure \ref{rbsroverview}, appear as broad structures which do not allow the identification of individual features. The double peak at $\unit[12000]{cm^{-1}}$ is in agreement with the theoretical transition probabilities (shown as red and blue bars) suggesting two overlapping transitions. The peak at lower energy is identified as the $2 ^2\Pi \leftarrow X ^2\Sigma^+$ transition. The peak at higher energy corresponds to the $3 ^2\Sigma^+ \leftarrow X ^2\Sigma^+$ transition. Both transitions correlate to the atomic asymptote of the energies of the Rb 5s $^2$S ground state and the Sr 5s5p $^3$P excited state (figure \ref{rbsrpot}). \\
 The structure at $\unit[15000]{cm^{-1}}$ is assigned to the $3 ^2\Pi \leftarrow X ^2\Sigma^+$ transition. \\
-For excited states above $\unit[16000]{cm^{-1}}$ figure \ref{rbsroverview} shows that the results of experiment and theoretical calculations differ. We know that the theoretical calculations overestimate the $4 ^2\Pi \leftarrow X ^2\Sigma^+$ transition and underestimate the $6 ^2\Sigma \leftarrow X ^2\Sigma^+$. The proximity of Rb and Sr levels in this energy range and an increasing density of molecular states make theoretical calculations increasingly difficult. The known deviations for the two transitions are in good accordance to the experimental results. The $4 ^2\Pi \leftarrow X ^2\Sigma^+$ transition is overestimated by about $\unit[1000]{cm^{-1}}$ whereas the $6 ^2\Sigma \leftarrow X ^2\Sigma^+$ is underestimated by about $\unit[200]{cm^{-1}}$.
+For excited states above $\unit[16000]{cm^{-1}}$, figure \ref{rbsroverview} shows that the results of experiment and theoretical calculations differ. We know that the theoretical calculations overestimate the $4 ^2\Pi \leftarrow X ^2\Sigma^+$ transition and underestimate the $6 ^2\Sigma \leftarrow X ^2\Sigma^+$. The proximity of Rb and Sr levels in this energy range and an increasing density of molecular states make theoretical calculations increasingly difficult. The known deviations for the two transitions are in good accordance to the experimental results. The $4 ^2\Pi \leftarrow X ^2\Sigma^+$ transition is overestimated by about $\unit[1000]{cm^{-1}}$ whereas the $6 ^2\Sigma \leftarrow X ^2\Sigma^+$ is underestimated by about $\unit[200]{cm^{-1}}$.
 
 Figure \ref{rbsrpot} shows the potential energy curves for the $\Pi$ and $\Sigma$ states of the RbSr molecule in the investigated energy range, ref. \cite{krois-doc}. The minimum of the RbSr ground state is at $\unit[-1000]{cm^{-1}}$. The excited $\Sigma$ states are denoted in the graphic (red curves). The lowest $\Pi$ states are the $1 \ ^2\Pi$ state with the potential minimum at about $\unit[3750]{cm^{-1}}$ and the $2 \ ^2\Pi$ state with the minimum at $\unit[10000]{cm^{-1}}$. The corresponding atomic asymptotes are denoted on the right side of the graphic.
 
 \begin{figure}[ht]
 \centerline{
 \includegraphics[width=16cm]{./resultsRbSr/MolSpec_PECs.pdf}}
-\captionabove{\label{rbsrpot} \textsl{Potential energy curves of the RbSr molecule in the investigated energy range. Red curves represent the $\Sigma$ states and blue curves the $\Pi$ states. Taken from \cite{krois-doc} }}
+\captionabove{\label{rbsrpot} \textsl{Potential energy curves of the RbSr molecule in the investigated energy range. Red curves represent the $\Sigma$ states and blue curves the $\Pi$ states. Taken from \cite{johann-doc} }}
 \end{figure}
 
 \newpage
@@ -743,12 +744,12 @@ Section b) in figure \ref{toflif} shows the LIF spectrum of the vibrational tran
 \section{Au experiments}
 \vspace{-1\baselineskip}
 \label{chap:auex}
-Gold is an outstanding material among the metal atoms and has many technical applications in electronics, optics and material science. With the rise of nanotechnology gold attracted even more interest, especially in the field of life sciences (see refs. \cite{biogold1}, \cite{biogold2}). Fundamental research on gold can therefore yield to benefits in several scientific fields, not only physics. Despite these promising prospects, spectroscopic data for gold atoms in helium nanodroplets are not available. Moroshkin et al. presented emission spectra in solid and liquid helium matrices, but did not include an investigation of the strongest $^2P^o_{1/2} \leftarrow \ ^2S_{1/2}$ transition \cite{moroshkin}. In contrast, the elements silver and copper, with similar electron configurations, have already been investigated in helium nanodroplets (refs. \cite{loginov2007excited} and \cite{cufritz}).
+Gold is an outstanding material among the metal atoms and has many technical applications in electronics, optics and material science. With the rise of nanotechnology gold attracted even more interest, especially in life sciences (see refs. \cite{biogold1}, \cite{biogold2}). Fundamental research on gold can therefore yield to benefits in several scientific fields, not only physics. Despite these promising prospects, spectroscopic data for gold atoms in helium nanodroplets are not available. Moroshkin et al. presented emission spectra in solid and liquid helium matrices, but did not include an investigation of the $5d^{10} 6p \ ^2P^o_{1/2} \leftarrow 5d^{10} 6s \ ^2S_{1/2}$ transition \cite{moroshkin}. In contrast, the elements silver and copper, with similar electron configurations, have already been investigated in He$_N$ clusters (refs. \cite{loginov2007excited} and \cite{cufritz}).
 It was part of this thesis to obtain the first spectra of gold atoms in helium nanodroplets. The following section reports on the results.
 % Basically the gold atom itself is comparable with elements like silver or copper, both already investigated \cite{loginov2007excited} \cite{cufritz}.
 %The ground state of gold is written as $[Xe]5d^{10}6s$. Figure \ref{autrans} shows the Gotrian diagram for the ground state and relevant excited states. The ionization limit is at $\unit[74 409.11]{cm^{-1}}$.
 
-The gold experiments were performed in Cluster Lab III at the institute of experimental physics in Graz. The apparatus in this laboratory is designed to investigate very large clusters of up to $\unit[10^6]{amu}$. For this reason the apparatus is able to vary the stagnation conditions over a wide range. Nozzle temperatures of about $\unit[3.8]{K}$ (at $\unit[20]{bar}$) and helium pressures up to $\unit[100]{bar}$ are possible. The principle setup of the apparatus is very similar to the one used in the RbSr experiments (chapter \ref{chap:expsetup}). Therefore only the main differences to the apparatus in Cluster Lab I are listed below:
+The gold experiments were performed in Cluster Lab III at the Institute of Experimental Physics in Graz. The apparatus in this laboratory is designed to investigate very large clusters of up to $\unit[10^6]{amu}$. For this reason the apparatus is able to vary the stagnation conditions over a wide range. Nozzle temperatures of about $\unit[3.8]{K}$ (at $\unit[20]{bar}$) and helium pressures up to $\unit[100]{bar}$ are possible. The principle setup of the apparatus is very similar to the one used in the RbSr experiments (chapter \ref{chap:expsetup}). Therefore only the main differences to the apparatus in Cluster Lab I are listed below:
 
 \begin{itemize}
 \item The nozzle is cooled with a cold head which can be controlled via a PC.
@@ -756,62 +757,62 @@ The gold experiments were performed in Cluster Lab III at the institute of exper
 \item The apparatus is equipped with a TOF mass spectrometer with angular reflectron (Kaesdorf RFT50), a QMS and a micro balance. For the experiments in this section, only the TOF mass spectrometer was used.
 \end{itemize}
 
-Although REMPI spectra were the main focus of our experiments, we also obtained mass spectra with electron impact ionization. In this scenario atoms and clusters are ionized through high-energy electrons instead of laser photons. The electron energies ($\unit[89]{eV}$) are high enough to ionize Au and AuHe clusters up to $\unit[6000]{amu}$. The ionized atoms and clusters are then extracted by the electrical field of the TOF, similar to REMPI-TOF experiments. Figure \ref{masslaseregun} shows a comparison of two mass spectra obtained with electron impact ionization (top) and laser ionization (bottom). The signal of the spectrum obtained with electron impact ionization is about $\unit[300]{times}$ higher than the signal of the mass spectrum recorded with laser ionization. The masses for Au ($\unit[197]{amu}$), Au$_2$ ($\unit[394]{amu}$), Au$_3$ ($\unit[591]{amu}$), Au$_4$ ($\unit[788]{amu}$) and Au$_5$ ($\unit[985]{amu}$) are identifiable in the depicted mass range. The equidistant peaks, following strong peaks like the one for gold, origin from clusters of helium atoms attached to the respective element (for example AuHe, AuHe$_2$, AuHe$_3$,...). This is called ''helium comb''.
+Although REMPI spectra were the main focus of our experiments, we also obtained mass spectra with electron impact ionization. In the latter case atoms and clusters are ionized by high-energy electrons instead of laser photons. The electron energies ($\unit[89]{eV}$) are high enough to ionize helium atoms in the cluster. A charge hopping mechanism within the droplet leads to ionization of Au$_n$. The ionized complexes are then extracted by the electrical field of the TOF, similar to the REMPI-TOF experiments. Figure \ref{masslaseregun} shows a comparison of two mass spectra obtained with electron impact ionization (top) and laser ionization (bottom) recorded at the same stagnation and pick up conditions. In the spectrum obtained with electron impact ionization the masses for Au ($\unit[197]{amu}$), Au$_2$ ($\unit[394]{amu}$), Au$_3$ ($\unit[591]{amu}$), Au$_4$ ($\unit[788]{amu}$) and Au$_5$ ($\unit[985]{amu}$) are identifiable in the depicted range. The equidistant (\unit[4]{amu}) peaks which, follow Au$_n$ peaks, originate from helium atoms attached to the respective element (for example AuHe, AuHe$_2$, AuHe$_3$,...). This is called ''helium comb''. Because the energy of the electrons is high enough to ionize pure helium, a helium comb is also observed for masses lower than $\unit[197]{amu}$.
+
 \begin{figure}[ht]
 \centerline{
-\includegraphics[width=17cm]{./results/mass_egun_laser.jpg}}
+\includegraphics[width=16cm]{./results/mass_egun_laser.jpg}}
 \captionabove{\label{masslaseregun} \textsl{Comparison of two mass spectra obtained with electron impact ionization (top) and laser ionization (bottom). Electron impact ionization gives higher ion yields, shows larger clusters and helium comps. }}
 \end{figure}
-The mass spectrum obtained with laser ionization was summed over all recorded wavelengths. The spectrum (figure \ref{masslaseregun}, bottom) shows the peaks for Au, AuHe and Au$_2$. Larger Au clusters are not identifiable in this graphic. A helium comb can not be observed because of the low-energy laser photons. The only mass peak, at least for masses higher $\unit[100]{amu}$, with a contribution of helium is the AuHe peak at $\unit[204]{amu}$.
+
+The mass spectrum obtained with laser ionization (figure \ref{masslaseregun}, bottom) was summed over all recorded wavelengths ($\unit[37200]{cm^{-1}}$ to $\unit[40000]{cm^{-1}}$) and divided by the number of spectra. It shows peaks for Au ($\unit[197]{amu}$), AuHe ($\unit[201]{amu}$) and Au$_2$ ($\unit[394]{amu}$). Larger Au$_n$ clusters were not observed.
 
 In the following only spectra obtained with laser ionization are discussed. Because the gold experiments were the first spectroscopic investigations in this laboratory, a laser system had to be installed. To cover the wavelength range from $\unit[37200]{cm^{-1}}$ to $\unit[40000]{cm^{-1}}$ the Indigo-S laser, from Cluster Lab I, was set up. The following provides a short introduction into this laser. More details can be found in refs. \cite{lackner} and \cite{pifrader}.
 
 \underline{The Indigo-S laser} \\
-The Indigo-S is a Ti:sapphire laser pumped by a pulsed Coherent Evolution-15 laser. The pump laser produces pulses with a repetition rate of $\unit[5]{kHz}$ ($\unit[200]{\mu s}$ pulse distance, $\unit[29]{ns}$ pulse duration). The Evolution-15 laser consists of a diode laser pumped Nd:YLF crystal, operated in Q-switch mode. In this mode the diode laser populates the upper laser level of the active medium until the population inversion reaches a maximum. Oscillation is prevented through high losses in the resonator. In that way the Evolution-15 provides short laser pulses with high output powers at $\unit[532]{nm}$. The pulses of the Evolution laser pump a Ti:sapphire laser with a fundamental wavelength of $\unit[750-920]{nm}$. During the gold experiments the $\unit[193]{nm}$ mirror set was used to cover a fundamental wavelength range of $\unit[750-840]{nm}$. With subsequent crystals the frequency of the fundamental beam can be doubled ($\unit[375-420]{nm}$) and tripled to reach the desired range of $\unit[250-280]{nm}$. Because laser power varies over wavelength it was measured externally with a power-meter. The wavelength was measured with the internal spectrometer of the Indigo-S laser. An external wavemeter could not be used over the entire wavelength range, because the broad mode structure of the laser forbids an exact determination of the wavelength.
+The Indigo-S is a Ti:sapphire laser pumped by a pulsed Coherent Evolution-15 laser. The pump laser produces pulses with a repetition rate of $\unit[5]{kHz}$ ($\unit[200]{\mu s}$ pulse distance, $\unit[29]{ns}$ pulse duration). The Evolution-15 laser consists of a diode pumped Nd:YLF crystal, operated in Q-switch mode. In this mode the diode populates the upper laser level of the active medium until the population inversion reaches a maximum. Oscillation is prevented through high losses in the resonator. In that way the Evolution-15 provides short laser pulses with high output powers at $\unit[1064]{nm}$ which are frequency doubled to $\unit[532]{nm}$. The pulses of the Evolution laser pump a Ti:sapphire laser with a fundamental wavelength of $\unit[750-920]{nm}$. During the gold experiments the "$\unit[193]{nm}$"-mirror set (name by Coherent) was used to cover a fundamental wavelength range of $\unit[750-840]{nm}$. With subsequent crystals the frequency of the fundamental beam can be doubled ($\unit[375-420]{nm}$) and tripled to reach the desired range of $\unit[250-280]{nm}$. Because laser power varies over wavelength it was measured externally with a power-meter. The wavelength was measured with the internal spectrometer of the Indigo-S laser. An external wavemeter could not be used over the entire wavelength range, because the broad mode structure of the laser forbids an exact determination of the wavelength.
 
 \newpage
 
 \subsection{REMPI spectra}
 \label{chap:aurempi}
 \vspace{-1\baselineskip}
-REMPI spectra are obtained by ionizing Au-He$_N$ clusters with the Indigo-S laser and measuring the ion yield with a time-of-flight mass spectrometer (Kaesdorf RFT50).
-%The free gold atom has several possible transitions in the wavelength range of the Indigo-S laser ($\unit[37200]{cm^{-1}}$ to $\unit[40000]{cm^{-1}}$).
-The ionization process is shown for the free gold atom in the Gotrian diagram in figure \ref{autrans}. The underlying data were taken from the NIST database, ref. \cite{nist}. \\
-The figure illustrates a two photon ionization scheme where the arrows ($\nu_1$) indicate a resonant one photon excitation ($5d^{10}6p \ ^2P^o_{1/2} \leftarrow 5d^{10}6s \ ^2S_{1/2}$ ). The electron configuration of gold in its ground state is [Xe] 4f$^{14}$5d$^{10}$6s$^1$. In this state gold has closed f- and d-shells and one 6s valence electron. This configuration makes gold comparable to the alkali metals. \\
-The strongest gold transition, from the ground state into the excited 5d$^{10}$6p $^2$P$_{1/2}$ state, corresponds to an energy of $\unit[37 359]{cm^{-1}}$. This implies that a second photon, with the same energy, is already sufficient to ionize the atom ($2 \cdot \unit[37 359]{cm^{-1}} = \unit[74 718]{cm^{-1}}$, ionization threshold at $\unit[74 409.11]{cm^{-1}}$). According to the NIST database the life-time of the $^2$P$_{1/2}$ state is $\unit[6.1]{ns}$, ref. \cite{nist}.
+REMPI spectra are obtained by ionizing Au-He$_N$ clusters with the Indigo-S laser and measuring the ion yield with a time-of-flight mass spectrometer (Kaesdorf RFT50). The electron configuration of gold in its ground state is [Xe] 4f$^{14}$5d$^{10}$6s$^1$. In this state gold has closed f- and d-shells and one 6s valence electron. This configuration makes gold comparable to the alkali metals. \\
+The strongest gold transition from the ground state into the excited $5d^{10} 6p \ ^2P^o_{1/2}$ state corresponds to an energy of $\nu_1 = \unit[37 359]{cm^{-1}}$. This implies that a second photon, with the same energy, is already sufficient to ionize the atom ($2 \cdot \unit[37 359]{cm^{-1}} = \unit[74 718]{cm^{-1}}$, ionization threshold at $\unit[74 409.11]{cm^{-1}}$). This two-photon ionization scheme is illustrated in the Gotrian diagram in figure \ref{autrans}. The first arrow indicates a resonant one-photon excitation ($5d^{10}6p \ ^2P^o_{1/2} \leftarrow 5d^{10}6s \ ^2S_{1/2}$ ) with a wavelength $\nu_1$ and the second arrow indicates the ionization. The term values in figure \ref{autrans} were taken from the NIST database (ref. \cite{nist}) which also lists the life-time of the $5d^{10} 6p \ ^2P^o_{1/2}$ state with $\unit[6.1]{ns}$.
 
 \begin{figure}[ht]
 \centerline{
 \includegraphics[width=8cm]{./results/au_trans_simple.jpg}}
-\captionabove{\label{autrans} \textsl{Gotrian diagram showing the Au ground state (5d$^{10}$6s $^2$S$_{1/2}$) and the strongest transition into the 5d$^{10}$6p $^2$P$_{1/2}$ state with a life-time of $\unit[6.1]{ns}$. All energies correlate to the free atom. $\nu_1$ illustrates transitions induced by incident laser photons.}}
+\captionabove{\label{autrans} \textsl{Gotrian diagram showing the Au ground state (5d$^{10}$6s $^2$S$_{1/2}$) and the strongest transition into the $5d^{10}6p \ ^2P^o_{1/2}$ state with a life-time of $\unit[6.1]{ns}$. All energies correlate to the free atom.}}
 \end{figure}
 
 When obtaining REMPI spectra, the Indigo-S laser has the disadvantage that it can not be continuously tuned. Consequently, the spectra were taken at discrete wavenumbers in $\unit[2]{nm}$ and $\unit[0.6]{nm}$ steps. The latter corresponds to the minimal wavelength distance between two laser modes, accessible with the HR mirror of the Ti:sapphire resonator. The change from one laser mode to the next is done manually and causes a slight change in the laser path resulting in a displacement ($\approx \unit[0.5]{mm}$ at the TOF) which has to be corrected. Although iris diaphragms were used to mark the laser path, the realignment is not perfect, which affects the reliability of the recorded spectra.
-Therefore the recorded spectra differ slightly, which makes the present interpretation speculative. In order to obtain more reliable spectra, the experiment will be repeated to guarantee the reproducibility of the observed spectral features. \\
-Every measurement at a specific wavelength results in a REMPI spectrum for all masses. To get spectra for a specific mass like Au, AuHe or AuHe$_2$ all spectra are summed over the desired mass interval. Figure \ref{auspec} shows low-resolution REMPI spectra in $\unit[2]{nm}$ steps for Au (green), AuHe (blue) and 5 x AuHe$_2$ (red). \\
+Therefore the recorded spectra differ slightly, which makes the present interpretation speculative. In order to obtain more reliable spectra, the experiment has to be repeated to guarantee the reproducibility of the observed spectral features. \\
+%Every measurement at a specific wavelength results in a REMPI spectrum for the entire mass range. To get spectra for a specific mass like Au, AuHe or AuHe$_2$ the ion signal at a specific wavelength is the sum .
+Figure \ref{auspec} shows low-resolution REMPI spectra in $\unit[2]{nm}$ steps for Au (green), AuHe (blue) and 5 x AuHe$_2$ (red). \\
 The most prominent feature of the Au signal is a very broad structure (FWHM $\approx \unit[790]{cm^{-1}}$) between $\unit[37350]{cm^{-1}}$ and $\unit[38400]{cm^{-1}}$. The width suggests that the transition occurs inside the droplet. The onset of the rising edge matches the position of the $5d^{10}6p \ ^2P^o_{1/2} \leftarrow 5d^{10}6s \ ^2S_{1/2}$ free atom transition exactly.
 \begin{figure}[ht]
 \centerline{
 \includegraphics[width=17.5cm]{./results/au_spec_new.jpg}}
-\captionabove{\label{auspec} \textsl{Low-resolution REMPI spectra for Au (green), AuHe (blue) and 5 x AuHe$_2$ (red). The Indigo-S laser was tuned in steps of $\unit[2]{nm}$. The energy of the atomic transition from the ground state into the $5d^{10}6p \ ^2$P$_{1/2}$ excited state is marked with a triangle. }}
+\captionabove{\label{auspec} \textsl{Low-resolution REMPI spectra for Au (green), AuHe (blue) and 5 x AuHe$_2$ (red). The Indigo-S laser was tuned in steps of $\unit[2]{nm}$. The energy of the atomic transition from the ground state into the $5d^{10}6p \ ^2P^o_{1/2}$ excited state is marked with a triangle. }}
 \end{figure}
 
 \newpage
 
-To obtain more details about this structure a second spectrum, with smaller wavelength distances of about $\unit[0.6]{nm}$, was recorded. This is the minimal step size of the Indigo-S laser without changing the position of the Etalon. Figure \ref{auspecfine} shows the Au spectrum obtained with $\unit[2]{nm}$ steps (green) in comparison to Au (magenta), AuHe (blue) and 3 x AuHe$_2$ (red) obtained in $\unit[0.6]{nm}$ steps and denoted with ''fine''. Whereas the low-resolution spectrum only showed a broad, featureless structure, the Au signal (magenta) now shows identifiable features. The signal shows a broad transition reaching from $\unit[37300]{cm^{-1}}$ up to about $\unit[38400]{cm^{-1}}$. This broad structure corresponds to the $5d^{10}6p \ ^2P^o_{1/2} \leftarrow 5d^{10}6s \ ^2S_{1/2}$ transition in the helium droplet. The onset of the rising edge is characteristically blue shifted to the atomic transition denoted in the figure with a black triangle.
+To obtain more details about this structure a second spectrum, with smaller wavelength tuning steps of about $\unit[0.6]{nm}$, was recorded. This is the minimal step size of the Indigo-S laser without changing the position of the Etalon. Figure \ref{auspecfine} shows the Au spectrum obtained with $\unit[2]{nm}$ steps (green) in comparison to Au (magenta), AuHe (blue) and 3 x AuHe$_2$ (red) obtained in $\unit[0.6]{nm}$ steps and denoted with ''fine''. Whereas the low-resolution spectrum only showed a broad, featureless structure, the Au signal (magenta) now shows identifiable features. The signal shows a broad transition reaching from $\unit[37300]{cm^{-1}}$ up to about $\unit[38400]{cm^{-1}}$. This broad structure corresponds to the $5d^{10}6p \ ^2P^o_{1/2} \leftarrow 5d^{10}6s \ ^2S_{1/2}$ transition in the helium droplet. The onset of the rising edge is characteristically blue shifted to the atomic transition denoted in the figure with a black triangle.
 \begin{figure}[ht]
 \centerline{
 \includegraphics[width=17cm]{./results/au_specFine_new.jpg}}
 \captionabove{\label{auspecfine} \textsl{The spectrum compares the results obtained in $\unit[2]{nm}$ and $\unit[0.6]{nm}$ steps for Au (green and magenta). The spectra in $\unit[0.6]{nm}$ steps are denoted as ''fine''. AuHe and 3 x AuHe$_2$ are depicted in blue and red, respectively. The energies of the atomic transitions are marked with black triangles. }}
 \end{figure}\\
-On top of the $^2P^o_{1/2} \leftarrow \ ^2S_{1/2}$ transition, a sharp atomic line and a blue shifted, broadened structure are distinguishable between $\unit[37800]{cm^{-1}}$ and $\unit[38300]{cm^{-1}}$. Comparison with the NIST database shows that the atomic transition $5d^96s6p \ ^4P^o_{1/2} \leftarrow 5d^96s^2 \ ^2D_{5/2}$ matches the recorded sharp line at $\unit[37 846.3]{cm^{-1}}$ exactly (ref. \cite{nist}). %For atoms in the helium droplet it is possible to reach the $^2D_{5/2}$ state through a process shown in the Gotrian diagram in figure \ref{autransall}.
+On top of the $5d^{10}6p \ ^2P^o_{1/2} \leftarrow \ 5d^{10} 6s \ ^2S_{1/2}$ transition, a sharp atomic line and a blue shifted, broadened structure are distinguishable between $\unit[37800]{cm^{-1}}$ and $\unit[38300]{cm^{-1}}$. Comparison with the NIST database shows that the atomic transition $5d^96s6p \ ^4P^o_{1/2} \leftarrow 5d^96s^2 \ ^2D_{5/2}$ matches the recorded sharp line at $\unit[37 846.3]{cm^{-1}}$ exactly (ref. \cite{nist}). %For atoms in the helium droplet it is possible to reach the $^2D_{5/2}$ state through a process shown in the Gotrian diagram in figure \ref{autransall}.
 \begin{figure}[h!t]
 \centerline{
 \includegraphics[width=9cm]{./results/au_trans.jpg}}
 \captionabove{\label{autransall} \textsl{Gotrian diagram showing the relaxation from the $^2P^o_{1/2}$ state into the meta-stable D-states with spiral arrows. $\nu_1$ illustrates resonant excitations. Note that the relaxation $5d^9 6s^2 \ ^2D_{3/2} \rightarrow 5d^9 6s^2 \ ^2D_{5/2}$ is forbidden. }}
 \end{figure}
-This observation indicates that the atom in the droplet has relaxed into the $^2D_{5/2}$ state (figure \ref{autransall}). Possible relaxation paths lead either via the allowed $^2P^o_{1/2} \rightarrow \ ^2D_{3/2}$ and subsequently the forbidden $^2D_{3/2} \rightarrow \ ^2D_{5/2}$ transition, or directly via the forbidden $^2P^o_{1/2} \rightarrow \ ^2D_{5/2}$ transition into the $^2D_{5/2}$ state. In both cases the transition is mediated and enhanced by the He$_N$ environment. The influence of the helium droplet can also be seen by comparing the theoretical and dimensionless transition probabilities f (''oscillator strength'') taken from ref. \cite{fivet}. For the $^2S_{1/2} - ^2P^o_{1/2}$ transition f is 0.170 and for the $^2D_{3/2} - ^2P^o_{1/2}$ transition f is 0.002, which means that for the free atom the transition into the $^2D_{3/2}$ state is two orders of magnitude weaker than the transition into the ground state. The time scale of the relaxation process has to be shorter than the $\unit[6.1]{ns}$ life time of the $^2P_{1/2}$ state. Considering the $\unit[28]{ns}$ pulse duration of the laser, a recycling process similar to Rb-He$_N$ (ref. \cite{aubock}) may also contribute to the efficient population of the meta-stable $^2D$ states. \\
-From the $^2D_{5/2}$ state a second laser photon excites the atom into the $5d^9 6s^2 \ ^2D_{3/2}$ state and a third photon ionizes the atom.
+This observation indicates that the atom in the droplet relaxed into the $^2D_{5/2}$ state (figure \ref{autransall}). Possible relaxation paths lead either via the allowed $^2P^o_{1/2} \rightarrow \ ^2D_{3/2}$ transition and subsequently the forbidden $^2D_{3/2} \rightarrow \ ^2D_{5/2}$ transition, or directly via the forbidden $^2P^o_{1/2} \rightarrow \ ^2D_{5/2}$ transition into the $^2D_{5/2}$ state. In both cases the transition is mediated and enhanced by the He$_N$ environment. The influence of the helium droplet can also be seen by comparing the theoretical and dimensionless transition probabilities f (''oscillator strength'') taken from ref. \cite{fivet}. For the $^2P^o_{1/2} \rightarrow \ ^2S_{1/2}$ transition f is 0.170 and for the $^2P^o_{1/2} \rightarrow \ ^2D_{3/2}$ transition f is 0.002, which means that for the free atom the transition into the $^2D_{3/2}$ state is two orders of magnitude weaker than the transition into the ground state. The time scale of the relaxation process has to be shorter than the $\unit[6.1]{ns}$ life time of the $^2P^o_{1/2}$ state. Considering the $\unit[28]{ns}$ pulse duration of the laser, a recycling process similar to Rb-He$_N$ (ref. \cite{aubock}) may also contribute to the efficient population of the meta-stable $^2D$ states. \\
+From the $^2D_{5/2}$ state a second laser photon excites the atom into the $5d^9 6s 6p \ ^4P_{3/2}$ state and a third photon ionizes the atom.
 %To observe the transition starting from the $^2D_{5/2}$ state the atom first has to be excited into the $^2P^o_{1/2}$ state. From this state the atom can relax into the allowed $^2D_{3/2}$ state. The helium droplet further enables the atom to relax into the $^2D_{5/2}$ state which would be forbidden otherwise. The relaxations are denoted with spiral arrows in figure \ref{autransall}. A second photon excites and a third photon ionizes the atom. \\
 
 The fact that the spectrum in figure \ref{auspecfine} shows both, a sharp atomic and a blue shifted, broadened line suggests two processes after relaxation into the $^2D_{5/2}$ state: In one case the gold atom leaves the helium droplet resulting in a sharp line, which is a finger print of free atoms. In the second case the atom stays in the helium droplet resulting in the broadened, blue shifted line in the REMPI spectrum. The two processes are illustrated in figure \ref{twoprocesses}. For both cases a prior excitation into the $^2P^o_{1/2}$ state is necessary.
@@ -822,18 +823,9 @@ The fact that the spectrum in figure \ref{auspecfine} shows both, a sharp atomic
 \captionabove{\label{twoprocesses} \textsl{a) The Au atom leaves the droplet after laser excitation. b) The Au atom remains in the droplet. The two cases lead to a sharp atomic line or a broadened, blue shifted structure, respectively.}}
 \end{figure}
 
-Despite these two identified transitions, the spectrum shows several structures at energies above $\unit[39300]{cm^{-1}}$. This part of the spectrum is not sufficiently interpreted so far. The NIST database shows several levels with possible transitions in this wavelength range, originating from the two meta-stable $^2D$ states. Seven possible transitions in the wavelength range $\unit[37200-40000]{cm^{-1}}$ can be found in the NIST database (ref. \cite{nist}). Two of those transitions originate from the $^2D_{5/2}$ state and five from the $^2D_{3/2}$ state. The seven transitions are listed in table \ref{autransdenotation} and illustrated in figure \ref{auspecalltrans}. %Note that figure \ref{auspecalltrans} additionally shows the ion yield for 4 x Au$_2$ (red) and 4 x Au$_3$ (blue).
-In addition to the ion yield for atoms, figure \ref{auspecalltrans} also shows the ion yield recorded for Au$_2$ and Au$_3$. It is remarkable that the signals for both molecules show a weak maximum at $\unit[37880]{cm^{-1}}$, approximately at the maximum of the peak which is associated with the atomic $5d^9 6s 6p \ ^4P^o_{3/2} \leftarrow 5d^9 6s^2 \ ^2D_{5/2}$ transition in the droplet. Although similar observations have been reported in the history of HENDI spectroscopy, eg. NaK which follows Na$_2$ signals (ref. \cite{higgins}), Mg$_N$ as well as Sr$_N$ (ref. \cite{bunermann-doc}). Possible explanations range from the formation of foam like structures, which collapse upon laser excitation to explanations based on the dissociation of molecules with subsequent surface migration and ion- atom/molecule recombination. \\
-The fact that the molecule signal does not follow the initial $^2P^o_{1/2} \leftarrow \ ^2S_{1/2}$ transition suggests that the foam structure hypothesis is unlikely, because we do not expect that the foam structure survives the initial excitation and subsequent relaxation process into the $^2D_{5/2}$. \\
-Although highly speculative, we favor another hypothesis which has been used as an explanation for unusual results in chromium experiments (ref. \cite{paperkautschkoch}). In this scenario it is assumed that the first photon dissociates a Au$_2$ or Au$_3$ molecule, resulting in a $^2D_{5/2}$ atom which is spatially separated from remaining ground state Au atoms or Au$_2$ molecules. A second photon can excite the separated $^2D_{5/2}$ atom, which is subsequently ionized by a third photon. The ion-neutral interaction differs slightly from the neutral-neutral interaction in the helium droplet and the Au$^+$ ion may recombine with the remaining neutral Au or Au$_2$, thereby leading to a signal at the Au-He$_N$ $5d^9 6s 6p \ ^4P^o_{3/2} \leftarrow 5d^9 6s^2 \ ^2D_{5/2}$ transition.
+In addition to these two identified transitions, the spectrum shows several structures at energies above $\unit[39300]{cm^{-1}}$. This part of the spectrum is not sufficiently interpreted so far. The NIST database shows several levels with possible transitions in this wavelength range, originating from the two meta-stable $^2D$ states. Seven possible transitions in the wavelength range $\unit[37200-40000]{cm^{-1}}$ can be found in the NIST database (ref. \cite{nist}). Two of those transitions originate from the $^2D_{5/2}$ state and five from the $^2D_{3/2}$ state. The seven transitions are listed in table \ref{autransdenotation} and marked with black triangles in figure \ref{auspecalltrans}. %Note that figure \ref{auspecalltrans} additionally shows the ion yield for 4 x Au$_2$ (red) and 4 x Au$_3$ (blue).
 
-\begin{figure}[th!]
-\centerline{
-\includegraphics[width=16cm]{./results/au_spec_dimer.jpg}}
-\captionabove{\label{auspecalltrans} \textsl{Spectrum of Au, Au dimers and trimers. Transitions listed in table \ref{autransdenotation} are marked with a black triangle. }}
-\end{figure}
-
-\begin{table}[bh!]
+\begin{table}[ht]
 \small
 %\centering
 \captionabove{\textsl{Possible transitions within the spectral range of the Indigo-S laser ($\unit[37200-40000]{cm^{-1}}$) for the free Au atom with respective wavenumbers. The energies of upper and lower states can be obtained from the subtraction in the right column \cite{nist}. }}
@@ -863,10 +855,23 @@ $5d^96s6p \ ^2D^o_{5/2} \leftarrow 5d^{9} 6s^{2} \ ^2D_{3/2}$ & $61255,1 - 21435
 \end{center}
 \end{table}
 
-\newpage
+\begin{figure}[ht]
+\centerline{
+\includegraphics[width=16cm]{./results/au_spec_dimer.jpg}}
+\captionabove{\label{auspecalltrans} \textsl{Spectrum of Au monomers, dimers and trimers. Transitions listed in table \ref{autransdenotation} are marked with a black triangle. }}
+\end{figure}
+
+\vspace{1cm}
+\underline{Au dimers and trimers} \\
+In addition to the ion yield for atoms, figure \ref{auspecalltrans} also shows the ion yield recorded for Au$_2$ and Au$_3$. It is remarkable that the signals for both molecules show a weak maximum at $\unit[37880]{cm^{-1}}$, approximately at the maximum of the peak which is associated with the atomic $5d^9 6s 6p \ ^4P^o_{3/2} \leftarrow 5d^9 6s^2 \ ^2D_{5/2}$ transition in the droplet. Similar observations have been reported in the history of HENDI spectroscopy, eg. K which follows Na$_2$ signals (ref. \cite{higgins}), Mg$_n$ (ref. \cite{mgn}) as well as Sr$_n$ (ref. \cite{bunermann-doc}). Possible explanations range from the formation of foam like structures, which collapse upon laser excitation to explanations based on the dissociation of molecules with subsequent surface migration and ion- atom/molecule recombination. \\
+The fact that the molecule signal does not follow the initial $^2P^o_{1/2} \leftarrow \ ^2S_{1/2}$ transition suggests that the foam structure hypothesis is unlikely, because we do not expect that the foam structure survives the initial excitation and subsequent relaxation process into the $^2D_{5/2}$ state. \\
+Although highly speculative, we favor another hypothesis which has been used as an explanation for unusual results in chromium experiments (ref. \cite{paperkautschkoch}). In this scenario it is assumed that the first photon dissociates a Au$_2$ or Au$_3$ molecule, resulting in a $^2D_{5/2}$ atom which is spatially separated from remaining ground state Au atoms or Au$_2$ molecules, respectively. A second photon can excite the separated $^2D_{5/2}$ atom, which is subsequently ionized by a third photon. The ion-neutral interaction differs from the neutral-neutral interaction in the helium droplet and the Au$^+$ ion may recombine with the remaining neutral Au or Au$_2$, thereby leading to a signal at the Au-He$_N$ $5d^9 6s 6p \ ^4P^o_{3/2} \leftarrow 5d^9 6s^2 \ ^2D_{5/2}$ transition.
+
 \underline{Comparison with Cu and Ag} \\
 As mentioned in the introduction of this chapter, spectroscopic data for the atoms Cu and Ag on helium nanodroplets are already available. Copper, silver and gold are in the same group of the periodic table and have similar electron configurations. All three elements have a single valence electron which makes them comparable to the alkali atoms. A comparison of the available spectra is therefore interesting and shown in figure \ref{cuagau}. The wavelength axis were scaled proportional. The three figures show REMPI spectra of the corresponding metals. \\
-In all three spectra the $^2P^o_{1/2} \leftarrow \ ^2S_{1/2}$ transition, marked with a gray line, can be seen at the left. The spectra for Cu and Ag show the two lowest atomic transitions $^2P^o_{1/2} \leftarrow \ ^2S_{1/2}$ and $^2P^o_{3/2} \leftarrow \ ^2S_{1/2}$ corresponding to the fine structure splitting of the $^2P$ level. The fine structure splitting depends on the spin-orbit interactions which increase with the atomic number. For gold the $^2P^o_{3/2}$ state is not observable within the wavelength range accessible with the Indigo-S laser (the $^2P_{3/2}$ state is at $\unit[41 174.613]{cm^{-1}}$, resulting in a spin-orbit splitting of $\unit[3815.622]{cm^{-1}}$). For Ag the fine structure splitting of the $^2P$ level is with $\unit[950]{cm^{-1}}$ larger than for Cu with $\unit[200]{cm^{-1}}$.
+In all three spectra the lowest $^2P^o_{1/2} \leftarrow \ ^2S_{1/2}$ transition, marked with a gray line, can be seen at the left. The spectra for Cu and Ag show the two lowest atomic transitions $^2P^o_{1/2} \leftarrow \ ^2S_{1/2}$ and $^2P^o_{3/2} \leftarrow \ ^2S_{1/2}$. The fine structure splitting depends on the spin-orbit interaction which increases with the atomic number. For gold the $^2P^o_{3/2}$ state is not observable within the wavelength range accessible with the Indigo-S laser (the $^2P_{3/2}$ state is at $\unit[41 174.613]{cm^{-1}}$, resulting in a spin-orbit splitting of $\unit[3816]{cm^{-1}}$). For Ag the fine structure splitting of the $^2P$ level is with $\unit[921]{cm^{-1}}$ larger than for Cu with $\unit[248]{cm^{-1}}$.
+
+\newpage
 
 \begin{figure}[H]
 \centerline{
@@ -876,13 +881,13 @@ In all three spectra the $^2P^o_{1/2} \leftarrow \ ^2S_{1/2}$ transition, marked
 
 \newpage
 
-\underline{Simultaneous measurements of Au and Ag doped He$_N$} \\
-Prior to the Au experiments we tested the experimental setup with the Indigo-S laser and two subsequent ovens. One oven was loaded with Au (double basket setup) and the other oven was loaded with Ag (single basket setup). The goal of this test was to record the first REMPI spectra with the apparatus in Cluster Lab III. The same wavelength range as in the Au experiments was covered with the Indigo-S laser in $\unit[2]{nm}$ steps. Figure \ref{auag} shows the results of this test. The spectrum shows the ion yield for Au (yellow), Ag (blue), AuAg (cyan), AgHe (green), AgHe$_2$ (red), Ag$_2$ (magenta) and Ag$_3$ (black). Interestingly non-zero ion yields were measured for all masses except Au$_3$.
+\underline{Excitation spectra of Au and Ag doped He$_N$} \\
+Prior to the Au experiments we tested the experimental setup with the Indigo-S laser and two subsequent ovens. One oven was loaded with Au (double basket setup) and the other oven was loaded with Ag (single basket setup). The goal of this test was to record the first REMPI spectra with the apparatus in Cluster Lab III. The same wavelength range as in the Au experiments was covered with the Indigo-S laser in $\unit[2]{nm}$ steps. Figure \ref{auag} shows the results of this test. The spectrum shows the ion yield for Au (yellow), Ag (blue), AuAg (cyan), AgHe (green), AgHe$_2$ (red), Ag$_2$ (magenta) and Ag$_3$ (black). Interestingly non-zero ion yields were measured for all masses except Ag$_3$.
 
 \begin{figure}[ht]
 \centerline{
 \includegraphics[width=19cm]{./results/au_ag_spec.jpg}}
-\captionabove{\label{auag} \textsl{REMPI spectra of the test with two subsequent ovens, one loaded with Au the other with Ag. The graphic shows the ion yield for Au (yellow), Ag (blue), AuAg (cyan), AgHe (green), AgHe$_2$ (red), Ag$_2$ (magenta) and Ag$_3$ (black). }}
+\captionabove{\label{auag} \textsl{REMPI spectra obtained in a test with two subsequent ovens, one loaded with Au the other with Ag. The graphic shows the ion yield for Au (yellow), Ag (blue), AuAg (cyan), AgHe (green), AgHe$_2$ (red), Ag$_2$ (magenta) and Ag$_3$ (black). }}
 \end{figure}
 
 
@@ -894,7 +899,7 @@ Temperatures higher than $\unit[1064]{^\circ C}$ (Au melting point) are needed i
 
 \section{The oven setup}
 \vspace{-0.5\baselineskip}
-The new oven design fits in all pick up chambers of our cluster laboratories at the institute of experimental physics in Graz. It was designed by Phillip Thaler and fulfills some important requirements:
+The new oven design fits in all pick up chambers of our cluster laboratories at the Institute of Experimental Physics in Graz. It was designed by Phillip Thaler and fulfills some important requirements:
 \begin{itemize}
 %\item The oven can easily be adapted for all different pick up chambers in all laboratories.
 \item The oven has a water cooled shield to minimize the influence of other ovens nearby.
@@ -935,7 +940,7 @@ Temperature measurements can quickly become complicated when measuring high temp
 
 \subsection{Mounting the thermocouple}
 \vspace{-1\baselineskip}
-To measure the temperature with a thermocouple one has to make sure that the only connection of the the two thermocouple wires is at the point were the temperature should be measured. This means that the wires have to be protected from the vapor pressure within the pick up source. Evaporated metal condenses on the thermocouple wires and causes short-circuits. As a consequence the temperature is measured at the point where the two thermocouple wires are connected through the condensed metal. For our experiments the problem was solved with a ceramic tube ($\unit[3]{mm}$ diameter) with only one open end. This tube dips with the closed end into the liquid metal, shielding the thermocouple inside the tube from the liquid and the vapor on the outside of the tube. It is essential that the tube protects the thermocouple wires until they reach the feed through of the water cooled copper shield (figure \ref{oven-assembled}). \\
+To measure the temperature with a thermocouple, one has to make sure that the only connection of the two thermocouple wires is at the point were the temperature should be measured. This means that the wires have to be protected from the vapor pressure within the pick up source. Evaporated metal condenses on the thermocouple wires and causes short-circuits. As a consequence the temperature is measured at the point where the two thermocouple wires are connected through the condensed metal. For our experiments the problem was solved with a ceramic tube ($\unit[3]{mm}$ diameter) with only one open end. This tube dips with the closed end into the liquid metal, shielding the thermocouple inside the tube from the liquid and the vapor on the outside of the tube. It is essential that the tube protects the thermocouple wires until they reach the feed through of the water cooled copper shield (figure \ref{oven-assembled}). \\
 To make sure that the wires inside the tube are not connected, a separator was made out of a conventional isolation element. The isolation element was grinded until it was small enough to fit into the ceramic tube (together with the thermocouple).
 
 The high temperatures in the gold experiments make it necessary to use type C thermocouples instead of type K. Temperatures of up to $\unit[2000]{^\circ C}$ can be measured with this type. More informations about type C thermocouples can be found in the data sheet which is available in ref. \cite{ref-typec}. \\
@@ -952,7 +957,7 @@ The next step is to connect computer and power supply to control the heating cur
 
 \subsection{Connecting the power supply}
 \vspace{-1\baselineskip}
-The power supply (Elektroautomatik PS9000), used to supply the heating current for the oven, offers a parallel port for remote control. The manufacturer provides a sample LabView program to communicate with the device. To connect computer and power supply, a parallel-USB adapter, also available from Elektroautomatik, is needed (UTA12 interface, ref. \cite{ref-uta12}). While the UTA12 is directly connected with the computer via USB, a customized parallel cable is used to connect the UTA12 with the parallel port of the power supply. A data sheet with the pin assignments of this cable is available on the website of Elektroautomatik \cite{ref-uta12}. The pin assignment, which actually works, is not identical with the one listed in the data sheet. The working pin assignment developed during a trial and error process and is listed in table \ref{wireing}. Figure \ref{adapter-pins} shows the connectors schematically in order to define the pin numbers. The connectors are drawn from the back side. The parallel connector is male, the serial is a female.
+The power supply (Elektroautomatik PS9000), used to supply the heating current for the oven, offers a parallel port for remote control. The manufacturer provides a sample LabView program to communicate with the device. To connect computer and power supply, a parallel-USB adapter, also available from Elektroautomatik, is needed (UTA12 interface, ref. \cite{ref-uta12}). While the UTA12 is directly connected with the computer via USB, a customized parallel cable is used to connect the UTA12 with the parallel port of the power supply. A data sheet with the pin assignments of this cable is available on the website of Elektroautomatik \cite{ref-uta12}. The pin assignment, which actually works, is not identical with the one listed in the data sheet. The working pin assignment developed during a trial and error process is listed in table \ref{wireing}. Figure \ref{adapter-pins} shows the connectors schematically in order to define the pin numbers. The connectors are drawn from the back side. The parallel connector is male, the serial is a female.
 
 \begin{figure}[ht]
 \centerline{
@@ -1051,7 +1056,7 @@ The section ''Asynchronous reading from Datalogger'' in the block diagram is res
 Once the type K temperature is available in the program, it can be converted into the equivalent type C temperature. This is done in two steps. First of all, the type K temperature is transformed into the corresponding type K thermal voltage using the direct polynomials from the thermocouple manufacturer Omega \cite{omega-polynomials}. For converting type K temperatures above $\unit[0]{^\circ C}$ the direct polynomial is
 
 \begin{align}  \label{direct-polynomial}
-\sum\limits_{i=0}^n c_i \cdot (t_{90})^i + \alpha_0 \cdot \exp(\alpha_1 \cdot (t_{90} - 126.9686)^2)
+U = \sum\limits_{i=0}^n c_i \cdot (t_{90})^i + \alpha_0 \cdot \exp(\alpha_1 \cdot (t_{90} - 126.9686)^2)
 \end{align}
 
 All coefficients $c_0$...$c_9$ as well as both constants $\alpha_0$ and $\alpha_1$ are listed on the Omega website \cite{omega-polynomials}.
@@ -1094,7 +1099,7 @@ In this implementation only three inputs are used:
 \end{itemize}
 
 The P, I and D parameters as well as the PID output range can be adjusted via the front panel (figure \ref{labview-front}). The PID parameters depend on the temperature and were determined empirically. Good start values are $P = 0.1$, $I = 0.01$ and $D = 0.3$. \\
-The minimum and maximum current values were also determined during tests. With $\unit[35]{A}$ one can heat up a the single-basket setup to $\unit[1100]{^\circ C}$.
+The minimum and maximum current values were also determined during tests. With $\unit[35]{A}$ one can heat up the single-basket setup to $\unit[1100]{^\circ C}$.
 
 The only output of the PID controller is the heating current which is directly sent to the power supply. %The last thing happening before sending is scaling the values to match the output range of the power supply ($\unit[80]{A}$ and $\unit[100]{V}$).
 
@@ -1109,7 +1114,7 @@ The callback value for the warm up process has to pass a true/false case-structu
 \subsection{Cool down}
 \vspace{-1\baselineskip}
 The cool down phase serves the same purpose as the warm up - preventing the basket from thermal strain. The critical temperature range is $\unit[300 - 23]{^\circ C}$. The cool down is an optional procedure which can be manually started from a pop up windows when the user stops the program. Beginning from a starting value, entered by the user, the cool down decreases the current successively until $\unit[0.5]{A}$ are reached. \\
-In the block diagram the functionality can be found right beneath the case structure for warm up/normal operation mode. There are two case structures, one handling the pop up behavior one for calculating the cool down ramp. The cool down ramp has a higher delay between current steps - $320$ seconds per default. \\
+In the block diagram the functionality can be found right beneath the case structure for warm up/normal operation mode. There are two case structures, one handling the pop up behavior, one for calculating the cool down ramp. The cool down ramp has a higher delay between current steps - $320$ seconds per default. \\
 Next to the stop button in the block diagram is the logic which terminates the cool down when the calculated current is lower than $\unit[0.5]{A}$.
 
 \subsection{Frontpanel}
@@ -1138,14 +1143,15 @@ There are three known issues with the LabView program.
 \end{itemize}
 
 \chapter{Summary and Conclusion}
-In the course of this thesis the RbSr molecule and the Au atom were investigated spectroscopically on and in helium nanodroplets. The spectra for RbSr were recorded with REMPI-TOF as well as LIF spectroscopy. The RbSr experiments were executed in Cluster Lab I. A REMPI overview spectrum in the wavelength range from $\unit[11600]{cm^{-1}}$ to $\unit[23000]{cm^{-1}}$ has been obtained. The spectrum is in good agreement with theoretical calculations for the molecule. One of the transitions is vibrationally resolved and was additionally analyzed with LIF spectroscopy, which allowed the determination of molecular constants.
+In the course of this thesis the RbSr molecule and the Au atom were investigated spectroscopically on and in helium nanodroplets, respectively. The spectra for RbSr were recorded with resonance enhanced multi-photon ionization (REMPI-TOF) as well as laser induced fluorescence (LIF) spectroscopy in Cluster Lab I. A REMPI overview spectrum in the wavelength range from $\unit[11600]{cm^{-1}}$ to $\unit[23000]{cm^{-1}}$ has been obtained. This spectrum is in good agreement with theoretical calculations for the molecule. One of the transitions is vibrationally resolved and was additionally analyzed with LIF spectroscopy, which allowed the determination of molecular constants.
 
-The main goal of this work was to obtain the first REMPI spectra of gold in helium nanodroplets. These experiments were executed in Cluster Lab III with a slightly different experimental setup. We were able to record a Au-He$_N$ spectrum in $\unit[0.6]{nm}$ steps reaching from $\unit[37200]{cm^{-1}}$ to $\unit[40000]{cm^{-1}}$. Two transitions were identified in the wavelength range of $\unit[37300 - 38400]{cm^{-1}}$: The $5d^{10}6p \ ^2P^o_{1/2} \leftarrow 5d^{10}6s \ ^2S_{1/2}$ transition is characteristically blue shifted and broadened ($\unit[37300 - 38400]{cm^{-1}}$). This is the strongest transition of the atom and the origin for other transitions. On top of this broad transition a sharp atomic line and a blue shifted, broadened structure corresponding to the $5d^96s6p \ ^4P^o_{3/2} \leftarrow 5d^{9} 6s^{2} \ ^2D_{5/2}$ transition were observed. These two lines suggest that the Au atom can leave the droplet after the relaxation in the meta-stable $^2D_{5/2}$ state or remain in the droplet. The interpretation is speculative and has to be confirmed through further experiments. Furthermore, spectra for Au$_2$ and Au$_3$ have been recorded. \\
-The Au spectrum was compared to the spectra of copper and silver which have a similar electron configuration. The comparison shows the $5d^{10}6p \ ^2P^o_{1/2} \leftarrow 5d^{10}6s \ ^2S_{1/2}$ transition for all three species. The $5d^{10}6p \ ^2P^o_{3/2} \leftarrow 5d^{10}6s \ ^2S_{1/2}$ transition was not observed for Au, because spin-orbit splitting prevents an investigation with the Indigo-S laser.
+The main goal of this work was to obtain the first REMPI spectra of gold in helium nanodroplets. The REMPI spectra were carried out in Cluster Lab III with a slightly different experimental setup and compared with mass spectra obtained with electron impact ionization. We were able to record a Au-He$_N$ spectrum from $\unit[37200]{cm^{-1}}$ to $\unit[40000]{cm^{-1}}$ (REMPI-TOF). Two transitions were identified in the spectral range of $\unit[37300 - 38400]{cm^{-1}}$: The $5d^{10}6p \ ^2P^o_{1/2} \leftarrow 5d^{10}6s \ ^2S_{1/2}$ transition is characteristically blue shifted and broadened ($\unit[37300 - 38400]{cm^{-1}}$). This is the strongest transition of the Au atom. On top of this broad transition a sharp atomic line and a blue shifted, broadened structure corresponding to the $5d^96s6p \ ^4P^o_{3/2} \leftarrow 5d^{9} 6s^{2} \ ^2D_{5/2}$ transition were observed. These two structures suggest that the Au atom can leave the droplet after the relaxation in the meta-stable $^2D_{5/2}$ state or remain in the droplet. The interpretation is speculative and has to be confirmed through further experiments. Furthermore, spectra for Au$_2$, Au$_3$ as well as for AuAg have been recorded.
 
-In order to record Au spectra, a high temperature pick up cell was implemented in the existing apparatus of Cluster Lab III. This novel pick up source allowed the formation of Au atoms, molecules and clusters in helium nanodroplets and allows to reach temperatures up to $\unit[1800]{\circ C}$.
+The Au-He$_N$ spectrum was compared to the spectra of Cu-He$_N$ and Ag-He$_N$ which have a similar electron configuration. The comparison shows the $5d^{10}6p \ ^2P^o_{1/2} \leftarrow 5d^{10}6s \ ^2S_{1/2}$ transition for all three species. The $5d^{10}6p \ ^2P^o_{3/2} \leftarrow 5d^{10}6s \ ^2S_{1/2}$ transition was not observed for Au, because the large spin-orbit splitting forbids an investigation with the Indigo-S laser.
 
-The Au experiments it was first necessary to install a high temperature pick up source to reach temperatures of about $\unit[1100]{^\circ C}$. For the first time at our institute it was possible to measure and control the temperature of the liquefied metal directly via a conventional thermocouple and a software PID controller. The software temperature controller was programed with LabView and provides a flexible and accurate way to reproducible establish vapor pressures.
+In order to record Au-He$_N$ spectra, a high temperature pick up cell was implemented in the existing apparatus in Cluster Lab III. This novel pick up source enables the formation of Au atoms, molecules and clusters in helium nanodroplets and allows to reach temperatures of up to $\unit[1700]{^\circ C}$. The pick up temperature measurement is based on a new approach which made it possible to measure the temperature of the liquid gold directly. In addition, a software PID controller was programmed with LabView in order to log and control the temperature of the pick up source with a computer.
+
+%The Au experiments it was first necessary to install a high temperature pick up source to reach temperatures of about $\unit[1100]{^\circ C}$. For the first time at our institute it was possible to measure and control the temperature of the liquefied metal directly via a conventional thermocouple and a software PID controller. The software temperature controller was programed with LabView and provides a flexible and accurate way to reproducible establish vapor pressures.
 
 
 \appendix
@@ -1156,17 +1162,19 @@ The technical drawings of the aluminum frame are given in this chapter. It was n
 
 
 \includepdf[pages={1}]{img/technical-drawings/blank.pdf}
+\includepdf[pages={1}]{img/technical-drawings/Aluminum_frame_oveninchamber_3D.pdf}
+\includepdf[pages={1}]{img/technical-drawings/blank.pdf}
 \includepdf[pages={1}]{img/technical-drawings/Aluminum_frame_oven_3D.pdf}
 \includepdf[pages={1}]{img/technical-drawings/blank.pdf}
 \includepdf[pages={1}]{img/technical-drawings/Aluminum_frame_3D.pdf}
 \includepdf[pages={1}]{img/technical-drawings/blank.pdf}
-\includepdf[pages={1}]{img/technical-drawings/Aluminum_frame_front.pdf}
+\includepdf[pages={1}]{img/technical-drawings/Aluminum_frame_front_ps.pdf}
 \includepdf[pages={1}]{img/technical-drawings/blank.pdf}
 \includepdf[pages={1}]{img/technical-drawings/Aluminum_frame_side.pdf}
 \includepdf[pages={1}]{img/technical-drawings/blank.pdf}
 \includepdf[pages={1}]{img/technical-drawings/Werkstatt_Aluprofile.pdf}
 \includepdf[pages={1}]{img/technical-drawings/blank.pdf}
-\includepdf[pages={1}]{img/technical-drawings/Werkstatt_Aluprofil_Einschnitt.pdf}
+\includepdf[pages={1}]{img/technical-drawings/Werkstatt_Aluprofil_Einschnitt_ps.pdf}
 \includepdf[pages={1}]{img/technical-drawings/blank.pdf}
 \includepdf[pages={1}]{img/technical-drawings/Werkstatt_Winkel.pdf}
 %\chapter{LabView Block Diagrams}
@@ -1197,6 +1205,20 @@ The technical drawings of the aluminum frame are given in this chapter. It was n
 \newpage
 \phantomsection \label{acknow}
 \addcontentsline{toc}{chapter}{Acknowledgments}
+\titlespacing*{\chapter} {0pt}{30pt}{20pt}
 \chapter*{Acknowledgments}
+Now that I reached the point where it is time to write the very last page of my master thesis I would like to thank the people who supported me all the way: Thanks to my supervisor Prof. Ernst for giving me the opportunity to join your group and to witness what it's like to work in research as a physicist. I also want to thank Markus Koch to give me the idea of doing my thesis at this institute in the first place. \\
+Philipp and Alex were very supportive during the assembly and installation of the gold pick up source. Thank you for that.
+
+Special thanks go to G\"unter and Flo. It was a pleasure working with you guys. Thank you G\"unter for making countless nights in our lab informative and fun at the same time and for patently answering my questions. Hit your ''climate thing'' and make our world a better place. Thank you Flo for the greatest support whilst writing this thesis I can ever wish for. Keep up your inspiring enthusiasm and all the best for your, without doubt, great scientific career.
+
+Of course I also want to thank my friends beside work: Thank you Delia for your great help in all that theoretical stuff. You brought me eureka moments not only once. \\
+Thank you Bertram. Without you my first semester would have been terrible and most likely I would never have passed it. I miss the time sitting in my kitchen, learning analysis and only talking about mountainbikes. \\
+Thank you Fritz for being such a great friend. For listening to all my problems, no matter if small or big, always having an open ear for stupid ideas and never judging me for anything. I will always remember our years of study with a smile - also because of you.
+
+Danke an meine Familie, die mir in schwierigen Zeiten immer den R\"ucken gest\"arkt hat und ohne die mein Studium, so nicht m\"oglich gewesen w\"are.
+
+Thank you Babs. The last few years with you by my side were the greatest in my life. Sorry for always being so busy and sometimes living in a world so far, far away. I appreciate your support so much. I love you.
+
 
 \end{document}
